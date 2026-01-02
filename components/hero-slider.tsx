@@ -226,13 +226,13 @@ export function HeroSlider() {
       {/* Navigation Arrows */}
       <button
         onClick={prevSlide}
-        className="absolute left-4 top-1/2 -translate-y-1/2 z-30 bg-primary-foreground/20 hover:bg-primary-foreground/30 backdrop-blur-sm text-primary-foreground p-3 rounded-full transition-all"
+        className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-primary-foreground/20 hover:bg-primary-foreground/30 backdrop-blur-sm text-primary-foreground p-3 rounded-full transition-all"
       >
         <ChevronLeft className="w-6 h-6" />
       </button>
       <button
         onClick={nextSlide}
-        className="absolute right-4 top-1/2 -translate-y-1/2 z-30 bg-primary-foreground/20 hover:bg-primary-foreground/30 backdrop-blur-sm text-primary-foreground p-3 rounded-full transition-all"
+        className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-primary-foreground/20 hover:bg-primary-foreground/30 backdrop-blur-sm text-primary-foreground p-3 rounded-full transition-all"
       >
         <ChevronRight className="w-6 h-6" />
       </button>

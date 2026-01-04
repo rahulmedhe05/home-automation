@@ -6,8 +6,8 @@ import { Button } from "@/components/ui/button"
 import { getLeads, getLeadsStats } from "@/lib/leads"
 import { logout, getSession } from "@/lib/auth"
 import { useRouter } from "next/navigation"
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from "recharts"
-import { Download, LogOut } from "lucide-react"
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts"
+import { Download, LogOut, Users, TrendingUp, Phone, MapPin, Home, IndianRupee } from "lucide-react"
 
 export function AdminPanel() {
   const router = useRouter()
@@ -20,6 +20,7 @@ export function AdminPanel() {
     const currentSession = getSession()
     if (!currentSession) {
       router.push("/admin/login")
+      return
     }
     setSession(currentSession)
 
@@ -48,17 +49,16 @@ export function AdminPanel() {
     : leads
 
   const exportToCSV = () => {
-    const headers = ["Name", "Phone Number", "Property Type", "City", "Budget", "Preference", "Submitted At"]
+    const headers = ["Full Name", "Phone Number", "Property Type", "City", "Budget", "Submitted At"]
     const csvContent = [
       headers.join(","),
       ...filteredLeads.map((lead) =>
         [
-          `"${lead.fullName}"`,
-          lead.phoneNumber,
-          `"${lead.propertyType}"`,
-          `"${lead.city}"`,
-          `"${lead.budget}"`,
-          `"${lead.preference}"`,
+          `"${lead.fullName || ''}"`,
+          `"${lead.phoneNumber || ''}"`,
+          `"${lead.propertyType || ''}"`,
+          `"${lead.city || ''}"`,
+          `"${lead.budget || ''}"`,
           new Date(lead.submittedAt).toLocaleString(),
         ].join(",")
       ),
@@ -68,7 +68,7 @@ export function AdminPanel() {
     const url = window.URL.createObjectURL(blob)
     const a = document.createElement("a")
     a.href = url
-    a.download = `leads-${selectedMonth || "all"}.csv`
+    a.download = `interior-design-leads-${selectedMonth || "all"}.csv`
     a.click()
   }
 
@@ -78,18 +78,22 @@ export function AdminPanel() {
   }))
 
   if (!session) {
-    return <div className="text-center py-8">Loading...</div>
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center py-8">Loading...</div>
+      </div>
+    )
   }
 
   const totalLeads = leads.length
   const currentMonthLeads = filteredLeads.length
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 p-4 md:p-6">
       {/* Header with Logout */}
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <div>
-          <h1 className="text-3xl font-bold text-foreground">Admin Panel</h1>
+          <h1 className="text-2xl md:text-3xl font-bold text-foreground">Interior Design Leads</h1>
           <p className="text-sm text-muted-foreground">Manage and track all enquiry leads</p>
           {session && <p className="text-xs text-muted-foreground mt-1">Logged in as: {session.email}</p>}
         </div>
@@ -100,10 +104,11 @@ export function AdminPanel() {
       </div>
 
       {/* Stats Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <Card>
-          <CardHeader className="pb-2">
+          <CardHeader className="pb-2 flex flex-row items-center justify-between space-y-0">
             <CardTitle className="text-sm font-medium text-muted-foreground">Total Leads</CardTitle>
+            <Users className="w-4 h-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
             <div className="text-3xl font-bold">{totalLeads}</div>
@@ -112,8 +117,9 @@ export function AdminPanel() {
         </Card>
 
         <Card>
-          <CardHeader className="pb-2">
+          <CardHeader className="pb-2 flex flex-row items-center justify-between space-y-0">
             <CardTitle className="text-sm font-medium text-muted-foreground">This Month</CardTitle>
+            <TrendingUp className="w-4 h-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
             <div className="text-3xl font-bold">{currentMonthLeads}</div>
@@ -135,7 +141,7 @@ export function AdminPanel() {
               <XAxis dataKey="month" />
               <YAxis />
               <Tooltip />
-              <Bar dataKey="leads" fill="#8B4513" name="Leads" />
+              <Bar dataKey="leads" fill="#8B4513" name="Leads" radius={[4, 4, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </CardContent>
@@ -143,12 +149,12 @@ export function AdminPanel() {
 
       {/* Month Filter and Export */}
       <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between">
-        <div>
+        <div className="flex items-center gap-2">
           <label className="text-sm font-medium">Filter by Month:</label>
           <select
             value={selectedMonth}
             onChange={(e) => setSelectedMonth(e.target.value)}
-            className="mt-2 px-3 py-2 border border-border rounded-md text-sm"
+            className="px-3 py-2 border border-border rounded-md text-sm bg-background"
           >
             <option value="">All Time</option>
             {Object.keys(stats).sort().reverse().map((month) => (
@@ -176,35 +182,76 @@ export function AdminPanel() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
-                <tr className="border-b">
-                  <th className="text-left py-3 px-4 font-semibold">Name</th>
-                  <th className="text-left py-3 px-4 font-semibold">Phone Number</th>
-                  <th className="text-left py-3 px-4 font-semibold">Property Type</th>
-                  <th className="text-left py-3 px-4 font-semibold">City</th>
-                  <th className="text-left py-3 px-4 font-semibold">Budget</th>
-                  <th className="text-left py-3 px-4 font-semibold">Preference</th>
+                <tr className="border-b bg-muted/50">
+                  <th className="text-left py-3 px-4 font-semibold">
+                    <div className="flex items-center gap-2">
+                      <Users className="w-4 h-4" />
+                      Full Name
+                    </div>
+                  </th>
+                  <th className="text-left py-3 px-4 font-semibold">
+                    <div className="flex items-center gap-2">
+                      <Phone className="w-4 h-4" />
+                      Phone Number
+                    </div>
+                  </th>
+                  <th className="text-left py-3 px-4 font-semibold">
+                    <div className="flex items-center gap-2">
+                      <Home className="w-4 h-4" />
+                      Property Type
+                    </div>
+                  </th>
+                  <th className="text-left py-3 px-4 font-semibold">
+                    <div className="flex items-center gap-2">
+                      <MapPin className="w-4 h-4" />
+                      City
+                    </div>
+                  </th>
+                  <th className="text-left py-3 px-4 font-semibold">
+                    <div className="flex items-center gap-2">
+                      <IndianRupee className="w-4 h-4" />
+                      Budget
+                    </div>
+                  </th>
                   <th className="text-left py-3 px-4 font-semibold">Submitted</th>
                 </tr>
               </thead>
               <tbody>
                 {filteredLeads.length > 0 ? (
                   filteredLeads.map((lead) => (
-                    <tr key={lead.id} className="border-b hover:bg-muted/50">
-                      <td className="py-3 px-4 font-medium">{lead.fullName}</td>
-                      <td className="py-3 px-4">{lead.phoneNumber}</td>
-                      <td className="py-3 px-4">{lead.propertyType}</td>
-                      <td className="py-3 px-4">{lead.city}</td>
+                    <tr key={lead.id} className="border-b hover:bg-muted/50 transition-colors">
+                      <td className="py-3 px-4 font-medium">{lead.fullName || "—"}</td>
+                      <td className="py-3 px-4">
+                        <a href={`tel:${lead.phoneNumber}`} className="text-primary hover:underline">
+                          {lead.phoneNumber || "—"}
+                        </a>
+                      </td>
+                      <td className="py-3 px-4">
+                        <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary/10 text-primary">
+                          {lead.propertyType || "—"}
+                        </span>
+                      </td>
+                      <td className="py-3 px-4">{lead.city || "—"}</td>
                       <td className="py-3 px-4">{lead.budget || "—"}</td>
-                      <td className="py-3 px-4 truncate max-w-xs">{lead.preference || "—"}</td>
                       <td className="py-3 px-4 text-xs text-muted-foreground">
-                        {new Date(lead.submittedAt).toLocaleDateString()}
+                        {new Date(lead.submittedAt).toLocaleDateString("en-IN", {
+                          day: "2-digit",
+                          month: "short",
+                          year: "numeric",
+                          hour: "2-digit",
+                          minute: "2-digit"
+                        })}
                       </td>
                     </tr>
                   ))
                 ) : (
                   <tr>
-                    <td colSpan={7} className="py-8 text-center text-muted-foreground">
-                      No leads found
+                    <td colSpan={6} className="py-12 text-center text-muted-foreground">
+                      <div className="flex flex-col items-center gap-2">
+                        <Users className="w-12 h-12 opacity-20" />
+                        <p>No leads found</p>
+                        <p className="text-xs">New leads will appear here when customers submit the form</p>
+                      </div>
                     </td>
                   </tr>
                 )}

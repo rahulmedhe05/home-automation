@@ -14,25 +14,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'daily',
       priority: 1.0,
     },
-    {
-      url: `${baseUrl}/home-automation`,
-      lastModified: currentDate,
-      changeFrequency: 'weekly',
-      priority: 0.9,
-    },
   ]
 
-  // Area pages
+  // Area pages - direct URLs like /alkapuri
   const areaPages: MetadataRoute.Sitemap = vadodaraAreas.map((area) => ({
-    url: `${baseUrl}/home-automation/${area}`,
+    url: `${baseUrl}/${area}`,
     lastModified: currentDate,
     changeFrequency: 'weekly' as const,
-    priority: 0.8,
+    priority: 0.9,
   }))
 
-  // Keyword pages
+  // Keyword pages - direct URLs like /smart-home-automation-vadodara
   const keywordPages: MetadataRoute.Sitemap = homeAutomationKeywords.map((keyword) => ({
-    url: `${baseUrl}/home-automation/${keyword.slug}`,
+    url: `${baseUrl}/${keyword.slug}`,
     lastModified: currentDate,
     changeFrequency: 'weekly' as const,
     priority: 0.8,

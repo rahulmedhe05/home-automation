@@ -18,7 +18,7 @@ export function MegaFooter() {
             {vadodaraAreas.map((area) => (
               <Link
                 key={area}
-                href={`/home-automation/${area}`}
+                href={`/${area}`}
                 className="text-xs text-gray-500 hover:text-blue-400 transition-colors"
               >
                 Home Automation in {getAreaDisplayName(area)}
@@ -36,7 +36,7 @@ export function MegaFooter() {
             {homeAutomationKeywords.map((keyword) => (
               <Link
                 key={keyword.slug}
-                href={`/home-automation/${keyword.slug}`}
+                href={`/${keyword.slug}`}
                 className="text-xs text-gray-500 hover:text-blue-400 transition-colors"
               >
                 {keyword.title.replace(" in Vadodara", "").replace(" Vadodara", "").replace(" | ", " - ").split(" | ")[0]}

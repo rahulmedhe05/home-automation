@@ -486,7 +486,7 @@ export function KeywordPageTemplate({ business, keyword, content }: KeywordPageT
             {vadodaraAreas.map((area) => (
               <Link
                 key={area}
-                href={`/${business.slug}/${area}`}
+                href={`/${area}`}
                 className="px-4 py-2 bg-white hover:bg-blue-600 hover:text-white rounded-full text-gray-700 transition-colors shadow-sm border border-gray-200 hover:border-blue-600"
               >
                 {keywordName} in {getAreaDisplayName(area)}
@@ -575,7 +575,7 @@ export function KeywordPageTemplate({ business, keyword, content }: KeywordPageT
               .map((k) => (
                 <Link
                   key={k.slug}
-                  href={`/${business.slug}/${k.slug}`}
+                  href={`/${k.slug}`}
                   className="px-4 py-2 bg-white hover:bg-blue-600 hover:text-white rounded-full text-gray-700 transition-colors border border-gray-200 hover:border-blue-600"
                 >
                   {k.title.replace(" in Vadodara", "").replace(" Vadodara", "")}

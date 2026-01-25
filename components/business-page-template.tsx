@@ -391,7 +391,7 @@ export function BusinessPageTemplate({ business, area, content }: BusinessPageTe
             {(businessKeywords[business.slug] || []).slice(0, 15).map((keyword) => (
               <Link
                 key={keyword.slug}
-                href={`/${business.slug}/${keyword.slug}`}
+                href={`/${keyword.slug}`}
                 className="px-4 py-2 bg-white hover:bg-purple-50 rounded-full text-gray-700 hover:text-purple-600 transition-colors border border-gray-200 hover:border-purple-200"
               >
                 {keyword.h1.replace(" in Vadodara", "").replace(" Vadodara", "")}
@@ -414,7 +414,7 @@ export function BusinessPageTemplate({ business, area, content }: BusinessPageTe
               .map((otherArea) => (
                 <Link
                   key={otherArea}
-                  href={`/${business.slug}/${otherArea}`}
+                  href={`/${otherArea}`}
                   className="px-4 py-2 bg-gray-100 hover:bg-purple-100 rounded-full text-gray-700 hover:text-purple-600 transition-colors"
                 >
                   {business.name} in {getAreaDisplayName(otherArea)}

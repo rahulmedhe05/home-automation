@@ -51,13 +51,30 @@ export async function generateMetadata({
         `Alexa Home ${areaName}`,
         `Google Home ${areaName}`,
         `Smart Home Company ${areaName}`,
+        `Best Home Automation ${areaName}`,
+        `Home Automation Price ${areaName}`,
       ],
       openGraph: {
-        title: `Home Automation in ${areaName}, Vadodara`,
-        description: `Professional home automation services in ${areaName}, Vadodara. Smart lighting, voice control, security & more.`,
+        title: `Home Automation in ${areaName}, Vadodara | Smart Home Solutions`,
+        description: `Professional home automation services in ${areaName}, Vadodara. Smart lighting, voice control, security & more. Call +91 63535 83148`,
         type: "website",
         locale: "en_IN",
         url: `https://smarthomevadodara.in/${slug}`,
+        siteName: "Smart Home Vadodara",
+        images: [
+          {
+            url: "https://smarthomevadodara.in/images/home-automation/hero-1.jpg",
+            width: 1200,
+            height: 630,
+            alt: `Home Automation in ${areaName}, Vadodara`,
+          },
+        ],
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: `Home Automation in ${areaName}, Vadodara`,
+        description: `Smart home solutions in ${areaName}. Control lights, AC & security from your phone.`,
+        images: ["https://smarthomevadodara.in/images/home-automation/hero-1.jpg"],
       },
       alternates: {
         canonical: `https://smarthomevadodara.in/${slug}`,
@@ -68,13 +85,28 @@ export async function generateMetadata({
     return {
       title: keywordConfig.title,
       description: keywordConfig.metaDescription,
-      keywords: `${keywordConfig.title}, Home Automation, Vadodara, Gujarat, Smart Home`,
+      keywords: `${keywordConfig.title}, Home Automation, Vadodara, Gujarat, Smart Home, Best Home Automation`,
       openGraph: {
         title: keywordConfig.title,
         description: keywordConfig.metaDescription,
         type: "website",
         locale: "en_IN",
         url: `https://smarthomevadodara.in/${slug}`,
+        siteName: "Smart Home Vadodara",
+        images: [
+          {
+            url: "https://smarthomevadodara.in/images/home-automation/hero-1.jpg",
+            width: 1200,
+            height: 630,
+            alt: keywordConfig.title,
+          },
+        ],
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: keywordConfig.title,
+        description: keywordConfig.metaDescription,
+        images: ["https://smarthomevadodara.in/images/home-automation/hero-1.jpg"],
       },
       alternates: {
         canonical: `https://smarthomevadodara.in/${slug}`,

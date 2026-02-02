@@ -2,6 +2,7 @@
 
 import { BusinessConfig, getAreaDisplayName, vadodaraAreas } from "@/lib/business-config";
 import { businessKeywords, KeywordConfig } from "@/lib/keywords-config";
+import { KeywordContent } from "@/lib/keyword-content";
 import { BusinessNav } from "./business-nav";
 import { MegaFooter } from "./mega-footer";
 import { BusinessWhatsAppFloat } from "./business-whatsapp-float";
@@ -27,10 +28,11 @@ interface KeywordPageTemplateProps {
     areaSpecificContent: string;
     faqItems: { question: string; answer: string }[];
     processSteps: { title: string; description: string }[];
-    testimonials?: { name: string; location: string; rating: number; comment: string }[];
+    testimonials?: { name: string; location: string; rating: number; text: string }[];
     packages?: { name: string; price: string; features: string[]; popular?: boolean }[];
     stats?: { value: string; label: string }[];
   };
+  uniqueContent?: KeywordContent;
 }
 
 // Local home automation images
@@ -78,10 +80,16 @@ const getServiceIcon = (title: string) => {
   return serviceIcons.default;
 };
 
-export function KeywordPageTemplate({ business, keyword, content }: KeywordPageTemplateProps) {
+export function KeywordPageTemplate({ business, keyword, content, uniqueContent }: KeywordPageTemplateProps) {
   const gradientClass = business.colors.gradient;
   const keywords = businessKeywords[business.slug] || [];
-  const keywordName = keyword.keyword || keyword.title;
+  const keywordName = keyword.title.replace(" in Vadodara", "").replace(" Vadodara", "");
+  
+  // Use unique content if available
+  const heroTitle = uniqueContent?.heroTitle || keyword.h1;
+  const heroSubtitle = uniqueContent?.heroSubtitle || keyword.metaDescription;
+  const mainContentText = uniqueContent?.mainContent || content.aboutContent;
+  const faqItems = uniqueContent?.faqItems || content.faqItems;
 
   // Gallery images for this keyword
   const galleryImages = [
@@ -105,9 +113,9 @@ export function KeywordPageTemplate({ business, keyword, content }: KeywordPageT
 
   // Default testimonials if not provided
   const testimonials = content.testimonials || [
-    { name: "Rajesh Patel", location: "Alkapuri, Vadodara", rating: 5, comment: `The ${keywordName.toLowerCase()} installation was flawless. Our home is now fully automated and energy-efficient. Highly recommend their services!` },
-    { name: "Priya Shah", location: "Sayajigunj, Vadodara", rating: 5, comment: `Exceptional work on our ${keywordName.toLowerCase()} project. The team was professional, knowledgeable, and completed the work on time.` },
-    { name: "Amit Mehta", location: "Fatehgunj, Vadodara", rating: 5, comment: `Best home automation company in Vadodara! Their ${keywordName.toLowerCase()} solutions transformed our living experience completely.` },
+    { name: "Rajesh Patel", location: "Alkapuri, Vadodara", rating: 5, text: `The ${keywordName.toLowerCase()} installation was flawless. Our home is now fully automated and energy-efficient. Highly recommend their services!` },
+    { name: "Priya Shah", location: "Sayajigunj, Vadodara", rating: 5, text: `Exceptional work on our ${keywordName.toLowerCase()} project. The team was professional, knowledgeable, and completed the work on time.` },
+    { name: "Amit Mehta", location: "Fatehgunj, Vadodara", rating: 5, text: `Best home automation company in Vadodara! Their ${keywordName.toLowerCase()} solutions transformed our living experience completely.` },
   ];
 
   // Default packages if not provided
@@ -139,10 +147,10 @@ export function KeywordPageTemplate({ business, keyword, content }: KeywordPageT
                 #1 {keywordName} in Vadodara
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                {keyword.h1}
+                {heroTitle}
               </h1>
               <p className="text-lg md:text-xl opacity-90 mb-8 max-w-xl">
-                {keyword.metaDescription}
+                {heroSubtitle}
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="flex items-center gap-2 bg-white/20 backdrop-blur px-4 py-2 rounded-full">
@@ -211,15 +219,20 @@ export function KeywordPageTemplate({ business, keyword, content }: KeywordPageT
                 {keyword.title}
               </h2>
               <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
-                <p className="whitespace-pre-line">{content.aboutContent}</p>
+                {/* Opening Paragraph - Unique if available */}
+                {uniqueContent?.openingParagraph && (
+                  <p className="text-lg leading-relaxed mb-4">{uniqueContent.openingParagraph}</p>
+                )}
                 
-                {/* SEO Keyword Rich Content */}
-                <p className="mt-4">
-                  Looking for the best <strong>{keywordName}</strong> services in Vadodara? We are the leading 
-                  provider of <strong>{keywordName}</strong> solutions across all areas of Vadodara including 
-                  Alkapuri, Sayajigunj, Fatehgunj, Manjalpur, Karelibaug, and more. Our expert team specializes 
-                  in <strong>{keywordName}</strong> to deliver outstanding results for homes and businesses throughout Gujarat.
-                </p>
+                {/* Main Content */}
+                <p className="whitespace-pre-line">{mainContentText}</p>
+                
+                {/* Local Context - Vadodara specific */}
+                {uniqueContent?.localContext && (
+                  <p className="mt-4 text-gray-600 italic border-l-4 border-blue-500 pl-4">
+                    {uniqueContent.localContext}
+                  </p>
+                )}
               </div>
               
               {/* Quick Features */}
@@ -274,6 +287,70 @@ export function KeywordPageTemplate({ business, keyword, content }: KeywordPageT
           </div>
         </div>
       </section>
+
+      {/* Unique Benefits Section - Only shows if unique content available */}
+      {uniqueContent?.uniqueBenefits && uniqueContent.uniqueBenefits.length > 0 && (
+        <section className="py-16 md:py-20">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
+                What Makes This Different?
+              </h2>
+              <div className="grid md:grid-cols-2 gap-6">
+                {uniqueContent.uniqueBenefits.map((benefit, index) => (
+                  <div key={index} className="flex items-start gap-4 p-4 bg-blue-50 rounded-xl">
+                    <div className="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center flex-shrink-0 font-bold">
+                      {index + 1}
+                    </div>
+                    <p className="text-gray-700 leading-relaxed">{benefit}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Real World Example - Only shows if unique content available */}
+      {uniqueContent?.realWorldExample && (
+        <section className="py-16 md:py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
+                Real Project Story
+              </h2>
+              <div className="bg-white rounded-2xl shadow-xl p-8">
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-lg font-semibold text-blue-600 mb-2">The Situation</h3>
+                    <p className="text-gray-700">{uniqueContent.realWorldExample.scenario}</p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-green-600 mb-2">What We Did</h3>
+                    <p className="text-gray-700">{uniqueContent.realWorldExample.solution}</p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-purple-600 mb-2">The Result</h3>
+                    <p className="text-gray-700">{uniqueContent.realWorldExample.result}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Pricing Note - Only shows if unique content available */}
+      {uniqueContent?.pricingNote && (
+        <section className="py-12 bg-amber-50 border-y border-amber-200">
+          <div className="container mx-auto px-4">
+            <div className="max-w-3xl mx-auto text-center">
+              <h3 className="text-xl font-bold mb-3 text-amber-800">💰 Pricing Transparency</h3>
+              <p className="text-amber-900">{uniqueContent.pricingNote}</p>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Image Gallery Section */}
       <section className="py-16 md:py-24">
@@ -422,7 +499,7 @@ export function KeywordPageTemplate({ business, keyword, content }: KeywordPageT
                     <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
                   ))}
                 </div>
-                <p className="text-gray-600 mb-6 italic">"{testimonial.comment}"</p>
+                <p className="text-gray-600 mb-6 italic">"{testimonial.text}"</p>
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
                     <span className="text-blue-600 font-bold text-lg">
@@ -508,7 +585,7 @@ export function KeywordPageTemplate({ business, keyword, content }: KeywordPageT
             </div>
             
             <div className="space-y-4">
-              {content.faqItems.map((faq, index) => (
+              {faqItems.map((faq, index) => (
                 <details
                   key={index}
                   className="bg-white p-6 rounded-xl shadow-md group"
@@ -534,7 +611,9 @@ export function KeywordPageTemplate({ business, keyword, content }: KeywordPageT
         />
         <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-blue-600/80" />
         <div className="relative container mx-auto px-4 text-center text-white">
-          <h2 className="text-3xl md:text-5xl font-bold mb-4">Ready to Automate Your Home?</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-4">
+            {uniqueContent?.ctaText || "Ready to Automate Your Home?"}
+          </h2>
           <p className="text-lg md:text-xl opacity-90 mb-8 max-w-2xl mx-auto">
             Get expert {keywordName.toLowerCase()} services in Vadodara. Transform your living space today!
           </p>

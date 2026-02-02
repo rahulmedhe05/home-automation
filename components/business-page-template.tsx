@@ -3,6 +3,7 @@
 import { BusinessConfig, getAreaDisplayName } from "@/lib/business-config";
 import { businessKeywords } from "@/lib/keywords-config";
 import { homeAutomationImages, PageContent } from "@/lib/content-generator";
+import { AreaContent } from "@/lib/area-content";
 import { BusinessNav } from "./business-nav";
 import { MegaFooter } from "./mega-footer";
 import { BusinessWhatsAppFloat } from "./business-whatsapp-float";
@@ -14,6 +15,7 @@ interface BusinessPageTemplateProps {
   business: BusinessConfig;
   area: string;
   content: PageContent;
+  areaContent?: AreaContent;
 }
 
 // Local images for home automation
@@ -41,9 +43,14 @@ const serviceIcons: Record<string, React.ElementType> = {
   "Whole Home Automation": Home,
 };
 
-export function BusinessPageTemplate({ business, area, content }: BusinessPageTemplateProps) {
+export function BusinessPageTemplate({ business, area, content, areaContent }: BusinessPageTemplateProps) {
   const areaName = getAreaDisplayName(area);
   const gradientClass = business.colors.gradient;
+  
+  // Use unique area content if available, otherwise fall back to generated content
+  const heroTitle = areaContent?.heroTitle || content.heroTitle;
+  const heroSubtitle = areaContent?.heroSubtitle || content.heroSubtitle;
+  const stats = areaContent?.stats || content.stats;
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -66,10 +73,10 @@ export function BusinessPageTemplate({ business, area, content }: BusinessPageTe
               🏆 #1 Rated in {areaName}
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              {content.heroTitle}
+              {heroTitle}
             </h1>
             <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl">
-              {content.heroSubtitle}
+              {heroSubtitle}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <a
@@ -106,7 +113,7 @@ export function BusinessPageTemplate({ business, area, content }: BusinessPageTe
       <section className="py-10 bg-white shadow-lg relative -mt-12 mx-4 md:mx-8 rounded-2xl z-20">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            {content.stats.map((stat, index) => (
+            {stats.map((stat, index) => (
               <div key={index} className="flex flex-col items-center">
                 <p className="text-3xl md:text-4xl font-bold text-purple-600">{stat.value}</p>
                 <p className="text-gray-600">{stat.label}</p>
@@ -122,12 +129,22 @@ export function BusinessPageTemplate({ business, area, content }: BusinessPageTe
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center max-w-6xl mx-auto">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                About Our {business.name} Services in {areaName}
+                {areaContent?.uniqueSellingPoint ? `Why We're ${areaName}'s Choice` : `About Our ${business.name} Services in ${areaName}`}
               </h2>
               <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
-                {content.aboutContent.split('\n\n').slice(0, 3).map((para, i) => (
-                  <p key={i} className="mb-4">{para}</p>
-                ))}
+                {areaContent?.uniqueSellingPoint && (
+                  <p className="mb-4 text-lg font-medium text-purple-700">{areaContent.uniqueSellingPoint}</p>
+                )}
+                {areaContent?.localInsight && (
+                  <p className="mb-4">{areaContent.localInsight}</p>
+                )}
+                {areaContent?.neighborhoodDescription ? (
+                  <p className="mb-4">{areaContent.neighborhoodDescription}</p>
+                ) : (
+                  content.aboutContent.split('\n\n').slice(0, 2).map((para, i) => (
+                    <p key={i} className="mb-4">{para}</p>
+                  ))
+                )}
               </div>
               <Link
                 href="#services"
@@ -146,6 +163,60 @@ export function BusinessPageTemplate({ business, area, content }: BusinessPageTe
           </div>
         </div>
       </section>
+
+      {/* Local Testimonial Section - Only if areaContent is available */}
+      {areaContent?.localTestimonial && (
+        <section className="py-12 bg-purple-50">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-lg p-8 md:p-12">
+              <div className="flex items-start gap-4">
+                <div className="text-6xl text-purple-300">"</div>
+                <div>
+                  <p className="text-xl md:text-2xl text-gray-700 italic leading-relaxed mb-6">
+                    {areaContent.localTestimonial.quote}
+                  </p>
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
+                      {areaContent.localTestimonial.name.charAt(0)}
+                    </div>
+                    <div>
+                      <p className="font-bold text-gray-900">{areaContent.localTestimonial.name}</p>
+                      <p className="text-gray-600">{areaContent.localTestimonial.property}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Popular Projects in Area - Only if areaContent is available */}
+      {areaContent?.popularProjects && (
+        <section className="py-16 md:py-20">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
+              Recent Projects in {areaName}
+            </h2>
+            <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+              Real installations we've completed for {areaName} residents
+            </p>
+            <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+              {areaContent.popularProjects.map((project, i) => (
+                <div key={i} className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-purple-600">
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
+                      <CheckCircle className="w-5 h-5 text-purple-600" />
+                    </div>
+                    <span className="text-sm text-purple-600 font-medium">Completed Project</span>
+                  </div>
+                  <p className="text-gray-700">{project}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Services Section with Icons */}
       <section id="services" className="py-16 md:py-20 bg-gray-50">

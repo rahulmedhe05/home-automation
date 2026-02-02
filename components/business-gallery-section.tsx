@@ -211,7 +211,7 @@ export function BusinessGallerySection({ business, keyword, area }: BusinessGall
   const [visibleImages, setVisibleImages] = useState(12);
   
   const imageIds = businessGalleryImages[business.slug] || businessGalleryImages["interior-designers"];
-  const keywordText = keyword?.keyword || business.name;
+  const keywordText = keyword?.title?.replace(" in Vadodara", "").replace(" Vadodara", "") || business.name;
   const areaText = area?.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase()) || "Vadodara";
 
   const images = useMemo(() => 

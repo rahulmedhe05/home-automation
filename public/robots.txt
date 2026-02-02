@@ -1,35 +1,66 @@
 # Robots.txt for smarthomevadodara.in
-# Home Automation Services in Vadodara
+# Smart Home & Home Automation Services in Vadodara, Gujarat
+# Last Updated: 2 February 2026
 
 User-agent: *
 Allow: /
 
-# Sitemaps
+# Sitemap location
 Sitemap: https://smarthomevadodara.in/sitemap.xml
 
-# Crawl-delay for polite crawling
+# Crawl-delay for server-friendly crawling
 Crawl-delay: 1
 
-# Disallow admin and API routes
+# Disallow system routes
 Disallow: /api/
 Disallow: /_next/
 Disallow: /admin/
+Disallow: /leads/
 
-# Allow all major search engines
+# Google
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 1
 
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Bing
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 1
 
+# Yahoo
 User-agent: Slurp
 Allow: /
 
+# DuckDuckGo
 User-agent: DuckDuckBot
 Allow: /
 
+# Baidu
 User-agent: Baiduspider
 Allow: /
 
+# Yandex
 User-agent: YandexBot
 Allow: /
+
+# Facebook
+User-agent: facebookexternalhit
+Allow: /
+
+# Twitter
+User-agent: Twitterbot
+Allow: /
+
+# LinkedIn
+User-agent: LinkedInBot
+Allow: /
+
+# WhatsApp
+User-agent: WhatsApp
+Allow: /
+
+# Host
+Host: https://smarthomevadodara.in

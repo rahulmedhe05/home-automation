@@ -2,9 +2,30 @@
 
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
-import { Download, LogOut, Phone, User, Home, MapPin, IndianRupee, Calendar } from 'lucide-react'
+import { Download, LogOut, Phone, User, Home, MapPin, IndianRupee, Calendar, ChevronRight } from 'lucide-react'
+import Link from 'next/link'
 
 const EMAIL = 'dailyleads@gmail.com'
+
+// Breadcrumb JSON-LD for fast indexing
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://smarthomevadodara.in"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Leads Dashboard",
+      "item": "https://smarthomevadodara.in/leads"
+    }
+  ]
+}
 const PASSWORD = 'DLead@7890'
 const AUTH_KEY = 'leads_auth'
 const LEADS_KEY = 'interior_design_leads'
@@ -161,7 +182,33 @@ export default function LeadsPage() {
   // Dashboard
   return (
     <div className="min-h-screen bg-gray-100 p-4 md:p-8">
+      {/* Breadcrumb JSON-LD for fast indexing */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      
       <div className="max-w-6xl mx-auto">
+        {/* Visual Breadcrumbs */}
+        <nav aria-label="Breadcrumb" className="mb-4">
+          <ol className="flex items-center gap-2 text-sm text-gray-600">
+            <li>
+              <Link href="/" className="hover:text-blue-600 transition flex items-center gap-1">
+                <Home className="w-4 h-4" />
+                Home
+              </Link>
+            </li>
+            <li>
+              <ChevronRight className="w-4 h-4 text-gray-400" />
+            </li>
+            <li>
+              <span className="text-gray-900 font-medium" aria-current="page">
+                Leads Dashboard
+              </span>
+            </li>
+          </ol>
+        </nav>
+
         {/* Header */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
           <div>

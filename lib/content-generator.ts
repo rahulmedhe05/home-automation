@@ -54,12 +54,12 @@ export function getHomeAutomationContent(area: string): PageContent {
   const areaName = getAreaDisplayName(area);
   
   return {
-    heroTitle: `Best Home Automation in ${areaName}, Vadodara`,
+    heroTitle: `Best Home Automation in ${areaName}`,
     heroSubtitle: `Transform your home into a smart, connected living space with Vadodara's leading home automation experts. Control lights, AC, curtains, security & more from your smartphone or voice commands.`,
     
     aboutContent: `Welcome to Vadodara's most trusted home automation company serving ${areaName} and all surrounding areas. With over 10 years of experience in smart home technology, we have transformed over 1,000+ homes across Vadodara into intelligent, connected living spaces.
 
-At Smart Home Vadodara, we believe that technology should simplify your life, not complicate it. That's why we focus on creating intuitive, user-friendly home automation solutions that anyone can use – from tech-savvy millennials to senior citizens. Our smart home systems are designed to enhance your comfort, security, and energy efficiency while adding a touch of luxury to your everyday life.
+At VARNI DIGITAL, we believe that technology should simplify your life, not complicate it. That's why we focus on creating intuitive, user-friendly home automation solutions that anyone can use – from tech-savvy millennials to senior citizens. Our smart home systems are designed to enhance your comfort, security, and energy efficiency while adding a touch of luxury to your everyday life.
 
 Our home automation services in ${areaName} cover everything from basic smart lighting to complete whole-home automation. Whether you want to control your lights with voice commands, automate your curtains based on sunrise/sunset, or create the perfect home theatre experience – we have the expertise and technology to make it happen.
 

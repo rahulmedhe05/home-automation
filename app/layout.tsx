@@ -1,6 +1,6 @@
 import type React from "react"
 import type { Metadata, Viewport } from "next"
-import { Poppins, Inter } from "next/font/google"
+import { Poppins } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
@@ -8,12 +8,6 @@ const poppins = Poppins({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800"],
   variable: "--font-sans",
-  display: "swap",
-})
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-mono",
   display: "swap",
 })
 
@@ -30,14 +24,16 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "Home Automation in Vadodara | Smart Home Solutions | smarthomevadodara.in",
-    template: "%s | Smart Home Vadodara",
+    default: "VARNI DIGITAL | Smart Home Automation in Vadodara | Touch Switch Manufacturer",
+    template: "%s | VARNI DIGITAL",
   },
-  description: "Transform your home with smart automation in Vadodara. Control lights, AC, curtains & security from your phone. Alexa & Google Home compatible. Serving Alkapuri, Gotri, Manjalpur & all areas. ☎️ +91 63535 83148",
+  description: "VARNI DIGITAL — India's leading manufacturer of Touch Switches & Smart Home Automation in Vadodara since 2013. Control lights, AC, curtains & security from your phone. Alexa & Google Home compatible. Call +91 99787 13458.",
   keywords: [
+    "VARNI DIGITAL",
     "Home Automation Vadodara",
     "Smart Home Vadodara",
-    "Home Automation in Vadodara",
+    "Touch Switch Vadodara",
+    "Touch Switch Manufacturer",
     "Smart Home Automation Vadodara",
     "Alexa Home Automation Vadodara",
     "Google Home Vadodara",
@@ -46,14 +42,12 @@ export const metadata: Metadata = {
     "Smart Switches Vadodara",
     "Wireless Home Automation Vadodara",
     "Smart Home Company Vadodara",
-    "Home Automation Price Vadodara",
-    "Home Automation Cost Vadodara",
-    "Best Home Automation Vadodara",
-    "Smart Home Solutions Vadodara",
+    "Hotel Automation Vadodara",
+    "Capacitive Touch Switch",
   ],
-  authors: [{ name: "Smart Home Vadodara", url: "https://smarthomevadodara.in" }],
-  creator: "Smart Home Vadodara",
-  publisher: "Smart Home Vadodara",
+  authors: [{ name: "VARNI DIGITAL", url: "https://smarthomevadodara.in" }],
+  creator: "VARNI DIGITAL",
+  publisher: "VARNI DIGITAL",
   formatDetection: {
     email: true,
     address: true,
@@ -64,27 +58,27 @@ export const metadata: Metadata = {
     canonical: "https://smarthomevadodara.in",
   },
   openGraph: {
-    title: "Home Automation in Vadodara | Smart Home Solutions",
-    description: "Transform your home with smart automation in Vadodara. Control lights, AC, curtains & security from your phone. Alexa & Google Home compatible.",
+    title: "VARNI DIGITAL | Smart Home Automation in Vadodara",
+    description: "India's leading Touch Switch & Smart Home Automation manufacturer since 2013. Control your home from your phone or voice.",
     url: "https://smarthomevadodara.in",
-    siteName: "Smart Home Vadodara",
+    siteName: "VARNI DIGITAL",
     locale: "en_IN",
     type: "website",
     images: [
       {
-        url: "https://smarthomevadodara.in/images/home-automation/hero-1.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Home Automation in Vadodara - Smart Home Solutions",
+        url: "https://smarthomevadodara.in/logo.png",
+        width: 512,
+        height: 512,
+        alt: "VARNI DIGITAL Smart Home Automation & Touch Switches",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Home Automation in Vadodara | Smart Home Solutions",
-    description: "Transform your home with smart automation. Control lights, AC, curtains & security from your phone.",
-    images: ["https://smarthomevadodara.in/images/home-automation/hero-1.jpg"],
-    creator: "@smarthomevadodara",
+    title: "VARNI DIGITAL | Smart Home Automation in Vadodara",
+    description: "India's leading Touch Switch & Smart Home Automation manufacturer since 2013.",
+    images: ["https://smarthomevadodara.in/logo.png"],
+    creator: "@varnidigital",
   },
   robots: {
     index: true,
@@ -99,7 +93,7 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "32x32" },
+      { url: "/favicon.ico", sizes: "any" },
       { url: "/icon.svg", type: "image/svg+xml" },
       { url: "/icon-192x192.png", sizes: "192x192", type: "image/png" },
       { url: "/icon-512x512.png", sizes: "512x512", type: "image/png" },
@@ -125,39 +119,34 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "@id": "https://smarthomevadodara.in/#organization",
-    name: "Smart Home Vadodara",
-    alternateName: "Home Automation Vadodara",
-    image: "https://smarthomevadodara.in/images/home-automation/hero-1.jpg",
+    name: "VARNI DIGITAL PRIVATE LIMITED",
+    alternateName: "VARNI DIGITAL",
+    image: "https://smarthomevadodara.in/logo.png",
     logo: "https://smarthomevadodara.in/logo.png",
-    description: "Leading home automation company in Vadodara offering smart lighting, voice control, security systems, and complete smart home solutions. Alexa & Google Home compatible.",
+    description: "India's leading manufacturer and supplier of Touch Switches, Smart Panels, and Home Automation solutions in Vadodara since 2013.",
     url: "https://smarthomevadodara.in",
-    telephone: "+916353583148",
-    email: "info@smarthomevadodara.in",
+    telephone: "+919978713458",
+    email: "varnidigital@gmail.com",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Alkapuri",
+      streetAddress: "902/3A, 3rd Floor, Nakshatra Arcade, Opp. Vasu Healthcare, Near Purohit Chowkdi, Makarpura GIDC",
       addressLocality: "Vadodara",
       addressRegion: "Gujarat",
-      postalCode: "390007",
+      postalCode: "390010",
       addressCountry: "IN",
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 22.3072,
-      longitude: 73.1812,
+      latitude: 22.2490,
+      longitude: 73.1869,
     },
     openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",
         dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
         opens: "09:00",
-        closes: "19:00",
+        closes: "18:00",
       },
-    ],
-    sameAs: [
-      "https://www.facebook.com/smarthomevadodara",
-      "https://www.instagram.com/smarthomevadodara",
-      "https://www.youtube.com/@smarthomevadodara",
     ],
     priceRange: "₹₹",
     currenciesAccepted: "INR",
@@ -169,38 +158,38 @@ export default function RootLayout({
     },
     hasOfferCatalog: {
       "@type": "OfferCatalog",
-      name: "Home Automation Services",
+      name: "Smart Home & Touch Switch Products",
       itemListElement: [
         {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "Smart Lighting Automation",
-            description: "Automated lighting control with dimming, colors, and scenes",
+            name: "Smart Touch Switch Modules",
+            description: "Capacitive touch switch panels, WiFi & Zigbee enabled",
           },
         },
         {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "Voice Control Systems",
-            description: "Alexa and Google Home integration for voice-controlled homes",
+            name: "Smart Home Automation",
+            description: "Voice control with Alexa & Google Home, app automation",
           },
         },
         {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "Smart Security Systems",
-            description: "Automated locks, cameras, and alarm systems",
+            name: "Hotel Automation",
+            description: "Hotel room panels, DND/MUR, master switches, and central management",
           },
         },
         {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "Climate Control Automation",
-            description: "Smart AC and temperature control systems",
+            name: "Curtain & Climate Automation",
+            description: "Automated curtains, motorized blinds, IR AC controllers",
           },
         },
       ],
@@ -220,18 +209,10 @@ export default function RootLayout({
     "@type": "WebSite",
     "@id": "https://smarthomevadodara.in/#website",
     url: "https://smarthomevadodara.in",
-    name: "Smart Home Vadodara",
-    description: "Home Automation Solutions in Vadodara",
+    name: "VARNI DIGITAL",
+    description: "Touch Switch & Smart Home Automation Manufacturer in Vadodara",
     publisher: {
       "@id": "https://smarthomevadodara.in/#organization",
-    },
-    potentialAction: {
-      "@type": "SearchAction",
-      target: {
-        "@type": "EntryPoint",
-        urlTemplate: "https://smarthomevadodara.in/search?q={search_term_string}",
-      },
-      "query-input": "required name=search_term_string",
     },
   }
 
@@ -240,41 +221,42 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Organization",
     "@id": "https://smarthomevadodara.in/#organization",
-    name: "Smart Home Vadodara",
+    name: "VARNI DIGITAL PRIVATE LIMITED",
     url: "https://smarthomevadodara.in",
     logo: "https://smarthomevadodara.in/logo.png",
-    foundingDate: "2010",
+    foundingDate: "2013",
     founders: [
       {
         "@type": "Person",
-        name: "Smart Home Vadodara Team",
+        name: "VARNI DIGITAL Team",
       },
     ],
     address: {
       "@type": "PostalAddress",
+      streetAddress: "Makarpura GIDC",
       addressLocality: "Vadodara",
       addressRegion: "Gujarat",
+      postalCode: "390010",
       addressCountry: "India",
     },
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+91-6353583148",
+      telephone: "+91-9978713458",
       contactType: "customer service",
       availableLanguage: ["English", "Hindi", "Gujarati"],
     },
     knowsAbout: [
+      "Touch Switch Manufacturing",
       "Home Automation",
+      "Hotel Automation",
       "Smart Home Solutions",
       "IoT Devices",
-      "Voice Control Systems",
-      "Smart Lighting",
-      "Security Automation",
-      "Climate Control",
+      "Capacitive Touch Panels",
     ],
   }
 
   return (
-    <html lang="en" className={`${poppins.variable} ${inter.variable}`}>
+    <html lang="en" className={poppins.variable}>
       <head>
         {/* JSON-LD Structured Data */}
         <script
@@ -293,7 +275,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
-      <body className={`font-sans antialiased`}>
+      <body className="font-sans antialiased">
         {children}
         <Analytics />
       </body>

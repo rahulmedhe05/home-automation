@@ -153,14 +153,14 @@ export function BusinessHeroSlider({ business, area, heroTitle, heroSubtitle, ke
               {/* CTA Buttons - Mobile Only */}
               <div className="flex flex-col sm:flex-row gap-3 pt-4 md:hidden">
                 <a
-                  href="tel:+916353583148"
+                  href="tel:+919978713458"
                   className="inline-flex items-center justify-center gap-2 bg-white text-gray-900 px-6 py-3 rounded-full font-bold hover:bg-gray-100 transition-all"
                 >
                   <Phone className="w-5 h-5" />
                   Call Now
                 </a>
                 <a
-                  href={`https://wa.me/916353583148?text=Hi, I'm interested in ${business.name} services in ${areaName}`}
+                  href={`https://wa.me/919978713458?text=Hi, I'm interested in ${business.name} services in ${areaName}`}
                   className="inline-flex items-center justify-center gap-2 bg-green-500 text-white px-6 py-3 rounded-full font-bold hover:bg-green-600 transition-all"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">

@@ -10,24 +10,24 @@ import { addLead } from "@/lib/leads"
 const slides = [
   {
     id: 1,
-    title: "Crafting Dream Interiors",
-    subtitle: "Bangalore's Trusted Interior Designers",
-    description: "Transforming homes, offices, and commercial spaces across Bangalore with stunning interior designs",
-    image: "/Slider1.png",
+    title: "Smart Home Automation in Vadodara",
+    subtitle: "VARNI DIGITAL PRIVATE LIMITED",
+    description: "Control lights, AC, curtains, security and scenes from your phone or voice assistant.",
+    image: "https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=2070&auto=format&fit=crop",
   },
   {
     id: 2,
-    title: "Elegant Living Spaces",
-    subtitle: "Where Style Meets Comfort",
-    description: "Contemporary interior design blending functionality with aesthetic excellence for Bangalore homes",
-    image: "/Slider2.png",
+    title: "Touch Switches & Smart Panels",
+    subtitle: "Smart Home Choice of Smart People",
+    description: "Manufacturer and supplier of capacitive touch switches, WiFi panels, Zigbee products and automation solutions.",
+    image: "https://images.unsplash.com/photo-1585503418537-88331351ad99?q=80&w=2070&auto=format&fit=crop",
   },
   {
     id: 3,
-    title: "End-to-End Design Solutions",
-    subtitle: "Your Vision, Our Expertise",
-    description: "Complete interior solutions from concept development to flawless execution in Bangalore",
-    image: "/Slider3.png",
+    title: "Complete Home Automation",
+    subtitle: "Alexa & Google Home Compatible",
+    description: "Reliable installation, product guidance and support for homes, offices, hotels and commercial spaces.",
+    image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2070&auto=format&fit=crop",
   },
 ]
 
@@ -54,7 +54,7 @@ export function HeroSlider() {
     })
 
     const message = `
-✨ *INTERIOR DESIGN ENQUIRY* ✨
+✨ *SMART HOME AUTOMATION ENQUIRY* ✨
 
 • *Full Name:* ${formData.fullName}
 • *Phone Number:* ${formData.phoneNumber}
@@ -63,10 +63,10 @@ export function HeroSlider() {
 • *Budget:* ${formData.budget || 'Not specified'}
 
 ―――――――――――――
-_Sent via Nesture Interiors Website_
+_Sent via VARNI DIGITAL Website_
     `.trim()
 
-    const whatsappNumber = "918618080171"
+    const whatsappNumber = "919978713458"
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`
     window.open(whatsappURL, "_blank")
   }
@@ -124,7 +124,7 @@ _Sent via Nesture Interiors Website_
                   <div className="mb-2 md:mb-3 pb-2 md:pb-3 border-b border-border">
                     <p className="text-xs text-accent font-mono uppercase tracking-wider mb-1">Quick Response</p>
                     <h3 className="text-xs sm:text-sm md:text-base font-bold text-card-foreground">
-                      Professional Interior Design Services
+                      Smart Home Automation Services
                       <br />
                       <em className="text-xs not-italic">— Free Consultation & 3D Visualization</em>
                     </h3>

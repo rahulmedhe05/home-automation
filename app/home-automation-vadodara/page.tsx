@@ -12,7 +12,7 @@ const uniqueContent = getKeywordContent("home-automation-vadodara");
 export const metadata: Metadata = {
   title: uniqueContent?.heroTitle || keyword.title,
   description: uniqueContent?.heroSubtitle || keyword.metaDescription,
-  keywords: `Home Automation Vadodara, Smart Home Vadodara, Home Automation Company, Best Home Automation`,
+  keywords: `Home Automation Vadodara, VARNI DIGITAL, Home Automation Company, Best Home Automation`,
   openGraph: {
     title: uniqueContent?.heroTitle || keyword.title,
     description: uniqueContent?.heroSubtitle || keyword.metaDescription,

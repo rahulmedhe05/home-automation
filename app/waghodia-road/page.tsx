@@ -10,7 +10,7 @@ const areaName = getAreaDisplayName(area);
 const areaContent = getAreaContent(area);
 
 export const metadata: Metadata = {
-  title: `${areaContent.heroTitle} | Smart Home Vadodara`,
+  title: `${areaContent.heroTitle} | VARNI DIGITAL`,
   description: areaContent.heroSubtitle,
   keywords: [
     `Home Automation ${areaName}`,

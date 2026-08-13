@@ -47,7 +47,7 @@ _Sent via VARNI DIGITAL Smart Home Website_
     `.trim()
 
     // VARNI DIGITAL WhatsApp number
-    const whatsappNumber = "918488913458"
+    const whatsappNumber = "919978713458"
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`
 
     // Open WhatsApp
@@ -82,7 +82,7 @@ _Sent via VARNI DIGITAL Smart Home Website_
       <Dialog open={isOpen} onOpenChange={setIsOpen}>
         <DialogContent className="sm:max-w-[500px]">
           <DialogHeader>
-            <DialogTitle className="text-2xl font-serif text-primary">Quick Enquiry</DialogTitle>
+            <DialogTitle className="text-2xl font-sans text-primary">Quick Enquiry</DialogTitle>
             <DialogDescription className="font-mono">
               Fill in your details and we'll connect with you on WhatsApp instantly
             </DialogDescription>

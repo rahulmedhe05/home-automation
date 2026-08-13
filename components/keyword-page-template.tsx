@@ -37,8 +37,8 @@ interface KeywordPageTemplateProps {
 
 // Local home automation images
 const localImages = {
-  hero1: "/images/home-automation/hero-1.jpg",
-  hero2: "/images/home-automation/hero-2.jpg",
+  hero1: "https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=2070&auto=format&fit=crop",
+  hero2: "https://images.unsplash.com/photo-1585503418537-88331351ad99?q=80&w=2070&auto=format&fit=crop",
   hero3: "/images/home-automation/hero-3.jpg",
   smartLighting: "/images/home-automation/smart-lighting.jpg",
   voiceAssistant: "/images/home-automation/voice-assistant.jpg",
@@ -168,14 +168,14 @@ export function KeywordPageTemplate({ business, keyword, content, uniqueContent 
               </div>
               <div className="flex flex-wrap gap-4">
                 <a
-                  href="tel:+916353583148"
+                  href="tel:+919978713458"
                   className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all"
                 >
                   <Phone className="w-5 h-5" />
                   Call Now
                 </a>
                 <a
-                  href={`https://wa.me/916353583148?text=Hi, I'm interested in ${keywordName} services in Vadodara`}
+                  href={`https://wa.me/919978713458?text=Hi, I'm interested in ${keywordName} services in Vadodara`}
                   className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-bold text-lg transition-all"
                 >
                   WhatsApp Quote
@@ -465,7 +465,7 @@ export function KeywordPageTemplate({ business, keyword, content, uniqueContent 
                   ))}
                 </ul>
                 <a
-                  href={`https://wa.me/916353583148?text=Hi, I'm interested in ${pkg.name} for ${keywordName}`}
+                  href={`https://wa.me/919978713458?text=Hi, I'm interested in ${pkg.name} for ${keywordName}`}
                   className={cn(
                     "block text-center py-3 rounded-full font-bold transition-colors",
                     pkg.popular 
@@ -619,14 +619,14 @@ export function KeywordPageTemplate({ business, keyword, content, uniqueContent 
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+916353583148"
+              href="tel:+919978713458"
               className="inline-flex items-center justify-center gap-2 bg-white text-blue-900 px-8 py-4 rounded-full font-bold hover:bg-gray-100 transition-all"
             >
               <Phone className="w-5 h-5" />
-              Call: +91 63535 83148
+              Call: +91 99787 13458
             </a>
             <a
-              href={`https://wa.me/916353583148?text=Hi, I need ${keywordName} services in Vadodara`}
+              href={`https://wa.me/919978713458?text=Hi, I need ${keywordName} services in Vadodara`}
               className="inline-flex items-center justify-center gap-2 bg-green-500 text-white px-8 py-4 rounded-full font-bold hover:bg-green-600 transition-all"
             >
               Get Free Quote on WhatsApp
@@ -677,30 +677,30 @@ export function KeywordPageTemplate({ business, keyword, content, uniqueContent 
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
               <a
-                href="tel:+916353583148"
+                href="tel:+919978713458"
                 className="flex flex-col items-center p-6 bg-white/10 rounded-xl hover:bg-white/20 transition-colors backdrop-blur"
               >
                 <Phone className="w-10 h-10 mb-3" />
                 <p className="font-bold text-lg">Call Us</p>
-                <p className="opacity-90">+91 63535 83148</p>
+                <p className="opacity-90">+91 99787 13458</p>
               </a>
               <a
-                href="mailto:info@smarthomevadodara.in"
+                href="mailto:varnidigital@gmail.com"
                 className="flex flex-col items-center p-6 bg-white/10 rounded-xl hover:bg-white/20 transition-colors backdrop-blur"
               >
                 <Mail className="w-10 h-10 mb-3" />
                 <p className="font-bold text-lg">Email Us</p>
-                <p className="opacity-90">info@smarthomevadodara.in</p>
+                <p className="opacity-90">varnidigital@gmail.com</p>
               </a>
               <div className="flex flex-col items-center p-6 bg-white/10 rounded-xl backdrop-blur">
                 <MapPin className="w-10 h-10 mb-3" />
                 <p className="font-bold text-lg">Visit Us</p>
-                <p className="opacity-90">Vadodara, Gujarat</p>
+                <p className="opacity-90">Nakshatra Arcade, Makarpura GIDC, Vadodara</p>
               </div>
             </div>
             
             <a
-              href={`https://wa.me/916353583148?text=Hi, I'm interested in ${keyword.title}`}
+              href={`https://wa.me/919978713458?text=Hi, I'm interested in ${keyword.title}`}
               className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-bold text-lg transition-colors"
             >
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">

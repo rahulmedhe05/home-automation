@@ -57,7 +57,7 @@ const packages = [
 export function PackagesSection() {
   const handleWhatsAppInquiry = (packageName: string) => {
     const message = `Hello! I'm interested in the ${packageName} interior design package. Please provide more details.`
-    const whatsappNumber = "916353583148"
+    const whatsappNumber = "919978713458"
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`
     window.open(whatsappURL, "_blank")
   }
@@ -66,9 +66,9 @@ export function PackagesSection() {
     <section id="packages" className="py-12 md:py-32 bg-card">
       <div className="container mx-auto px-3 sm:px-4">
         <div className="text-center max-w-3xl mx-auto mb-8 md:mb-16">
-          <p className="text-accent font-mono uppercase tracking-wider mb-2 md:mb-4 text-xs sm:text-sm">Interior Design Pricing</p>
+          <p className="text-accent font-mono uppercase tracking-wider mb-2 md:mb-4 text-xs sm:text-sm">Smart Home Pricing</p>
           <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-foreground mb-4 md:mb-6 text-balance">
-            Professional Interior Design Packages in Vadodara
+            Professional Smart Home Automation Packages in Vadodara
           </h2>
           <p className="text-sm sm:text-base md:text-lg text-muted-foreground leading-relaxed font-mono">
             {"Transparent pricing with no hidden costs. Comprehensive design packages with flexible timelines and complete project management. Award-winning interior design service in Vadodara for homes, offices & commercial spaces"}

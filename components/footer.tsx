@@ -82,10 +82,10 @@ export function Footer() {
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-accent flex-shrink-0" />
                 <a
-                  href="tel:+918488913458"
+                  href="tel:+919978713458"
                   className="text-primary-foreground/80 hover:text-accent transition-colors font-mono text-sm"
                 >
-                  +91 84889 13458
+                  +91 99787 13458
                 </a>
               </div>
 
@@ -136,7 +136,7 @@ export function Footer() {
       <div className="sr-only">
         Touch Switch Vadodara, Home Automation Vadodara, Smart Touch Switch, Capacitive Touch Switch, Modular Touch Switch,
         Touch Switch Panel, Edge Touch Switch, WiFi Touch Switch, Zigbee Touch Switch, OEM Touch Switch Manufacturer India,
-        VARNI DIGITAL, Touch Switch Board, Hotel Automation Vadodara, Home Automation Gujarat, Smart Home Vadodara
+        VARNI DIGITAL, Touch Switch Board, Hotel Automation Vadodara, Home Automation Gujarat, VARNI DIGITAL
       </div>
     </footer>
   )

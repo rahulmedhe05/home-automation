@@ -4,7 +4,7 @@
 
 export const SEO_CONFIG = {
   siteUrl: "https://smarthomevadodara.in",
-  siteName: "Smart Home Vadodara",
+  siteName: "VARNI DIGITAL",
   niche: "Home Automation & Smart Home",
   location: "Vadodara",
   phone: "+91 63535 83148",

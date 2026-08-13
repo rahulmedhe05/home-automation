@@ -53,7 +53,7 @@ export const businesses: BusinessConfig[] = [
       primary: "#7C3AED", // Purple
       secondary: "#A78BFA", // Light Purple
       accent: "#4C1D95", // Dark Purple
-      gradient: "from-purple-600 to-indigo-600",
+      gradient: "from-gray-900 to-black",
     },
     icon: "🏡",
     services: [

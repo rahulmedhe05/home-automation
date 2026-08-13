@@ -9,17 +9,17 @@ export function MegaFooter() {
   const business = businesses[0]; // Home Automation
 
   return (
-    <footer className="bg-gray-900 text-white">
+    <footer className="bg-[#08080a] text-white">
       {/* Area Links */}
-      <div className="border-b border-gray-800">
-        <div className="container mx-auto px-4 py-6">
-          <h3 className="text-sm font-semibold text-gray-400 mb-3">Home Automation Service Areas in Vadodara</h3>
+      <div className="border-b border-white/10">
+        <div className="mx-auto max-w-7xl px-4 py-7 sm:px-6">
+          <h3 className="mb-3 text-sm font-semibold text-white/70">Home Automation Service Areas in Vadodara</h3>
           <div className="flex flex-wrap gap-x-3 gap-y-1">
             {vadodaraAreas.map((area) => (
               <Link
                 key={area}
                 href={`/${area}`}
-                className="text-xs text-gray-500 hover:text-blue-400 transition-colors"
+                className="text-xs text-white/40 transition-colors hover:text-pink-300"
               >
                 Home Automation in {getAreaDisplayName(area)}
               </Link>
@@ -29,15 +29,15 @@ export function MegaFooter() {
       </div>
 
       {/* Keyword Links */}
-      <div className="border-b border-gray-800">
-        <div className="container mx-auto px-4 py-6">
-          <h3 className="text-sm font-semibold text-gray-400 mb-3">Our Smart Home Services</h3>
+      <div className="border-b border-white/10">
+        <div className="mx-auto max-w-7xl px-4 py-7 sm:px-6">
+          <h3 className="mb-3 text-sm font-semibold text-white/70">Our Smart Home Services</h3>
           <div className="flex flex-wrap gap-x-3 gap-y-1">
             {homeAutomationKeywords.map((keyword) => (
               <Link
                 key={keyword.slug}
                 href={`/${keyword.slug}`}
-                className="text-xs text-gray-500 hover:text-blue-400 transition-colors"
+                className="text-xs text-white/40 transition-colors hover:text-pink-300"
               >
                 {keyword.title.replace(" in Vadodara", "").replace(" Vadodara", "").replace(" | ", " - ").split(" | ")[0]}
               </Link>
@@ -47,39 +47,41 @@ export function MegaFooter() {
       </div>
 
       {/* Contact Info */}
-      <div className="border-b border-gray-700">
-        <div className="container mx-auto px-4 py-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="flex items-start gap-3">
-              <Phone className="w-5 h-5 text-blue-400 mt-1 flex-shrink-0" />
+      <div className="border-b border-white/10">
+        <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
+          <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
+            <div className="flex items-start gap-3 rounded-lg border border-white/10 bg-white/[0.03] p-5">
+              <Phone className="mt-1 h-5 w-5 flex-shrink-0 text-pink-400" />
               <div>
                 <h4 className="font-semibold">Call Us</h4>
-                <p className="text-gray-400">+91 98765 43210</p>
-                <p className="text-gray-400">+91 98765 43211</p>
+                <a href="tel:+919978713458" className="block text-white/60 hover:text-white">+91 99787 13458</a>
+                <a href="tel:08048128193" className="block text-white/60 hover:text-white">08048128193</a>
               </div>
             </div>
-            <div className="flex items-start gap-3">
-              <Mail className="w-5 h-5 text-blue-400 mt-1 flex-shrink-0" />
+            <div className="flex items-start gap-3 rounded-lg border border-white/10 bg-white/[0.03] p-5">
+              <Mail className="mt-1 h-5 w-5 flex-shrink-0 text-pink-400" />
               <div>
                 <h4 className="font-semibold">Email Us</h4>
-                <p className="text-gray-400">info@smarthomevadodara.in</p>
-                <p className="text-gray-400">sales@smarthomevadodara.in</p>
+                <a href="mailto:varnidigital@gmail.com" className="block text-white/60 hover:text-white">varnidigital@gmail.com</a>
               </div>
             </div>
-            <div className="flex items-start gap-3">
-              <MapPin className="w-5 h-5 text-blue-400 mt-1 flex-shrink-0" />
+            <div className="flex items-start gap-3 rounded-lg border border-white/10 bg-white/[0.03] p-5">
+              <MapPin className="mt-1 h-5 w-5 flex-shrink-0 text-pink-400" />
               <div>
-                <h4 className="font-semibold">Visit Us</h4>
-                <p className="text-gray-400">123, Business Hub,</p>
-                <p className="text-gray-400">Alkapuri, Vadodara - 390007</p>
+                <h4 className="font-semibold">Factory & Office</h4>
+                <p className="text-sm leading-relaxed text-white/60">
+                  902/3A, 3rd Floor, Nakshatra Arcade,<br />
+                  Opp. Vasu Healthcare, Near Purohit Chowkdi,<br />
+                  Makarpura GIDC, Vadodara – 390010
+                </p>
               </div>
             </div>
-            <div className="flex items-start gap-3">
-              <Clock className="w-5 h-5 text-blue-400 mt-1 flex-shrink-0" />
+            <div className="flex items-start gap-3 rounded-lg border border-white/10 bg-white/[0.03] p-5">
+              <Clock className="mt-1 h-5 w-5 flex-shrink-0 text-pink-400" />
               <div>
                 <h4 className="font-semibold">Working Hours</h4>
-                <p className="text-gray-400">Mon - Sat: 9:00 AM - 7:00 PM</p>
-                <p className="text-gray-400">Sunday: By Appointment</p>
+                <p className="text-white/60">Mon - Sat: 9:00 AM - 6:00 PM</p>
+                <p className="text-white/60">Sunday: Closed</p>
               </div>
             </div>
           </div>
@@ -87,27 +89,27 @@ export function MegaFooter() {
       </div>
 
       {/* Social Links & Copyright */}
-      <div className="container mx-auto px-4 py-6">
+      <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex items-center gap-4">
-            <a href="#" className="hover:text-blue-400 transition-colors">
+            <a href="#" className="text-white/60 transition-colors hover:text-pink-300">
               <Facebook className="w-5 h-5" />
             </a>
-            <a href="#" className="hover:text-pink-400 transition-colors">
+            <a href="#" className="text-white/60 transition-colors hover:text-pink-300">
               <Instagram className="w-5 h-5" />
             </a>
-            <a href="#" className="hover:text-blue-300 transition-colors">
+            <a href="#" className="text-white/60 transition-colors hover:text-pink-300">
               <Twitter className="w-5 h-5" />
             </a>
-            <a href="#" className="hover:text-blue-500 transition-colors">
+            <a href="#" className="text-white/60 transition-colors hover:text-pink-300">
               <Linkedin className="w-5 h-5" />
             </a>
-            <a href="#" className="hover:text-red-500 transition-colors">
+            <a href="#" className="text-white/60 transition-colors hover:text-pink-300">
               <Youtube className="w-5 h-5" />
             </a>
           </div>
-          <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} Smart Home Vadodara. All Rights Reserved. | smarthomevadodara.in
+          <p className="text-sm text-white/50">
+            © {new Date().getFullYear()} VARNI DIGITAL. All Rights Reserved. | smarthomevadodara.in
           </p>
         </div>
       </div>

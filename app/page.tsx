@@ -10,12 +10,12 @@ const content = getBusinessContent("home-automation", "vadodara");
 // SEO Metadata for Home Page
 export const metadata: Metadata = {
   title: "VARNI DIGITAL | Smart Home Automation in Vadodara | Touch Switch Manufacturer",
-  description: "VARNI DIGITAL — India's leading manufacturer of Touch Switches & Smart Home Automation in Vadodara since 2013. Control lights, AC, curtains & security from your phone. Alexa & Google Home compatible. Serving all areas of Vadodara. ☎️ +91 84889 13458",
+  description: "VARNI DIGITAL — India's leading manufacturer of Touch Switches & Smart Home Automation in Vadodara since 2013. Control lights, AC, curtains & security from your phone. Alexa & Google Home compatible. Serving all areas of Vadodara. Call +91 99787 13458.",
   keywords: [
     "VARNI DIGITAL",
     "Varni Digital Smart Home",
     "Home Automation Vadodara",
-    "Smart Home Vadodara",
+    "VARNI DIGITAL",
     "Touch Switch Vadodara",
     "Home Automation in Vadodara",
     "Smart Home Automation Vadodara",
@@ -38,10 +38,10 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     url: "https://smarthomevadodara.in",
-    siteName: "Smart Home Vadodara",
+    siteName: "VARNI DIGITAL",
     images: [
       {
-        url: "https://smarthomevadodara.in/images/home-automation/hero-1.jpg",
+        url: "https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=1200&auto=format&fit=crop",
         width: 1200,
         height: 630,
         alt: "VARNI DIGITAL Smart Home Automation in Vadodara",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "VARNI DIGITAL | Smart Home Automation in Vadodara",
     description: "India's leading Touch Switch & Smart Home Automation manufacturer. Control your home from your phone or voice.",
-    images: ["https://smarthomevadodara.in/images/home-automation/hero-1.jpg"],
+    images: ["https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=1200&auto=format&fit=crop"],
     creator: "@smarthomevadodara",
   },
   alternates: {

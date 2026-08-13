@@ -19,7 +19,7 @@ const businessMeta: Record<string, { emoji: string; phone: string; domain: strin
   "skin-hair": { emoji: "💆", phone: "916353583148", domain: "skinclinicvadodara.in" },
   "lawyer": { emoji: "⚖️", phone: "916353583148", domain: "vadodaralawyer.in" },
   "dentists": { emoji: "🦷", phone: "916353583148", domain: "dentistvadodara.in" },
-  "home-automation": { emoji: "🏠", phone: "916353583148", domain: "smarthomevadodara.in" },
+  "home-automation": { emoji: "🏠", phone: "919978713458", domain: "smarthomevadodara.in" },
   "security-cctv": { emoji: "📹", phone: "916353583148", domain: "cctvvadodara.in" },
   "wedding-planners": { emoji: "💒", phone: "916353583148", domain: "weddingvadodara.in" },
   "study-abroad": { emoji: "🎓", phone: "916353583148", domain: "studyabroadvadodara.in" },

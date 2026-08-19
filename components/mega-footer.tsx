@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { businesses, getAreaDisplayName, vadodaraAreas } from "@/lib/business-config";
 import { homeAutomationKeywords } from "@/lib/keywords-config";
+import { CatalogueDownloads } from "@/components/catalogue-downloads";
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Twitter, Linkedin, Youtube } from "lucide-react";
 
 export function MegaFooter() {
@@ -43,6 +44,14 @@ export function MegaFooter() {
               </Link>
             ))}
           </div>
+        </div>
+      </div>
+
+      {/* Catalogue Downloads */}
+      <div className="border-b border-white/10">
+        <div className="mx-auto max-w-7xl px-4 py-7 sm:px-6">
+          <h3 className="mb-3 text-sm font-semibold text-white/70">Download Official Product Catalogues</h3>
+          <CatalogueDownloads variant="dark" />
         </div>
       </div>
 

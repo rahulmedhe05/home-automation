@@ -7,3 +7,10 @@ build
 dist
 *.log
 
+.DS_Store
+
+# Raw source photography/renders/PDFs (~450MB) — processed into
+# public/images/products/ via scripts/build-product-catalog.mjs.
+# Keep this folder locally, don't commit it.
+/products/
+

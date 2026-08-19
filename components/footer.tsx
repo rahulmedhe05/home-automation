@@ -1,6 +1,7 @@
 "use client"
 
 import { MapPin, Phone, Mail } from "lucide-react"
+import { CatalogueDownloads } from "@/components/catalogue-downloads"
 
 export function Footer() {
   return (
@@ -99,6 +100,14 @@ export function Footer() {
                 </a>
               </div>
             </div>
+          </div>
+        </div>
+
+        {/* Catalogue Downloads */}
+        <div className="mt-4 pt-8 border-t border-primary-foreground/20">
+          <h4 className="text-xl font-bold mb-4 text-center">Download Official Product Catalogues</h4>
+          <div className="max-w-3xl mx-auto">
+            <CatalogueDownloads variant="dark" />
           </div>
         </div>
 

@@ -32,6 +32,9 @@ export function BusinessNav({ currentBusiness, currentArea }: BusinessNavProps) 
             <Link href="/" className="rounded-md px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-white hover:text-pink-600 hover:shadow-sm">
               Home
             </Link>
+            <Link href="/products" className="rounded-md px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-white hover:text-pink-600 hover:shadow-sm">
+              Products
+            </Link>
             <Link href="#about" className="rounded-md px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-white hover:text-pink-600 hover:shadow-sm">
               About
             </Link>
@@ -72,6 +75,13 @@ export function BusinessNav({ currentBusiness, currentArea }: BusinessNavProps) 
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Home
+              </Link>
+              <Link
+                href="/products"
+                className="rounded-md px-3 py-2 font-medium text-gray-700 transition-colors hover:bg-gray-50 hover:text-pink-600"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Products
               </Link>
               <Link
                 href="#about"

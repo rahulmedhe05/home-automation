@@ -1,7 +1,10 @@
 import { Metadata } from "next";
+import Link from "next/link";
 import { BusinessNav } from "@/components/business-nav";
 import { MegaFooter } from "@/components/mega-footer";
 import { ProductsGrid } from "@/components/products-grid";
+import { CatalogueDownloads } from "@/components/catalogue-downloads";
+import { productCollections } from "@/lib/collections";
 
 export const metadata: Metadata = {
   title: "Smart Home Products | VARNI DIGITAL | Touch Switches & Automation",
@@ -25,7 +28,63 @@ export default function ProductsPage() {
         </div>
       </section>
 
-      {/* Products Grid (client component handles interactivity) */}
+      {/* Shop by Series */}
+      <section className="py-14 bg-white">
+        <div className="container mx-auto px-4 max-w-7xl">
+          <h2 className="text-2xl font-bold text-gray-900 mb-2 border-l-4 border-pink-600 pl-4">
+            Shop by Series
+          </h2>
+          <p className="text-gray-500 mb-8 pl-4">
+            Six signature collections &mdash; every module configuration we manufacture, in one place.
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+            {productCollections.map((c) => (
+              <Link
+                key={c.slug}
+                href={`/products/series/${c.slug}`}
+                className="group bg-gray-50 rounded-xl overflow-hidden border border-gray-100 hover:border-pink-300 hover:shadow-md transition-all"
+              >
+                <div className="aspect-square bg-gray-900 flex items-center justify-center p-4">
+                  {c.heroImage ? (
+                    <img
+                      src={c.heroImage}
+                      alt={`${c.name} Series`}
+                      className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                    />
+                  ) : (
+                    <span className="text-white/40 text-xs text-center px-2">Photography Coming Soon</span>
+                  )}
+                </div>
+                <div className="p-3">
+                  <p className="font-semibold text-sm text-gray-800 group-hover:text-pink-600 transition-colors">
+                    {c.name} Series
+                  </p>
+                  <p className="text-xs text-gray-500 mt-0.5">
+                    {c.studioModules.length > 0
+                      ? `${c.studioModules.length} configurations`
+                      : "Coming soon"}
+                  </p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Catalogue Downloads */}
+      <section className="py-14 bg-gray-100 border-y border-gray-200">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <h2 className="text-2xl font-bold text-gray-900 mb-2 border-l-4 border-pink-600 pl-4">
+            Download Official Catalogues
+          </h2>
+          <p className="text-gray-500 mb-8 pl-4">
+            Full product brochures, technical specification sheets, and wiring diagrams.
+          </p>
+          <CatalogueDownloads variant="light" />
+        </div>
+      </section>
+
+      {/* Legacy Featured Products Grid (client component handles interactivity) */}
       <ProductsGrid />
 
       {/* WhatsApp CTA */}

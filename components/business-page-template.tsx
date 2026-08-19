@@ -5,7 +5,7 @@ import { BusinessConfig, getAreaDisplayName } from "@/lib/business-config";
 import { businessKeywords } from "@/lib/keywords-config";
 import { PageContent } from "@/lib/content-generator";
 import { AreaContent } from "@/lib/area-content";
-import { products } from "@/lib/products-config";
+import { productCollections } from "@/lib/collections";
 import { BusinessNav } from "./business-nav";
 import { MegaFooter } from "./mega-footer";
 import { BusinessWhatsAppFloat } from "./business-whatsapp-float";
@@ -77,10 +77,9 @@ export function BusinessPageTemplate({ business, area, content, areaContent }: B
       <section className="relative flex min-h-[calc(100vh-72px)] items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=2070&auto=format&fit=crop"
-            alt={`${business.name} Smart Home Automation in ${areaName}`}
+            src="/images/products/touch-panel/real/acrylic/18m-24-switch.jpg"
+            alt={`VARNI DIGITAL Touch Switch Panel — ${business.name} in ${areaName}`}
             className="h-full w-full object-cover"
-            onError={(e) => { (e.target as HTMLImageElement).src = "/images/home-automation/smart-home-interior.jpg"; }}
           />
           <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(0,0,0,.92),rgba(0,0,0,.72)_48%,rgba(0,0,0,.28))]" />
           <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white to-transparent" />
@@ -255,8 +254,8 @@ export function BusinessPageTemplate({ business, area, content, areaContent }: B
             </div>
             <div>
               <img
-                src="/images/home-automation/smart-home-interior.jpg"
-                alt={`${business.name} in ${areaName}`}
+                src="/images/products/touch-panel/real/acrylic/18m-18-switch-2-fan-1-socket.jpg"
+                alt={`VARNI DIGITAL Touch Switch installation — ${business.name} in ${areaName}`}
                 className="h-80 w-full rounded-lg object-cover shadow-[0_24px_70px_rgba(0,0,0,.16)] md:h-[450px]"
               />
             </div>
@@ -385,38 +384,37 @@ export function BusinessPageTemplate({ business, area, content, areaContent }: B
       <section id="products" className="bg-[#f7f7f5] py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <h2 className="mb-3 text-center text-3xl font-semibold md:text-5xl">
-            Our Products — Touch Switches &amp; Home Automation
+            Six Signature Series. Every Configuration.
           </h2>
           <p className="mx-auto mb-12 max-w-2xl text-center text-gray-500">
-            India's widest range of smart touch switches, automation panels and home automation solutions by VARNI DIGITAL
+            {productCollections.reduce((n, c) => n + c.studioModules.length, 0)}+ touch switch
+            configurations manufactured in-house by VARNI DIGITAL, Vadodara
           </p>
-          <div className="mx-auto grid max-w-7xl grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
-            {products.slice(0, 10).map((product) => (
+          <div className="mx-auto grid max-w-7xl grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-6">
+            {productCollections.map((c) => (
               <Link
-                key={product.slug}
-                href={`/products/${product.slug}`}
-                className="group overflow-hidden rounded-lg border border-black/10 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+                key={c.slug}
+                href={`/products/series/${c.slug}`}
+                className="group overflow-hidden rounded-lg border border-black/10 bg-gray-950 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
               >
-                <div className="relative overflow-hidden aspect-square">
-                  {product.badge && (
-                    <span className="absolute left-2 top-2 z-10 rounded-md bg-pink-600 px-2 py-0.5 text-xs font-bold text-white">
-                      {product.badge}
-                    </span>
+                <div className="relative flex aspect-square items-center justify-center overflow-hidden p-4">
+                  {c.heroImage ? (
+                    <img
+                      src={c.heroImage}
+                      alt={`${c.name} Series`}
+                      className="max-h-full max-w-full object-contain transition-transform duration-500 group-hover:scale-105"
+                    />
+                  ) : (
+                    <span className="px-2 text-center text-xs text-white/40">Photography Coming Soon</span>
                   )}
-                  <img
-                    src={product.image}
-                    alt={product.name}
-                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    onError={(e) => { (e.target as HTMLImageElement).src = 'https://fplogoimages.withfloats.com/actual/641d2e343405ff0001e9b07c.png'; }}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                  <div className="absolute bottom-2 left-2 right-2 text-white text-xs font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    View Details →
-                  </div>
                 </div>
-                <div className="p-3">
-                  <p className="text-sm font-semibold text-gray-800 group-hover:text-primary transition-colors leading-tight">{product.name}</p>
-                  <p className="text-xs text-gray-500 mt-0.5 line-clamp-1">{product.category}</p>
+                <div className="bg-white p-3">
+                  <p className="text-sm font-semibold text-gray-800 leading-tight transition-colors group-hover:text-pink-600">
+                    {c.name} Series
+                  </p>
+                  <p className="mt-0.5 text-xs text-gray-500">
+                    {c.studioModules.length > 0 ? `${c.studioModules.length} configurations` : "Coming soon"}
+                  </p>
                 </div>
               </Link>
             ))}

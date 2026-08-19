@@ -218,8 +218,9 @@ export function CollectionDetailClient({ collection, others }: Props) {
                   ) : (
                     <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
                       {shown.map((mod, i) => (
-                        <div
-                          key={`${mod.material}-${mod.title}-${i}`}
+                        <Link
+                          href={`/products/series/${collection.slug}/${mod.slug}`}
+                          key={mod.slug || `${mod.material}-${mod.title}-${i}`}
                           className="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg border border-gray-100 transition-all"
                         >
                           <div className="relative aspect-square bg-gray-900 flex items-center justify-center p-4">
@@ -229,13 +230,18 @@ export function CollectionDetailClient({ collection, others }: Props) {
                               loading="lazy"
                               className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-300"
                             />
+                            <span className="absolute bottom-2 left-2 right-2 text-center opacity-0 group-hover:opacity-100 transition-opacity">
+                              <span className="text-white text-xs font-semibold bg-pink-600 px-3 py-1 rounded-full">
+                                View & Enquire →
+                              </span>
+                            </span>
                           </div>
                           <div className="p-3">
                             <p className="text-xs font-semibold text-pink-600 mb-0.5">{mod.material}</p>
                             <p className="text-sm font-semibold text-gray-800 leading-tight">{mod.title}</p>
                             <p className="text-[11px] text-gray-400 mt-1">{mod.category}</p>
                           </div>
-                        </div>
+                        </Link>
                       ))}
                     </div>
                   )}

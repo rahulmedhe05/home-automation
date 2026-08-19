@@ -3,6 +3,7 @@
 // in the `products/` source folder.
 
 export interface StudioModule {
+  slug: string;
   title: string;
   module: string | null;
   material: string;
@@ -53,6 +54,7 @@ export const productCollections: ProductCollection[] = [
     "heroImage": "/images/products/touch-panel/studio/acrylic/12m-10-switch-1-fan-2-socket-6a.png",
     "studioModules": [
       {
+        "slug": "acrylic-12m-10-switch-1-fan-2-socket-6a",
         "title": "12M 10 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -60,6 +62,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/12m-10-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-10-switch-2-socket-6a",
         "title": "12M 10 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -67,6 +70,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/12m-10-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-12-switch-2-fan",
         "title": "12M 12 Switch 2 Fan",
         "module": null,
         "material": "Acrylic",
@@ -74,6 +78,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/12m-12-switch-2-fan.png"
       },
       {
+        "slug": "acrylic-12m-12-switch-2-socket-6a",
         "title": "12M 12 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -81,6 +86,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/12m-12-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-12-switch",
         "title": "12M 12 Switch",
         "module": null,
         "material": "Acrylic",
@@ -88,6 +94,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/12m-12-switch.png"
       },
       {
+        "slug": "acrylic-12m-16-switch",
         "title": "12M 16 Switch",
         "module": null,
         "material": "Acrylic",
@@ -95,6 +102,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/12m-16-switch.png"
       },
       {
+        "slug": "acrylic-12m-4-switch-1-fan-1-socket-6a",
         "title": "12M 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -102,6 +110,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/12m-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-4-switch-1-fan-2-socket-6a",
         "title": "12M 4 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -109,6 +118,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/12m-4-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-4-switch-2-fan-2-socket-6a",
         "title": "12M 4 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -116,6 +126,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/12m-4-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-6-switch-1-fan-1-socket-6a",
         "title": "12M 6 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -123,6 +134,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/12m-6-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-6-switch-1-fan-2-socket-6a",
         "title": "12M 6 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -130,6 +142,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/12m-6-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-6-switch-2-fan-2-socket-6a",
         "title": "12M 6 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -137,6 +150,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/12m-6-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-6-switch-2-socket-6a",
         "title": "12M 6 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -144,6 +158,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/12m-6-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-8-switch-1-fan-1-socket-6a",
         "title": "12M 8 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -151,6 +166,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/12m-8-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-8-switch-1-fan-2-socket-6a",
         "title": "12M 8 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -158,6 +174,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/12m-8-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-8-switch-1-socket-6a",
         "title": "12M 8 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -165,6 +182,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/12m-8-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-8-switch-2-fan-2-socket-6a",
         "title": "12M 8 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -172,6 +190,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/12m-8-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-8-switch-2-fan",
         "title": "12M 8 Switch 2 Fan",
         "module": null,
         "material": "Acrylic",
@@ -179,6 +198,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/12m-8-switch-2-fan.png"
       },
       {
+        "slug": "acrylic-12m-8-switch-2-socket-6a",
         "title": "12M 8 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -186,6 +206,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/12m-8-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-16m-12-switch-2-fan-2-socket-6a",
         "title": "16M 12 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -193,6 +214,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/16m-12-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-16m-16-switch-2-fan",
         "title": "16M 16 Switch 2 Fan",
         "module": null,
         "material": "Acrylic",
@@ -200,6 +222,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/16m-16-switch-2-fan.png"
       },
       {
+        "slug": "acrylic-16m-16-switch-2-socket-6a",
         "title": "16M 16 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -207,6 +230,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/16m-16-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-18m-12-switch-2-fan-2-socket-6a",
         "title": "18M 12 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -214,6 +238,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/18m-12-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-18m-16-switch-2-socket-6a",
         "title": "18M 16 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -221,6 +246,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/18m-16-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-18m-18-switch-2-socket-6a",
         "title": "18M 18 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -228,6 +254,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/18m-18-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-18m-8-switch-2-fan-2-socket-6a",
         "title": "18M 8 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -235,6 +262,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/18m-8-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-2m-2-dimmer",
         "title": "2M 2 Dimmer",
         "module": null,
         "material": "Acrylic",
@@ -242,6 +270,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/2m-2-dimmer.png"
       },
       {
+        "slug": "acrylic-2m-2-switch-1-16a",
         "title": "2M 2 Switch (1-16A)",
         "module": null,
         "material": "Acrylic",
@@ -249,6 +278,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/2m-2-switch-1-16a.png"
       },
       {
+        "slug": "acrylic-2m-2-switch-1-2way",
         "title": "2M 2 Switch (1-2way)",
         "module": null,
         "material": "Acrylic",
@@ -256,6 +286,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/2m-2-switch-1-2way.png"
       },
       {
+        "slug": "acrylic-2m-2-switch-2-16a",
         "title": "2M 2 Switch (2-16A)",
         "module": null,
         "material": "Acrylic",
@@ -263,6 +294,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/2m-2-switch-2-16a.png"
       },
       {
+        "slug": "acrylic-2m-2-switch",
         "title": "2M 2 Switch",
         "module": null,
         "material": "Acrylic",
@@ -270,6 +302,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/2m-2-switch.png"
       },
       {
+        "slug": "acrylic-2m-4s-scene-control",
         "title": "2M 4S Scene Control",
         "module": null,
         "material": "Acrylic",
@@ -277,6 +310,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/2m-4s-scene-control.png"
       },
       {
+        "slug": "acrylic-2m-curtain",
         "title": "2M Curtain",
         "module": null,
         "material": "Acrylic",
@@ -284,6 +318,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/2m-curtain.png"
       },
       {
+        "slug": "acrylic-2m-doorbell",
         "title": "2M Doorbell",
         "module": null,
         "material": "Acrylic",
@@ -291,6 +326,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/2m-doorbell.png"
       },
       {
+        "slug": "acrylic-2m-socket-16a",
         "title": "2M Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -298,6 +334,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/2m-socket-16a.png"
       },
       {
+        "slug": "acrylic-2m-socket-6a",
         "title": "2M Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -305,6 +342,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/2m-socket-6a.png"
       },
       {
+        "slug": "acrylic-2m-usb-c-type",
         "title": "2M USB & C-Type",
         "module": null,
         "material": "Acrylic",
@@ -312,6 +350,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/2m-usb-c-type.png"
       },
       {
+        "slug": "acrylic-3m-2-switch",
         "title": "3M 2 Switch",
         "module": null,
         "material": "Acrylic",
@@ -319,6 +358,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/3m-2-switch.png"
       },
       {
+        "slug": "acrylic-4m-2-switch-1-16a-1-socket-16a",
         "title": "4M 2 Switch (1-16A) 1 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -326,6 +366,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/4m-2-switch-1-16a-1-socket-16a.png"
       },
       {
+        "slug": "acrylic-4m-2-switch-1-16a-1-socket-6a",
         "title": "4M 2 Switch (1-16A) 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -333,6 +374,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/4m-2-switch-1-16a-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-4m-2-switch-1-socket-6a",
         "title": "4M 2 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -340,6 +382,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/4m-2-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-4m-4-switch-all-6a-1-socket-6a",
         "title": "4M 4 Switch (All 6A) 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -347,6 +390,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/4m-4-switch-all-6a-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-4m-4-switch-all-6a",
         "title": "4M 4 Switch (All 6A)",
         "module": null,
         "material": "Acrylic",
@@ -354,6 +398,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/4m-4-switch-all-6a.png"
       },
       {
+        "slug": "acrylic-4m-4-switch-1-fan",
         "title": "4M 4 Switch 1 Fan",
         "module": null,
         "material": "Acrylic",
@@ -361,6 +406,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/4m-4-switch-1-fan.png"
       },
       {
+        "slug": "acrylic-4m-4-switch",
         "title": "4M 4 Switch",
         "module": null,
         "material": "Acrylic",
@@ -368,6 +414,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/4m-4-switch.png"
       },
       {
+        "slug": "acrylic-4m-6-switch",
         "title": "4M 6 Switch",
         "module": null,
         "material": "Acrylic",
@@ -375,6 +422,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/4m-6-switch.png"
       },
       {
+        "slug": "acrylic-6m-2-switch-1-16a-2-socket-1-16a",
         "title": "6M 2 Switch (1-16A) 2 Socket (1-16A)",
         "module": null,
         "material": "Acrylic",
@@ -382,6 +430,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/6m-2-switch-1-16a-2-socket-1-16a.png"
       },
       {
+        "slug": "acrylic-6m-2-switch-2-socket-6a",
         "title": "6M 2 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -389,6 +438,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/6m-2-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-6m-4-dimmer",
         "title": "6M 4 Dimmer",
         "module": null,
         "material": "Acrylic",
@@ -396,6 +446,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/6m-4-dimmer.png"
       },
       {
+        "slug": "acrylic-6m-4-switch-all-6a-2-socket-6a",
         "title": "6M 4 Switch (All 6A) 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -403,6 +454,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/6m-4-switch-all-6a-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-6m-4-switch-1-fan-1-socket-6a",
         "title": "6M 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -410,6 +462,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/6m-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-6m-4-switch-1-socket-6a",
         "title": "6M 4 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -417,6 +470,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/6m-4-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-6m-4-switch-2-fan",
         "title": "6M 4 Switch 2 Fan",
         "module": null,
         "material": "Acrylic",
@@ -424,6 +478,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/6m-4-switch-2-fan.png"
       },
       {
+        "slug": "acrylic-6m-6-switch-1-fan",
         "title": "6M 6 Switch 1 Fan",
         "module": null,
         "material": "Acrylic",
@@ -431,6 +486,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/6m-6-switch-1-fan.png"
       },
       {
+        "slug": "acrylic-6m-6-switch-1-socket-6a",
         "title": "6M 6 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -438,6 +494,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/6m-6-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-6m-6-switch",
         "title": "6M 6 Switch",
         "module": null,
         "material": "Acrylic",
@@ -445,6 +502,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/6m-6-switch.png"
       },
       {
+        "slug": "acrylic-6m-8-switch",
         "title": "6M 8 Switch",
         "module": null,
         "material": "Acrylic",
@@ -452,6 +510,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/6m-8-switch.png"
       },
       {
+        "slug": "acrylic-8m-10-switch",
         "title": "8M 10 Switch",
         "module": null,
         "material": "Acrylic",
@@ -459,6 +518,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/8m-10-switch.png"
       },
       {
+        "slug": "acrylic-8m-2-switch-1-16a-3-socket-6a",
         "title": "8M 2 Switch (1-16A) 3 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -466,6 +526,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/8m-2-switch-1-16a-3-socket-6a.png"
       },
       {
+        "slug": "acrylic-8m-2-switch-2-socket-6a",
         "title": "8M 2 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -473,6 +534,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/8m-2-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-8m-4-switch-1-fan-1-socket-6a",
         "title": "8M 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -480,6 +542,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/8m-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-8m-4-switch-1-socket-6a",
         "title": "8M 4 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -487,6 +550,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/8m-4-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-8m-4-switch-2-fan-1-socket-6a",
         "title": "8M 4 Switch 2 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -494,6 +558,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/8m-4-switch-2-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-8m-4-switch-2-socket-6a",
         "title": "8M 4 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -501,6 +566,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/8m-4-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-8m-6-switch-1-fan-1-socket-6a",
         "title": "8M 6 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -508,6 +574,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/8m-6-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-8m-6-switch-1-fan",
         "title": "8M 6 Switch 1 Fan",
         "module": null,
         "material": "Acrylic",
@@ -515,6 +582,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/8m-6-switch-1-fan.png"
       },
       {
+        "slug": "acrylic-8m-6-switch-1-socket-6a",
         "title": "8M 6 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -522,6 +590,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/8m-6-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-8m-6-switch-2-fan",
         "title": "8M 6 Switch 2 Fan",
         "module": null,
         "material": "Acrylic",
@@ -529,6 +598,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/8m-6-switch-2-fan.png"
       },
       {
+        "slug": "acrylic-8m-6-switch-2-socket-6a",
         "title": "8M 6 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -536,6 +606,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/8m-6-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-8m-8-switch-1-socket-6a",
         "title": "8M 8 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -543,6 +614,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/8m-8-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-8m-8-switch",
         "title": "8M 8 Switch",
         "module": null,
         "material": "Acrylic",
@@ -550,6 +622,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/8m-8-switch.png"
       },
       {
+        "slug": "acrylic-8ms-12-switch",
         "title": "8MS 12 Switch",
         "module": null,
         "material": "Acrylic",
@@ -557,6 +630,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/8ms-12-switch.png"
       },
       {
+        "slug": "acrylic-8ms-4-switch-1-fan-1-socket-6a",
         "title": "8MS 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -564,6 +638,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/8ms-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-8ms-4-switch-1-fan-2-socket-6a",
         "title": "8MS 4 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -571,6 +646,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/8ms-4-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-8ms-6-switch-1-socket-6a",
         "title": "8MS 6 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -578,6 +654,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/8ms-6-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-8ms-6-switch-2-socket-6a",
         "title": "8MS 6 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -585,6 +662,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/8ms-6-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-8ms-8-switch-2-fan",
         "title": "8MS 8 Switch 2 Fan",
         "module": null,
         "material": "Acrylic",
@@ -592,6 +670,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/acrylic/8ms-8-switch-2-fan.png"
       },
       {
+        "slug": "glass-12m-10-switch-1-fan-2-socket-6a",
         "title": "12M 10 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -599,6 +678,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/12m-10-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-10-switch-2-socket-6a",
         "title": "12M 10 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -606,6 +686,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/12m-10-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-12-switch-2-fan",
         "title": "12M 12 Switch 2 Fan",
         "module": null,
         "material": "Glass",
@@ -613,6 +694,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/12m-12-switch-2-fan.png"
       },
       {
+        "slug": "glass-12m-12-switch-2-socket-6a",
         "title": "12M 12 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -620,6 +702,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/12m-12-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-12-switch",
         "title": "12M 12 Switch",
         "module": null,
         "material": "Glass",
@@ -627,6 +710,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/12m-12-switch.png"
       },
       {
+        "slug": "glass-12m-16-switch",
         "title": "12M 16 Switch",
         "module": null,
         "material": "Glass",
@@ -634,6 +718,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/12m-16-switch.png"
       },
       {
+        "slug": "glass-12m-4-switch-2-fan-2-socket-6a",
         "title": "12M 4 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -641,6 +726,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/12m-4-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-6-switch-1-fan-2-socket-6a",
         "title": "12M 6 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -648,6 +734,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/12m-6-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-6-switch-2-fan-2-socket-6a",
         "title": "12M 6 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -655,6 +742,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/12m-6-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-6-switch-2-socket-6a",
         "title": "12M 6 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -662,6 +750,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/12m-6-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-8-switch-1-fan-2-socket-6a",
         "title": "12M 8 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -669,6 +758,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/12m-8-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-8-switch-2-fan-2-socket-6a",
         "title": "12M 8 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -676,6 +766,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/12m-8-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-8-switch-2-fan",
         "title": "12M 8 Switch 2 Fan",
         "module": null,
         "material": "Glass",
@@ -683,6 +774,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/12m-8-switch-2-fan.png"
       },
       {
+        "slug": "glass-12m-8-switch-2-socket-6a1",
         "title": "12M 8 Switch 2 Socket (6A)(1)",
         "module": null,
         "material": "Glass",
@@ -690,6 +782,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/12m-8-switch-2-socket-6a1.png"
       },
       {
+        "slug": "glass-12m-8-switch-2-socket-6a",
         "title": "12M 8 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -697,6 +790,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/12m-8-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-2m-2-dimmer",
         "title": "2M 2 Dimmer",
         "module": null,
         "material": "Glass",
@@ -704,6 +798,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/2m-2-dimmer.png"
       },
       {
+        "slug": "glass-2m-2-switch-1-16a",
         "title": "2M 2 Switch (1-16A)",
         "module": null,
         "material": "Glass",
@@ -711,6 +806,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/2m-2-switch-1-16a.png"
       },
       {
+        "slug": "glass-2m-2-switch-1-2way",
         "title": "2M 2 Switch (1-2way)",
         "module": null,
         "material": "Glass",
@@ -718,6 +814,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/2m-2-switch-1-2way.png"
       },
       {
+        "slug": "glass-2m-2-switch-2-16a",
         "title": "2M 2 Switch (2-16A)",
         "module": null,
         "material": "Glass",
@@ -725,6 +822,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/2m-2-switch-2-16a.png"
       },
       {
+        "slug": "glass-2m-2-switch-2-2way",
         "title": "2M 2 Switch (2-2way)",
         "module": null,
         "material": "Glass",
@@ -732,6 +830,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/2m-2-switch-2-2way.png"
       },
       {
+        "slug": "glass-2m-2-switch",
         "title": "2M 2 Switch",
         "module": null,
         "material": "Glass",
@@ -739,6 +838,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/2m-2-switch.png"
       },
       {
+        "slug": "glass-2m-4-switch-all-6a",
         "title": "2M 4 Switch (All 6A)",
         "module": null,
         "material": "Glass",
@@ -746,6 +846,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/2m-4-switch-all-6a.png"
       },
       {
+        "slug": "glass-2m-4s-scene-control",
         "title": "2M 4S Scene Control",
         "module": null,
         "material": "Glass",
@@ -753,6 +854,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/2m-4s-scene-control.png"
       },
       {
+        "slug": "glass-2m-curtain",
         "title": "2M Curtain",
         "module": null,
         "material": "Glass",
@@ -760,6 +862,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/2m-curtain.png"
       },
       {
+        "slug": "glass-2m-doorbell",
         "title": "2M Doorbell",
         "module": null,
         "material": "Glass",
@@ -767,6 +870,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/2m-doorbell.png"
       },
       {
+        "slug": "glass-4m-2-switch-1-16a-1-socket-6a",
         "title": "4M 2 Switch (1-16A) 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -774,6 +878,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/4m-2-switch-1-16a-1-socket-6a.png"
       },
       {
+        "slug": "glass-4m-2-switch-1-socket-6a",
         "title": "4M 2 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -781,6 +886,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/4m-2-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-4m-4-switch-all-6a-1-socket-6a",
         "title": "4M 4 Switch (All 6A) 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -788,6 +894,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/4m-4-switch-all-6a-1-socket-6a.png"
       },
       {
+        "slug": "glass-4m-4-switch-1-fan",
         "title": "4M 4 Switch 1 Fan",
         "module": null,
         "material": "Glass",
@@ -795,6 +902,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/4m-4-switch-1-fan.png"
       },
       {
+        "slug": "glass-4m-4-switch",
         "title": "4M 4 Switch",
         "module": null,
         "material": "Glass",
@@ -802,6 +910,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/4m-4-switch.png"
       },
       {
+        "slug": "glass-4m-6-switch",
         "title": "4M 6 Switch",
         "module": null,
         "material": "Glass",
@@ -809,6 +918,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/4m-6-switch.png"
       },
       {
+        "slug": "glass-6m-2-switch-2-socket-6a",
         "title": "6M 2 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -816,6 +926,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/6m-2-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-6m-4-dimmer",
         "title": "6M 4 Dimmer",
         "module": null,
         "material": "Glass",
@@ -823,6 +934,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/6m-4-dimmer.png"
       },
       {
+        "slug": "glass-6m-4-switch-all-6a-2-socket-6a",
         "title": "6M 4 Switch (All 6A) 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -830,6 +942,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/6m-4-switch-all-6a-2-socket-6a.png"
       },
       {
+        "slug": "glass-6m-4-switch-1-fan-1-socket-6a",
         "title": "6M 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -837,6 +950,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/6m-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "glass-6m-4-switch-1-socket-6a",
         "title": "6M 4 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -844,6 +958,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/6m-4-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-6m-4-switch-2-fan",
         "title": "6M 4 Switch 2 Fan",
         "module": null,
         "material": "Glass",
@@ -851,6 +966,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/6m-4-switch-2-fan.png"
       },
       {
+        "slug": "glass-6m-6-switch-1-fan",
         "title": "6M 6 Switch 1 Fan",
         "module": null,
         "material": "Glass",
@@ -858,6 +974,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/6m-6-switch-1-fan.png"
       },
       {
+        "slug": "glass-6m-6-switch-1-socket-6a",
         "title": "6M 6 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -865,6 +982,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/6m-6-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-6m-6-switch",
         "title": "6M 6 Switch",
         "module": null,
         "material": "Glass",
@@ -872,6 +990,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/6m-6-switch.png"
       },
       {
+        "slug": "glass-6m-8-switch",
         "title": "6M 8 Switch",
         "module": null,
         "material": "Glass",
@@ -879,6 +998,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/6m-8-switch.png"
       },
       {
+        "slug": "glass-8m-10-switch",
         "title": "8M 10 Switch",
         "module": null,
         "material": "Glass",
@@ -886,6 +1006,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/8m-10-switch.png"
       },
       {
+        "slug": "glass-8m-2-switch-2-socket-6a",
         "title": "8M 2 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -893,6 +1014,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/8m-2-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-8m-4-switch-1-fan-1-socket-6a",
         "title": "8M 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -900,6 +1022,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/8m-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "glass-8m-4-switch-1-socket-6a",
         "title": "8M 4 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -907,6 +1030,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/8m-4-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-8m-4-switch-2-fan-1-socket-6a",
         "title": "8M 4 Switch 2 Fan 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -914,6 +1038,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/8m-4-switch-2-fan-1-socket-6a.png"
       },
       {
+        "slug": "glass-8m-4-switch-2-socket-6a",
         "title": "8M 4 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -921,6 +1046,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/8m-4-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-8m-6-switch-1-fan-1-socket-6a",
         "title": "8M 6 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -928,6 +1054,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/8m-6-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "glass-8m-6-switch-1-fan",
         "title": "8M 6 Switch 1 Fan",
         "module": null,
         "material": "Glass",
@@ -935,6 +1062,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/8m-6-switch-1-fan.png"
       },
       {
+        "slug": "glass-8m-6-switch-1-socket-6a",
         "title": "8M 6 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -942,6 +1070,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/8m-6-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-8m-6-switch-2-fan",
         "title": "8M 6 Switch 2 Fan",
         "module": null,
         "material": "Glass",
@@ -949,6 +1078,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/8m-6-switch-2-fan.png"
       },
       {
+        "slug": "glass-8m-6-switch-2-socket-6a",
         "title": "8M 6 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -956,6 +1086,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/8m-6-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-8m-8-switch-1-socket-6a",
         "title": "8M 8 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -963,6 +1094,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/touch-panel/studio/glass/8m-8-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-8m-8-switch",
         "title": "8M 8 Switch",
         "module": null,
         "material": "Glass",
@@ -1179,6 +1311,7 @@ export const productCollections: ProductCollection[] = [
     "heroImage": "/images/products/edge/studio/acrylic/12m-10-switch-1-fan-2-socket-6a.png",
     "studioModules": [
       {
+        "slug": "acrylic-12m-10-switch-1-fan-2-socket-6a",
         "title": "12M - 10 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1186,6 +1319,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/12m-10-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-10-switch-2-socket-6a",
         "title": "12M - 10 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1193,6 +1327,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/12m-10-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-12-switch-2-fan",
         "title": "12M - 12 Switch 2 Fan",
         "module": null,
         "material": "Acrylic",
@@ -1200,6 +1335,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/12m-12-switch-2-fan.png"
       },
       {
+        "slug": "acrylic-12m-12-switch-2-socket-6a",
         "title": "12M - 12 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1207,6 +1343,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/12m-12-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-12-switch",
         "title": "12M - 12 Switch",
         "module": null,
         "material": "Acrylic",
@@ -1214,6 +1351,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/12m-12-switch.png"
       },
       {
+        "slug": "acrylic-12m-16-switch",
         "title": "12M - 16 Switch",
         "module": null,
         "material": "Acrylic",
@@ -1221,6 +1359,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/12m-16-switch.png"
       },
       {
+        "slug": "acrylic-12m-4-switch-1-fan-1-socket-6a",
         "title": "12M - 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1228,6 +1367,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/12m-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-4-switch-1-fan-2-socket-6a",
         "title": "12M - 4 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1235,6 +1375,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/12m-4-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-6-switch-1-fan-1-socket-6a",
         "title": "12M - 6 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1242,6 +1383,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/12m-6-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-6-switch-1-fan-2-socket-6a",
         "title": "12M - 6 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1249,6 +1391,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/12m-6-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-6-switch-2-fan-2-socket-6a",
         "title": "12M - 6 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1256,6 +1399,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/12m-6-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-8-switch-1-fan-1-socket-6a",
         "title": "12M - 8 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1263,6 +1407,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/12m-8-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-8-switch-1-fan-2-socket-6a",
         "title": "12M - 8 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1270,6 +1415,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/12m-8-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-8-switch-1-socket-6a",
         "title": "12M - 8 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1277,6 +1423,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/12m-8-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-8-switch-2-fan-2-socket-6a",
         "title": "12M - 8 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1284,6 +1431,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/12m-8-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-12m-8-switch-2-fan",
         "title": "12M - 8 Switch 2 Fan",
         "module": null,
         "material": "Acrylic",
@@ -1291,6 +1439,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/12m-8-switch-2-fan.png"
       },
       {
+        "slug": "acrylic-12m-8-switch-2-socket-6a",
         "title": "12M - 8 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1298,6 +1447,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/12m-8-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-2m-2-dimmer",
         "title": "2M - 2 Dimmer",
         "module": null,
         "material": "Acrylic",
@@ -1305,6 +1455,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/2m-2-dimmer.png"
       },
       {
+        "slug": "acrylic-2m-2-switch",
         "title": "2M - 2 Switch",
         "module": null,
         "material": "Acrylic",
@@ -1312,6 +1463,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/2m-2-switch.png"
       },
       {
+        "slug": "acrylic-2m-4-switch-all-6a",
         "title": "2M - 4 Switch (All 6A)",
         "module": null,
         "material": "Acrylic",
@@ -1319,6 +1471,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/2m-4-switch-all-6a.png"
       },
       {
+        "slug": "acrylic-2m-4s-scene-control",
         "title": "2M - 4S Scene Control",
         "module": null,
         "material": "Acrylic",
@@ -1326,6 +1479,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/2m-4s-scene-control.png"
       },
       {
+        "slug": "acrylic-2m-curtain",
         "title": "2M - Curtain",
         "module": null,
         "material": "Acrylic",
@@ -1333,6 +1487,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/2m-curtain.png"
       },
       {
+        "slug": "acrylic-2m-door-bell",
         "title": "2M - Door Bell",
         "module": null,
         "material": "Acrylic",
@@ -1340,6 +1495,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/2m-door-bell.png"
       },
       {
+        "slug": "acrylic-2m-dual-curtain",
         "title": "2M - Dual Curtain",
         "module": null,
         "material": "Acrylic",
@@ -1347,6 +1503,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/2m-dual-curtain.png"
       },
       {
+        "slug": "acrylic-2m-i-socket-6a",
         "title": "2M - I_Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1354,6 +1511,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/2m-i-socket-6a.png"
       },
       {
+        "slug": "acrylic-2m-socket-16a",
         "title": "2M - Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -1361,6 +1519,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/2m-socket-16a.png"
       },
       {
+        "slug": "acrylic-2m-usb-c-type",
         "title": "2M - USB & C-Type",
         "module": null,
         "material": "Acrylic",
@@ -1368,6 +1527,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/2m-usb-c-type.png"
       },
       {
+        "slug": "acrylic-3m-2-switch",
         "title": "3M - 2 Switch",
         "module": null,
         "material": "Acrylic",
@@ -1375,6 +1535,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/3m-2-switch.png"
       },
       {
+        "slug": "acrylic-3m-4-switch-all-6a",
         "title": "3M - 4 Switch (All 6A)",
         "module": null,
         "material": "Acrylic",
@@ -1382,6 +1543,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/3m-4-switch-all-6a.png"
       },
       {
+        "slug": "acrylic-4m-2-switch-1-16a-1-socket-16a",
         "title": "4M - 2 Switch (1-16A) 1 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -1389,6 +1551,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/4m-2-switch-1-16a-1-socket-16a.png"
       },
       {
+        "slug": "acrylic-4m-2-switch-1-socket-6a",
         "title": "4M - 2 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1396,6 +1559,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/4m-2-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-4m-4-switch-all-6a-1-socket-6a",
         "title": "4M - 4 Switch (All 6A) 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1403,6 +1567,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/4m-4-switch-all-6a-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-4m-4-switch-1-fan",
         "title": "4M - 4 Switch 1 Fan",
         "module": null,
         "material": "Acrylic",
@@ -1410,6 +1575,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/4m-4-switch-1-fan.png"
       },
       {
+        "slug": "acrylic-4m-4-switch",
         "title": "4M - 4 Switch",
         "module": null,
         "material": "Acrylic",
@@ -1417,6 +1583,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/4m-4-switch.png"
       },
       {
+        "slug": "acrylic-4m-6-switch",
         "title": "4M - 6 Switch",
         "module": null,
         "material": "Acrylic",
@@ -1424,6 +1591,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/4m-6-switch.png"
       },
       {
+        "slug": "acrylic-6m-2-switch-1-16a-2-socket-1-16a",
         "title": "6M - 2 Switch (1-16A) 2 Socket (1-16A)",
         "module": null,
         "material": "Acrylic",
@@ -1431,6 +1599,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/6m-2-switch-1-16a-2-socket-1-16a.png"
       },
       {
+        "slug": "acrylic-6m-2-switch-16a-2-socket-16a",
         "title": "6M - 2 Switch (16A) 2 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -1438,6 +1607,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/6m-2-switch-16a-2-socket-16a.png"
       },
       {
+        "slug": "acrylic-6m-2-switch-2-socket-6a",
         "title": "6M - 2 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1445,6 +1615,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/6m-2-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-6m-4-dimmer",
         "title": "6M - 4 Dimmer",
         "module": null,
         "material": "Acrylic",
@@ -1452,6 +1623,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/6m-4-dimmer.png"
       },
       {
+        "slug": "acrylic-6m-4-switch-all-6a-2-socket-6a",
         "title": "6M - 4 Switch (All 6A) 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1459,6 +1631,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/6m-4-switch-all-6a-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-6m-4-switch-1-fan-1-socket-16a",
         "title": "6M - 4 Switch 1 Fan 1 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -1466,6 +1639,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/6m-4-switch-1-fan-1-socket-16a.png"
       },
       {
+        "slug": "acrylic-6m-4-switch-1-fan-1-socket-6a",
         "title": "6M - 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1473,6 +1647,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/6m-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-6m-4-switch-1-socket-16a",
         "title": "6M - 4 Switch 1 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -1480,6 +1655,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/6m-4-switch-1-socket-16a.png"
       },
       {
+        "slug": "acrylic-6m-4-switch-1-socket-6a",
         "title": "6M - 4 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1487,6 +1663,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/6m-4-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-6m-4-switch-2-fan",
         "title": "6M - 4 Switch 2 Fan",
         "module": null,
         "material": "Acrylic",
@@ -1494,6 +1671,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/6m-4-switch-2-fan.png"
       },
       {
+        "slug": "acrylic-6m-6-switch-1-fan",
         "title": "6M - 6 Switch 1 Fan",
         "module": null,
         "material": "Acrylic",
@@ -1501,6 +1679,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/6m-6-switch-1-fan.png"
       },
       {
+        "slug": "acrylic-6m-6-switch-1-socket-16a",
         "title": "6M - 6 Switch 1 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -1508,6 +1687,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/6m-6-switch-1-socket-16a.png"
       },
       {
+        "slug": "acrylic-6m-6-switch-1-socket-6a",
         "title": "6M - 6 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1515,6 +1695,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/6m-6-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-6m-6-switch",
         "title": "6M - 6 Switch",
         "module": null,
         "material": "Acrylic",
@@ -1522,6 +1703,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/6m-6-switch.png"
       },
       {
+        "slug": "acrylic-6m-8-switch",
         "title": "6M - 8 Switch",
         "module": null,
         "material": "Acrylic",
@@ -1529,6 +1711,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/6m-8-switch.png"
       },
       {
+        "slug": "acrylic-8m-10-switch",
         "title": "8M - 10 Switch",
         "module": null,
         "material": "Acrylic",
@@ -1536,6 +1719,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/8m-10-switch.png"
       },
       {
+        "slug": "acrylic-8m-2-switch-1-16a-2-socket-1-16a",
         "title": "8M - 2 Switch (1-16A) 2 Socket (1-16A)",
         "module": null,
         "material": "Acrylic",
@@ -1543,6 +1727,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/8m-2-switch-1-16a-2-socket-1-16a.png"
       },
       {
+        "slug": "acrylic-8m-2-switch-1-16a-3-socket-6a",
         "title": "8M - 2 Switch (1-16A) 3 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1550,6 +1735,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/8m-2-switch-1-16a-3-socket-6a.png"
       },
       {
+        "slug": "acrylic-8m-2-switch-16a-2-socket-16a",
         "title": "8M - 2 Switch (16A) 2 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -1557,6 +1743,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/8m-2-switch-16a-2-socket-16a.png"
       },
       {
+        "slug": "acrylic-8m-2-switch-2-socket-6a",
         "title": "8M - 2 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1564,6 +1751,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/8m-2-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-8m-4-switch-16a-2-socket-16a",
         "title": "8M - 4 Switch (16A) 2 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -1571,6 +1759,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/8m-4-switch-16a-2-socket-16a.png"
       },
       {
+        "slug": "acrylic-8m-4-switch-1-fan-1-socket-6a",
         "title": "8M - 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1578,6 +1767,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/8m-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-8m-4-switch-1-socket-6a",
         "title": "8M - 4 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1585,6 +1775,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/8m-4-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-8m-4-switch-2-fan-1-socket-16a",
         "title": "8M - 4 Switch 2 Fan 1 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -1592,6 +1783,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/8m-4-switch-2-fan-1-socket-16a.png"
       },
       {
+        "slug": "acrylic-8m-4-switch-2-fan-1-socket-6a",
         "title": "8M - 4 Switch 2 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1599,6 +1791,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/8m-4-switch-2-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-8m-4-switch-2-socket-6a",
         "title": "8M - 4 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1606,6 +1799,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/8m-4-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-8m-6-switch-1-fan-1-socket-16a",
         "title": "8M - 6 Switch 1 Fan 1 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -1613,6 +1807,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/8m-6-switch-1-fan-1-socket-16a.png"
       },
       {
+        "slug": "acrylic-8m-6-switch-1-fan-1-socket-6a",
         "title": "8M - 6 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1620,6 +1815,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/8m-6-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-8m-6-switch-1-fan",
         "title": "8M - 6 Switch 1 Fan",
         "module": null,
         "material": "Acrylic",
@@ -1627,6 +1823,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/8m-6-switch-1-fan.png"
       },
       {
+        "slug": "acrylic-8m-6-switch-1-socket-6a",
         "title": "8M - 6 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1634,6 +1831,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/8m-6-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-8m-6-switch-2-fan",
         "title": "8M - 6 Switch 2 Fan",
         "module": null,
         "material": "Acrylic",
@@ -1641,6 +1839,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/8m-6-switch-2-fan.png"
       },
       {
+        "slug": "acrylic-8m-6-switch-2-socket-6a",
         "title": "8M - 6 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1648,6 +1847,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/8m-6-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-8m-8-switch-1-fan",
         "title": "8M - 8 Switch 1 Fan",
         "module": null,
         "material": "Acrylic",
@@ -1655,6 +1855,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/8m-8-switch-1-fan.png"
       },
       {
+        "slug": "acrylic-8m-8-switch-1-socket-16a",
         "title": "8M - 8 Switch 1 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -1662,6 +1863,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/8m-8-switch-1-socket-16a.png"
       },
       {
+        "slug": "acrylic-8m-8-switch-1-socket-6a",
         "title": "8M - 8 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -1669,6 +1871,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/8m-8-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-8m-8-switch",
         "title": "8M - 8 Switch",
         "module": null,
         "material": "Acrylic",
@@ -1676,6 +1879,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/acrylic/8m-8-switch.png"
       },
       {
+        "slug": "glass-12m-10-switch-1-fan-2-socket-6a",
         "title": "12M - 10 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -1683,6 +1887,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/12m-10-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-10-switch-2-socket-6a",
         "title": "12M - 10 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -1690,6 +1895,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/12m-10-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-12-switch-2-fan",
         "title": "12M - 12 Switch 2 Fan",
         "module": null,
         "material": "Glass",
@@ -1697,6 +1903,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/12m-12-switch-2-fan.png"
       },
       {
+        "slug": "glass-12m-12-switch-2-socket-6a",
         "title": "12M - 12 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -1704,6 +1911,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/12m-12-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-12-switch",
         "title": "12M - 12 Switch",
         "module": null,
         "material": "Glass",
@@ -1711,6 +1919,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/12m-12-switch.png"
       },
       {
+        "slug": "glass-12m-16-switch",
         "title": "12M - 16 Switch",
         "module": null,
         "material": "Glass",
@@ -1718,6 +1927,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/12m-16-switch.png"
       },
       {
+        "slug": "glass-12m-4-switch-1-fan-2-socket-6a",
         "title": "12M - 4 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -1725,6 +1935,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/12m-4-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-6-switch-1-fan-2-socket-6a",
         "title": "12M - 6 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -1732,6 +1943,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/12m-6-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-6-switch-2-fan-2-socket-6a",
         "title": "12M - 6 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -1739,6 +1951,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/12m-6-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-8-switch-1-fan-2-socket-6a",
         "title": "12M - 8 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -1746,6 +1959,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/12m-8-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-8-switch-2-fan-2-socket-6a",
         "title": "12M - 8 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -1753,6 +1967,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/12m-8-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-8-switch-2-fan",
         "title": "12M - 8 Switch 2 Fan",
         "module": null,
         "material": "Glass",
@@ -1760,6 +1975,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/12m-8-switch-2-fan.png"
       },
       {
+        "slug": "glass-12m-8-switch-2-socket-6a",
         "title": "12M - 8 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -1767,6 +1983,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/12m-8-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-2m-2-dimmer",
         "title": "2M - 2 Dimmer",
         "module": null,
         "material": "Glass",
@@ -1774,6 +1991,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/2m-2-dimmer.png"
       },
       {
+        "slug": "glass-2m-2-switch",
         "title": "2M - 2 Switch",
         "module": null,
         "material": "Glass",
@@ -1781,6 +1999,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/2m-2-switch.png"
       },
       {
+        "slug": "glass-2m-4-switch-all-6a",
         "title": "2M - 4 Switch (All 6A)",
         "module": null,
         "material": "Glass",
@@ -1788,6 +2007,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/2m-4-switch-all-6a.png"
       },
       {
+        "slug": "glass-2m-4s-scene-control",
         "title": "2M - 4S Scene Control",
         "module": null,
         "material": "Glass",
@@ -1795,6 +2015,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/2m-4s-scene-control.png"
       },
       {
+        "slug": "glass-2m-curtain",
         "title": "2M - Curtain",
         "module": null,
         "material": "Glass",
@@ -1802,6 +2023,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/2m-curtain.png"
       },
       {
+        "slug": "glass-2m-door-bell",
         "title": "2M - Door Bell",
         "module": null,
         "material": "Glass",
@@ -1809,6 +2031,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/2m-door-bell.png"
       },
       {
+        "slug": "glass-2m-dual-curtain",
         "title": "2M - Dual Curtain",
         "module": null,
         "material": "Glass",
@@ -1816,6 +2039,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/2m-dual-curtain.png"
       },
       {
+        "slug": "glass-3m-2-switch",
         "title": "3M - 2 Switch",
         "module": null,
         "material": "Glass",
@@ -1823,6 +2047,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/3m-2-switch.png"
       },
       {
+        "slug": "glass-3m-4-switch-all-6a",
         "title": "3M - 4 Switch (All 6A)",
         "module": null,
         "material": "Glass",
@@ -1830,6 +2055,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/3m-4-switch-all-6a.png"
       },
       {
+        "slug": "glass-4m-2-switch-1-16a-1-socket-16a",
         "title": "4M - 2 Switch (1-16A) 1 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -1837,6 +2063,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/4m-2-switch-1-16a-1-socket-16a.png"
       },
       {
+        "slug": "glass-4m-2-switch-1-socket-6a",
         "title": "4M - 2 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -1844,6 +2071,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/4m-2-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-4m-4-switch-all-6a",
         "title": "4M - 4 Switch (All 6A)",
         "module": null,
         "material": "Glass",
@@ -1851,6 +2079,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/4m-4-switch-all-6a.png"
       },
       {
+        "slug": "glass-4m-4-switch-1-fan",
         "title": "4M - 4 Switch 1 Fan",
         "module": null,
         "material": "Glass",
@@ -1858,6 +2087,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/4m-4-switch-1-fan.png"
       },
       {
+        "slug": "glass-4m-4-switch",
         "title": "4M - 4 Switch",
         "module": null,
         "material": "Glass",
@@ -1865,6 +2095,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/4m-4-switch.png"
       },
       {
+        "slug": "glass-4m-6-switch",
         "title": "4M - 6 Switch",
         "module": null,
         "material": "Glass",
@@ -1872,6 +2103,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/4m-6-switch.png"
       },
       {
+        "slug": "glass-6m-2-switch-1-16a-2-socket-1-16a",
         "title": "6M - 2 Switch (1-16A) 2 Socket (1-16A)",
         "module": null,
         "material": "Glass",
@@ -1879,6 +2111,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/6m-2-switch-1-16a-2-socket-1-16a.png"
       },
       {
+        "slug": "glass-6m-2-switch-16a-2-socket-16a",
         "title": "6M - 2 Switch (16A) 2 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -1886,6 +2119,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/6m-2-switch-16a-2-socket-16a.png"
       },
       {
+        "slug": "glass-6m-2-switch-2-socket-6a",
         "title": "6M - 2 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -1893,6 +2127,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/6m-2-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-6m-4-dimmer",
         "title": "6M - 4 Dimmer",
         "module": null,
         "material": "Glass",
@@ -1900,6 +2135,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/6m-4-dimmer.png"
       },
       {
+        "slug": "glass-6m-4-switch-all-6a-2-socket-6a",
         "title": "6M - 4 Switch (All 6A) 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -1907,6 +2143,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/6m-4-switch-all-6a-2-socket-6a.png"
       },
       {
+        "slug": "glass-6m-4-switch-1-fan-1-socket-16a",
         "title": "6M - 4 Switch 1 Fan 1 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -1914,6 +2151,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/6m-4-switch-1-fan-1-socket-16a.png"
       },
       {
+        "slug": "glass-6m-4-switch-1-fan-1-socket-6a",
         "title": "6M - 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -1921,6 +2159,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/6m-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "glass-6m-4-switch-1-socket-16a",
         "title": "6M - 4 Switch 1 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -1928,6 +2167,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/6m-4-switch-1-socket-16a.png"
       },
       {
+        "slug": "glass-6m-4-switch-1-socket-6a",
         "title": "6M - 4 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -1935,6 +2175,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/6m-4-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-6m-4-switch-2-fan",
         "title": "6M - 4 Switch 2 Fan",
         "module": null,
         "material": "Glass",
@@ -1942,6 +2183,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/6m-4-switch-2-fan.png"
       },
       {
+        "slug": "glass-6m-6-switch-1-fan",
         "title": "6M - 6 Switch 1 Fan",
         "module": null,
         "material": "Glass",
@@ -1949,6 +2191,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/6m-6-switch-1-fan.png"
       },
       {
+        "slug": "glass-6m-6-switch-1-socket-16a",
         "title": "6M - 6 Switch 1 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -1956,6 +2199,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/6m-6-switch-1-socket-16a.png"
       },
       {
+        "slug": "glass-6m-6-switch-1-socket-6a",
         "title": "6M - 6 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -1963,6 +2207,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/6m-6-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-6m-6-switch",
         "title": "6M - 6 Switch",
         "module": null,
         "material": "Glass",
@@ -1970,6 +2215,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/6m-6-switch.png"
       },
       {
+        "slug": "glass-6m-8-switch",
         "title": "6M - 8 Switch",
         "module": null,
         "material": "Glass",
@@ -1977,6 +2223,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/6m-8-switch.png"
       },
       {
+        "slug": "glass-8m-10-switch",
         "title": "8M - 10 Switch",
         "module": null,
         "material": "Glass",
@@ -1984,6 +2231,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/8m-10-switch.png"
       },
       {
+        "slug": "glass-8m-2-switch-1-16a-2-socket-1-16a",
         "title": "8M - 2 Switch (1-16A) 2 Socket (1-16A)",
         "module": null,
         "material": "Glass",
@@ -1991,6 +2239,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/8m-2-switch-1-16a-2-socket-1-16a.png"
       },
       {
+        "slug": "glass-8m-2-switch-16a-2-socket-16a",
         "title": "8M - 2 Switch (16A) 2 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -1998,6 +2247,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/8m-2-switch-16a-2-socket-16a.png"
       },
       {
+        "slug": "glass-8m-2-switch-2-socket-6a",
         "title": "8M - 2 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -2005,6 +2255,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/8m-2-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-8m-4-switch-16a-2-socket-16a",
         "title": "8M - 4 Switch (16A) 2 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -2012,6 +2263,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/8m-4-switch-16a-2-socket-16a.png"
       },
       {
+        "slug": "glass-8m-4-switch-1-fan-1-socket-6a",
         "title": "8M - 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -2019,6 +2271,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/8m-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "glass-8m-4-switch-1-socket-6a",
         "title": "8M - 4 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -2026,6 +2279,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/8m-4-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-8m-4-switch-2-fan-1-socket-16a",
         "title": "8M - 4 Switch 2 Fan 1 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -2033,6 +2287,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/8m-4-switch-2-fan-1-socket-16a.png"
       },
       {
+        "slug": "glass-8m-4-switch-2-fan-1-socket-6a",
         "title": "8M - 4 Switch 2 Fan 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -2040,6 +2295,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/8m-4-switch-2-fan-1-socket-6a.png"
       },
       {
+        "slug": "glass-8m-4-switch-2-socket-6a",
         "title": "8M - 4 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -2047,6 +2303,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/8m-4-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-8m-6-switch-1-fan-1-socket-16a",
         "title": "8M - 6 Switch 1 Fan 1 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -2054,6 +2311,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/8m-6-switch-1-fan-1-socket-16a.png"
       },
       {
+        "slug": "glass-8m-6-switch-1-fan-1-socket-6a",
         "title": "8M - 6 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -2061,6 +2319,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/8m-6-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "glass-8m-6-switch-1-fan",
         "title": "8M - 6 Switch 1 Fan",
         "module": null,
         "material": "Glass",
@@ -2068,6 +2327,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/8m-6-switch-1-fan.png"
       },
       {
+        "slug": "glass-8m-6-switch-1-socket-6a",
         "title": "8M - 6 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -2075,6 +2335,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/8m-6-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-8m-6-switch-2-fan",
         "title": "8M - 6 Switch 2 Fan",
         "module": null,
         "material": "Glass",
@@ -2082,6 +2343,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/8m-6-switch-2-fan.png"
       },
       {
+        "slug": "glass-8m-6-switch-2-socket-6a",
         "title": "8M - 6 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -2089,6 +2351,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/8m-6-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-8m-8-switch-1-fan",
         "title": "8M - 8 Switch 1 Fan",
         "module": null,
         "material": "Glass",
@@ -2096,6 +2359,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/8m-8-switch-1-fan.png"
       },
       {
+        "slug": "glass-8m-8-switch-1-socket-16a",
         "title": "8M - 8 Switch 1 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -2103,6 +2367,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/8m-8-switch-1-socket-16a.png"
       },
       {
+        "slug": "glass-8m-8-switch-1-socket-6a",
         "title": "8M - 8 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -2110,6 +2375,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/edge/studio/glass/8m-8-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-8m-8-switch",
         "title": "8M - 8 Switch",
         "module": null,
         "material": "Glass",
@@ -2237,6 +2503,7 @@ export const productCollections: ProductCollection[] = [
     "heroImage": "/images/products/color/studio/acrylic/edge-12m-10-switch-1-fan-2-socket-6a.png",
     "studioModules": [
       {
+        "slug": "acrylic-edge-12m-10-switch-1-fan-2-socket-6a",
         "title": "Edge 12M - 10 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2244,6 +2511,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-12m-10-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-12m-10-switch-2-socket-6a",
         "title": "Edge 12M - 10 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2251,6 +2519,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-12m-10-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-12m-12-switch-2-fan",
         "title": "Edge 12M - 12 Switch 2 Fan",
         "module": null,
         "material": "Acrylic",
@@ -2258,6 +2527,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-12m-12-switch-2-fan.png"
       },
       {
+        "slug": "acrylic-edge-12m-12-switch-2-socket-6a",
         "title": "Edge 12M - 12 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2265,6 +2535,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-12m-12-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-12m-12-switch",
         "title": "Edge 12M - 12 Switch",
         "module": null,
         "material": "Acrylic",
@@ -2272,6 +2543,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-12m-12-switch.png"
       },
       {
+        "slug": "acrylic-edge-12m-16-switch",
         "title": "Edge 12M - 16 Switch",
         "module": null,
         "material": "Acrylic",
@@ -2279,6 +2551,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-12m-16-switch.png"
       },
       {
+        "slug": "acrylic-edge-12m-4-switch-1-fan-1-socket-6a",
         "title": "Edge 12M - 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2286,6 +2559,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-12m-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-12m-4-switch-1-fan-2-socket-6a",
         "title": "Edge 12M - 4 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2293,6 +2567,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-12m-4-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-12m-6-switch-1-fan-1-socket-6a",
         "title": "Edge 12M - 6 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2300,6 +2575,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-12m-6-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-12m-6-switch-1-fan-2-socket-6a",
         "title": "Edge 12M - 6 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2307,6 +2583,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-12m-6-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-12m-6-switch-2-fan-2-socket-6a",
         "title": "Edge 12M - 6 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2314,6 +2591,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-12m-6-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-12m-8-switch-1-fan-1-socket-6a",
         "title": "Edge 12M - 8 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2321,6 +2599,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-12m-8-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-12m-8-switch-1-fan-2-socket-6a",
         "title": "Edge 12M - 8 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2328,6 +2607,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-12m-8-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-12m-8-switch-1-socket-6a",
         "title": "Edge 12M - 8 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2335,6 +2615,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-12m-8-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-12m-8-switch-2-fan-2-socket-6a",
         "title": "Edge 12M - 8 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2342,6 +2623,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-12m-8-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-12m-8-switch-2-fan",
         "title": "Edge 12M - 8 Switch 2 Fan",
         "module": null,
         "material": "Acrylic",
@@ -2349,6 +2631,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-12m-8-switch-2-fan.png"
       },
       {
+        "slug": "acrylic-edge-12m-8-switch-2-socket-6a",
         "title": "Edge 12M - 8 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2356,6 +2639,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-12m-8-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-2m-2-dimmer",
         "title": "Edge 2M - 2 Dimmer",
         "module": null,
         "material": "Acrylic",
@@ -2363,6 +2647,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-2m-2-dimmer.png"
       },
       {
+        "slug": "acrylic-edge-2m-2-switch-1-16a",
         "title": "Edge 2M - 2 Switch (1-16A)",
         "module": null,
         "material": "Acrylic",
@@ -2370,6 +2655,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-2m-2-switch-1-16a.png"
       },
       {
+        "slug": "acrylic-edge-2m-2-switch-1-2way",
         "title": "Edge 2M - 2 Switch (1-2way)",
         "module": null,
         "material": "Acrylic",
@@ -2377,6 +2663,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-2m-2-switch-1-2way.png"
       },
       {
+        "slug": "acrylic-edge-2m-4-switch-all-6a",
         "title": "Edge 2M - 4 Switch (All 6A)",
         "module": null,
         "material": "Acrylic",
@@ -2384,6 +2671,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-2m-4-switch-all-6a.png"
       },
       {
+        "slug": "acrylic-edge-2m-4s-scene-control",
         "title": "Edge 2M - 4S Scene Control",
         "module": null,
         "material": "Acrylic",
@@ -2391,6 +2679,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-2m-4s-scene-control.png"
       },
       {
+        "slug": "acrylic-edge-2m-curtain",
         "title": "Edge 2M - Curtain",
         "module": null,
         "material": "Acrylic",
@@ -2398,6 +2687,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-2m-curtain.png"
       },
       {
+        "slug": "acrylic-edge-2m-door-bell",
         "title": "Edge 2M - Door Bell",
         "module": null,
         "material": "Acrylic",
@@ -2405,6 +2695,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-2m-door-bell.png"
       },
       {
+        "slug": "acrylic-edge-2m-dual-curtain",
         "title": "Edge 2M - Dual Curtain",
         "module": null,
         "material": "Acrylic",
@@ -2412,6 +2703,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-2m-dual-curtain.png"
       },
       {
+        "slug": "acrylic-edge-3m-2-switch",
         "title": "Edge 3M - 2 Switch",
         "module": null,
         "material": "Acrylic",
@@ -2419,6 +2711,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-3m-2-switch.png"
       },
       {
+        "slug": "acrylic-edge-3m-4-switch-all-6a",
         "title": "Edge 3M - 4 Switch (All 6A)",
         "module": null,
         "material": "Acrylic",
@@ -2426,6 +2719,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-3m-4-switch-all-6a.png"
       },
       {
+        "slug": "acrylic-edge-4m-2-switch-1-16a-1-socket-16a",
         "title": "Edge 4M - 2 Switch (1-16A) 1 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -2433,6 +2727,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-4m-2-switch-1-16a-1-socket-16a.png"
       },
       {
+        "slug": "acrylic-edge-4m-2-switch-1-socket-6a",
         "title": "Edge 4M - 2 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2440,6 +2735,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-4m-2-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-4m-4-switch-all-6a-1-socket-6a",
         "title": "Edge 4M - 4 Switch (All 6A) 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2447,6 +2743,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-4m-4-switch-all-6a-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-4m-4-switch-1-fan",
         "title": "Edge 4M - 4 Switch 1 Fan",
         "module": null,
         "material": "Acrylic",
@@ -2454,6 +2751,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-4m-4-switch-1-fan.png"
       },
       {
+        "slug": "acrylic-edge-4m-4-switch",
         "title": "Edge 4M - 4 Switch",
         "module": null,
         "material": "Acrylic",
@@ -2461,6 +2759,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-4m-4-switch.png"
       },
       {
+        "slug": "acrylic-edge-4m-6-switch",
         "title": "Edge 4M - 6 Switch",
         "module": null,
         "material": "Acrylic",
@@ -2468,6 +2767,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-4m-6-switch.png"
       },
       {
+        "slug": "acrylic-edge-6m-2-switch-1-16a-2-socket-1-16a",
         "title": "Edge 6M - 2 Switch (1-16A) 2 Socket (1-16A)",
         "module": null,
         "material": "Acrylic",
@@ -2475,6 +2775,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-6m-2-switch-1-16a-2-socket-1-16a.png"
       },
       {
+        "slug": "acrylic-edge-6m-2-switch-16a-2-socket-16a",
         "title": "Edge 6M - 2 Switch (16A) 2 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -2482,6 +2783,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-6m-2-switch-16a-2-socket-16a.png"
       },
       {
+        "slug": "acrylic-edge-6m-2-switch-2-socket-6a",
         "title": "Edge 6M - 2 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2489,6 +2791,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-6m-2-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-6m-4-switch-all-6a-2-socket-6a",
         "title": "Edge 6M - 4 Switch (All 6A) 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2496,6 +2799,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-6m-4-switch-all-6a-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-6m-4-switch-1-fan-1-socket-16a",
         "title": "Edge 6M - 4 Switch 1 Fan 1 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -2503,6 +2807,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-6m-4-switch-1-fan-1-socket-16a.png"
       },
       {
+        "slug": "acrylic-edge-6m-4-switch-1-fan-1-socket-6a",
         "title": "Edge 6M - 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2510,6 +2815,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-6m-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-6m-4-switch-1-socket-16a",
         "title": "Edge 6M - 4 Switch 1 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -2517,6 +2823,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-6m-4-switch-1-socket-16a.png"
       },
       {
+        "slug": "acrylic-edge-6m-4-switch-1-socket-6a",
         "title": "Edge 6M - 4 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2524,6 +2831,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-6m-4-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-6m-4-switch-2-fan",
         "title": "Edge 6M - 4 Switch 2 Fan",
         "module": null,
         "material": "Acrylic",
@@ -2531,6 +2839,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-6m-4-switch-2-fan.png"
       },
       {
+        "slug": "acrylic-edge-6m-6-switch-1-fan",
         "title": "Edge 6M - 6 Switch 1 Fan",
         "module": null,
         "material": "Acrylic",
@@ -2538,6 +2847,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-6m-6-switch-1-fan.png"
       },
       {
+        "slug": "acrylic-edge-6m-6-switch-1-socket-16a",
         "title": "Edge 6M - 6 Switch 1 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -2545,6 +2855,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-6m-6-switch-1-socket-16a.png"
       },
       {
+        "slug": "acrylic-edge-6m-6-switch-1-socket-6a",
         "title": "Edge 6M - 6 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2552,6 +2863,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-6m-6-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-6m-6-switch",
         "title": "Edge 6M - 6 Switch",
         "module": null,
         "material": "Acrylic",
@@ -2559,6 +2871,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-6m-6-switch.png"
       },
       {
+        "slug": "acrylic-edge-6m-8-switch",
         "title": "Edge 6M - 8 Switch",
         "module": null,
         "material": "Acrylic",
@@ -2566,6 +2879,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-6m-8-switch.png"
       },
       {
+        "slug": "acrylic-edge-8m-10-switch",
         "title": "Edge 8M - 10 Switch",
         "module": null,
         "material": "Acrylic",
@@ -2573,6 +2887,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-8m-10-switch.png"
       },
       {
+        "slug": "acrylic-edge-8m-2-switch-1-16a-2-socket-1-16a",
         "title": "Edge 8M - 2 Switch (1-16A) 2 Socket (1-16A)",
         "module": null,
         "material": "Acrylic",
@@ -2580,6 +2895,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-8m-2-switch-1-16a-2-socket-1-16a.png"
       },
       {
+        "slug": "acrylic-edge-8m-2-switch-1-16a-3-socket-6a",
         "title": "Edge 8M - 2 Switch (1-16A) 3 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2587,6 +2903,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-8m-2-switch-1-16a-3-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-8m-2-switch-16a-2-socket-16a",
         "title": "Edge 8M - 2 Switch (16A) 2 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -2594,6 +2911,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-8m-2-switch-16a-2-socket-16a.png"
       },
       {
+        "slug": "acrylic-edge-8m-2-switch-2-socket-6a",
         "title": "Edge 8M - 2 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2601,6 +2919,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-8m-2-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-8m-4-switch-16a-2-socket-16a",
         "title": "Edge 8M - 4 Switch (16A) 2 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -2608,6 +2927,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-8m-4-switch-16a-2-socket-16a.png"
       },
       {
+        "slug": "acrylic-edge-8m-4-switch-1-fan-1-socket-6a",
         "title": "Edge 8M - 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2615,6 +2935,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-8m-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-8m-4-switch-1-socket-6a",
         "title": "Edge 8M - 4 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2622,6 +2943,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-8m-4-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-8m-4-switch-2-fan-1-socket-6a",
         "title": "Edge 8M - 4 Switch 2 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2629,6 +2951,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-8m-4-switch-2-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-8m-4-switch-2-socket-6a",
         "title": "Edge 8M - 4 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2636,6 +2959,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-8m-4-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-8m-6-switch-1-fan-1-socket-16a",
         "title": "Edge 8M - 6 Switch 1 Fan 1 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -2643,6 +2967,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-8m-6-switch-1-fan-1-socket-16a.png"
       },
       {
+        "slug": "acrylic-edge-8m-6-switch-1-fan-1-socket-6a",
         "title": "Edge 8M - 6 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2650,6 +2975,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-8m-6-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-8m-6-switch-1-fan",
         "title": "Edge 8M - 6 Switch 1 Fan",
         "module": null,
         "material": "Acrylic",
@@ -2657,6 +2983,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-8m-6-switch-1-fan.png"
       },
       {
+        "slug": "acrylic-edge-8m-6-switch-1-socket-16a",
         "title": "Edge 8M - 6 Switch 1 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -2664,6 +2991,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-8m-6-switch-1-socket-16a.png"
       },
       {
+        "slug": "acrylic-edge-8m-6-switch-1-socket-6a",
         "title": "Edge 8M - 6 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2671,6 +2999,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-8m-6-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-8m-6-switch-2-fan",
         "title": "Edge 8M - 6 Switch 2 Fan",
         "module": null,
         "material": "Acrylic",
@@ -2678,6 +3007,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-8m-6-switch-2-fan.png"
       },
       {
+        "slug": "acrylic-edge-8m-6-switch-2-socket-6a",
         "title": "Edge 8M - 6 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2685,6 +3015,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-8m-6-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-8m-8-switch-1-fan",
         "title": "Edge 8M - 8 Switch 1 Fan",
         "module": null,
         "material": "Acrylic",
@@ -2692,6 +3023,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-8m-8-switch-1-fan.png"
       },
       {
+        "slug": "acrylic-edge-8m-8-switch-1-socket-16a",
         "title": "Edge 8M - 8 Switch 1 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -2699,6 +3031,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-8m-8-switch-1-socket-16a.png"
       },
       {
+        "slug": "acrylic-edge-8m-8-switch-1-socket-6a",
         "title": "Edge 8M - 8 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -2706,6 +3039,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-8m-8-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-edge-8m-8-switch",
         "title": "Edge 8M - 8 Switch",
         "module": null,
         "material": "Acrylic",
@@ -2713,6 +3047,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/edge-8m-8-switch.png"
       },
       {
+        "slug": "glass-edge-12m-10-switch-1-fan-2-socket-6a",
         "title": "Edge 12M - 10 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -2720,6 +3055,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-12m-10-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-edge-12m-10-switch-2-socket-6a",
         "title": "Edge 12M - 10 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -2727,6 +3063,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-12m-10-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-edge-12m-12-switch-2-fan",
         "title": "Edge 12M - 12 Switch 2 Fan",
         "module": null,
         "material": "Glass",
@@ -2734,6 +3071,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-12m-12-switch-2-fan.png"
       },
       {
+        "slug": "glass-edge-12m-12-switch-2-socket-6a",
         "title": "Edge 12M - 12 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -2741,6 +3079,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-12m-12-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-edge-12m-12-switch",
         "title": "Edge 12M - 12 Switch",
         "module": null,
         "material": "Glass",
@@ -2748,6 +3087,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-12m-12-switch.png"
       },
       {
+        "slug": "glass-edge-12m-16-switch",
         "title": "Edge 12M - 16 Switch",
         "module": null,
         "material": "Glass",
@@ -2755,6 +3095,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-12m-16-switch.png"
       },
       {
+        "slug": "glass-edge-12m-4-switch-1-fan-2-socket-6a",
         "title": "Edge 12M - 4 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -2762,6 +3103,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-12m-4-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-edge-12m-6-switch-1-fan-2-socket-6a",
         "title": "Edge 12M - 6 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -2769,6 +3111,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-12m-6-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-edge-12m-6-switch-2-fan-2-socket-6a",
         "title": "Edge 12M - 6 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -2776,6 +3119,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-12m-6-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-edge-12m-8-switch-1-fan-2-socket-6a",
         "title": "Edge 12M - 8 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -2783,6 +3127,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-12m-8-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-edge-12m-8-switch-2-fan-2-socket-6a",
         "title": "Edge 12M - 8 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -2790,6 +3135,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-12m-8-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-edge-12m-8-switch-2-fan",
         "title": "Edge 12M - 8 Switch 2 Fan",
         "module": null,
         "material": "Glass",
@@ -2797,6 +3143,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-12m-8-switch-2-fan.png"
       },
       {
+        "slug": "glass-edge-12m-8-switch-2-socket-6a",
         "title": "Edge 12M - 8 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -2804,6 +3151,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-12m-8-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-edge-2m-2-dimmer",
         "title": "Edge 2M - 2 Dimmer",
         "module": null,
         "material": "Glass",
@@ -2811,6 +3159,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-2m-2-dimmer.png"
       },
       {
+        "slug": "glass-edge-2m-2-switch-1-16a",
         "title": "Edge 2M - 2 Switch (1-16A)",
         "module": null,
         "material": "Glass",
@@ -2818,6 +3167,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-2m-2-switch-1-16a.png"
       },
       {
+        "slug": "glass-edge-2m-2-switch-1-2way",
         "title": "Edge 2M - 2 Switch (1-2way)",
         "module": null,
         "material": "Glass",
@@ -2825,6 +3175,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-2m-2-switch-1-2way.png"
       },
       {
+        "slug": "glass-edge-2m-4-switch-all-6a",
         "title": "Edge 2M - 4 Switch (All 6A)",
         "module": null,
         "material": "Glass",
@@ -2832,6 +3183,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-2m-4-switch-all-6a.png"
       },
       {
+        "slug": "glass-edge-2m-4s-scene-control",
         "title": "Edge 2M - 4S Scene Control",
         "module": null,
         "material": "Glass",
@@ -2839,6 +3191,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-2m-4s-scene-control.png"
       },
       {
+        "slug": "glass-edge-2m-curtain",
         "title": "Edge 2M - Curtain",
         "module": null,
         "material": "Glass",
@@ -2846,6 +3199,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-2m-curtain.png"
       },
       {
+        "slug": "glass-edge-2m-door-bell",
         "title": "Edge 2M - Door Bell",
         "module": null,
         "material": "Glass",
@@ -2853,6 +3207,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-2m-door-bell.png"
       },
       {
+        "slug": "glass-edge-2m-dual-curtain",
         "title": "Edge 2M - Dual Curtain",
         "module": null,
         "material": "Glass",
@@ -2860,6 +3215,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-2m-dual-curtain.png"
       },
       {
+        "slug": "glass-edge-3m-2-switch",
         "title": "Edge 3M - 2 Switch",
         "module": null,
         "material": "Glass",
@@ -2867,6 +3223,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-3m-2-switch.png"
       },
       {
+        "slug": "glass-edge-3m-4-switch-all-6a",
         "title": "Edge 3M - 4 Switch (All 6A)",
         "module": null,
         "material": "Glass",
@@ -2874,6 +3231,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-3m-4-switch-all-6a.png"
       },
       {
+        "slug": "glass-edge-4m-2-switch-1-16a-1-socket-16a",
         "title": "Edge 4M - 2 Switch (1-16A) 1 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -2881,6 +3239,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-4m-2-switch-1-16a-1-socket-16a.png"
       },
       {
+        "slug": "glass-edge-4m-2-switch-1-socket-6a",
         "title": "Edge 4M - 2 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -2888,6 +3247,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-4m-2-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-edge-4m-4-switch-all-6a-1-socket-6a",
         "title": "Edge 4M - 4 Switch (All 6A) 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -2895,6 +3255,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-4m-4-switch-all-6a-1-socket-6a.png"
       },
       {
+        "slug": "glass-edge-4m-4-switch-1-fan",
         "title": "Edge 4M - 4 Switch 1 Fan",
         "module": null,
         "material": "Glass",
@@ -2902,6 +3263,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-4m-4-switch-1-fan.png"
       },
       {
+        "slug": "glass-edge-4m-4-switch",
         "title": "Edge 4M - 4 Switch",
         "module": null,
         "material": "Glass",
@@ -2909,6 +3271,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-4m-4-switch.png"
       },
       {
+        "slug": "glass-edge-4m-6-switch",
         "title": "Edge 4M - 6 Switch",
         "module": null,
         "material": "Glass",
@@ -2916,6 +3279,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-4m-6-switch.png"
       },
       {
+        "slug": "glass-edge-6m-2-switch-1-16a-2-socket-1-16a",
         "title": "Edge 6M - 2 Switch (1-16A) 2 Socket (1-16A)",
         "module": null,
         "material": "Glass",
@@ -2923,6 +3287,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-6m-2-switch-1-16a-2-socket-1-16a.png"
       },
       {
+        "slug": "glass-edge-6m-2-switch-2-socket-16a",
         "title": "Edge 6M - 2 Switch 2 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -2930,6 +3295,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-6m-2-switch-2-socket-16a.png"
       },
       {
+        "slug": "glass-edge-6m-2-switch-2-socket-6a",
         "title": "Edge 6M - 2 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -2937,6 +3303,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-6m-2-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-edge-6m-4-switch-all-6a-2-socket-6a",
         "title": "Edge 6M - 4 Switch (All 6A) 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -2944,6 +3311,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-6m-4-switch-all-6a-2-socket-6a.png"
       },
       {
+        "slug": "glass-edge-6m-4-switch-1-fan-1-socket-16a",
         "title": "Edge 6M - 4 Switch 1 Fan 1 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -2951,6 +3319,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-6m-4-switch-1-fan-1-socket-16a.png"
       },
       {
+        "slug": "glass-edge-6m-4-switch-1-fan-1-socket-6a",
         "title": "Edge 6M - 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -2958,6 +3327,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-6m-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "glass-edge-6m-4-switch-1-socket-16a",
         "title": "Edge 6M - 4 Switch 1 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -2965,6 +3335,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-6m-4-switch-1-socket-16a.png"
       },
       {
+        "slug": "glass-edge-6m-4-switch-1-socket-6a",
         "title": "Edge 6M - 4 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -2972,6 +3343,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-6m-4-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-edge-6m-4-switch-2-fan",
         "title": "Edge 6M - 4 Switch 2 Fan",
         "module": null,
         "material": "Glass",
@@ -2979,6 +3351,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-6m-4-switch-2-fan.png"
       },
       {
+        "slug": "glass-edge-6m-6-switch-1-fan",
         "title": "Edge 6M - 6 Switch 1 Fan",
         "module": null,
         "material": "Glass",
@@ -2986,6 +3359,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-6m-6-switch-1-fan.png"
       },
       {
+        "slug": "glass-edge-6m-6-switch-1-socket-16a",
         "title": "Edge 6M - 6 Switch 1 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -2993,6 +3367,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-6m-6-switch-1-socket-16a.png"
       },
       {
+        "slug": "glass-edge-6m-6-switch-1-socket-6a",
         "title": "Edge 6M - 6 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3000,6 +3375,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-6m-6-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-edge-6m-6-switch",
         "title": "Edge 6M - 6 Switch",
         "module": null,
         "material": "Glass",
@@ -3007,6 +3383,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-6m-6-switch.png"
       },
       {
+        "slug": "glass-edge-6m-8-switch",
         "title": "Edge 6M - 8 Switch",
         "module": null,
         "material": "Glass",
@@ -3014,6 +3391,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-6m-8-switch.png"
       },
       {
+        "slug": "glass-edge-8m-10-switch",
         "title": "Edge 8M - 10 Switch",
         "module": null,
         "material": "Glass",
@@ -3021,6 +3399,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-8m-10-switch.png"
       },
       {
+        "slug": "glass-edge-8m-2-switch-1-16a-2-socket-1-16a",
         "title": "Edge 8M - 2 Switch (1-16A) 2 Socket (1-16A)",
         "module": null,
         "material": "Glass",
@@ -3028,6 +3407,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-8m-2-switch-1-16a-2-socket-1-16a.png"
       },
       {
+        "slug": "glass-edge-8m-2-switch-2-16a-2-socket-16a",
         "title": "Edge 8M - 2 Switch (2-16A) 2 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -3035,6 +3415,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-8m-2-switch-2-16a-2-socket-16a.png"
       },
       {
+        "slug": "glass-edge-8m-2-switch-2-socket-6a",
         "title": "Edge 8M - 2 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3042,6 +3423,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-8m-2-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-edge-8m-4-switch-16a-2-socket-16a",
         "title": "Edge 8M - 4 Switch (16A) 2 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -3049,6 +3431,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-8m-4-switch-16a-2-socket-16a.png"
       },
       {
+        "slug": "glass-edge-8m-4-switch-1-fan-1-socket-6a",
         "title": "Edge 8M - 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3056,6 +3439,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-8m-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "glass-edge-8m-4-switch-1-socket-6a",
         "title": "Edge 8M - 4 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3063,6 +3447,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-8m-4-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-edge-8m-4-switch-2-fan-1-socket-16a",
         "title": "Edge 8M - 4 Switch 2 Fan 1 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -3070,6 +3455,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-8m-4-switch-2-fan-1-socket-16a.png"
       },
       {
+        "slug": "glass-edge-8m-4-switch-2-fan-1-socket-6a",
         "title": "Edge 8M - 4 Switch 2 Fan 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3077,6 +3463,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-8m-4-switch-2-fan-1-socket-6a.png"
       },
       {
+        "slug": "glass-edge-8m-4-switch-2-socket-6a",
         "title": "Edge 8M - 4 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3084,6 +3471,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-8m-4-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-edge-8m-6-switch-1-fan-1-socket-16a",
         "title": "Edge 8M - 6 Switch 1 Fan 1 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -3091,6 +3479,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-8m-6-switch-1-fan-1-socket-16a.png"
       },
       {
+        "slug": "glass-edge-8m-6-switch-1-fan-1-socket-6a",
         "title": "Edge 8M - 6 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3098,6 +3487,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-8m-6-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "glass-edge-8m-6-switch-1-fan",
         "title": "Edge 8M - 6 Switch 1 Fan",
         "module": null,
         "material": "Glass",
@@ -3105,6 +3495,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-8m-6-switch-1-fan.png"
       },
       {
+        "slug": "glass-edge-8m-6-switch-1-socket-6a",
         "title": "Edge 8M - 6 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3112,6 +3503,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-8m-6-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-edge-8m-6-switch-2-fan",
         "title": "Edge 8M - 6 Switch 2 Fan",
         "module": null,
         "material": "Glass",
@@ -3119,6 +3511,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-8m-6-switch-2-fan.png"
       },
       {
+        "slug": "glass-edge-8m-6-switch-2-socket-6a",
         "title": "Edge 8M - 6 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3126,6 +3519,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-8m-6-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-edge-8m-8-switch-1-fan",
         "title": "Edge 8M - 8 Switch 1 Fan",
         "module": null,
         "material": "Glass",
@@ -3133,6 +3527,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-8m-8-switch-1-fan.png"
       },
       {
+        "slug": "glass-edge-8m-8-switch-1-socket-16a",
         "title": "Edge 8M - 8 Switch 1 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -3140,6 +3535,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-8m-8-switch-1-socket-16a.png"
       },
       {
+        "slug": "glass-edge-8m-8-switch-1-socket-6a",
         "title": "Edge 8M - 8 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3147,6 +3543,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-8m-8-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-edge-8m-8-switch",
         "title": "Edge 8M - 8 Switch",
         "module": null,
         "material": "Glass",
@@ -3154,6 +3551,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/edge-8m-8-switch.png"
       },
       {
+        "slug": "acrylic-touch-12m-10-switch-1-fan-2-socket-6a",
         "title": "Touch 12M - 10 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3161,6 +3559,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-12m-10-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-12m-10-switch-2-socket-6a",
         "title": "Touch 12M - 10 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3168,6 +3567,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-12m-10-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-12m-12-switch-2-fan",
         "title": "Touch 12M - 12 Switch 2 Fan",
         "module": null,
         "material": "Acrylic",
@@ -3175,6 +3575,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-12m-12-switch-2-fan.png"
       },
       {
+        "slug": "acrylic-touch-12m-12-switch-2-socket-6a",
         "title": "Touch 12M - 12 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3182,6 +3583,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-12m-12-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-12m-12-switch",
         "title": "Touch 12M - 12 Switch",
         "module": null,
         "material": "Acrylic",
@@ -3189,6 +3591,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-12m-12-switch.png"
       },
       {
+        "slug": "acrylic-touch-12m-16-switch",
         "title": "Touch 12M - 16 Switch",
         "module": null,
         "material": "Acrylic",
@@ -3196,6 +3599,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-12m-16-switch.png"
       },
       {
+        "slug": "acrylic-touch-12m-4-switch-1-fan-1-socket-6a",
         "title": "Touch 12M - 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3203,6 +3607,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-12m-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-12m-4-switch-1-fan-2-socket-6a",
         "title": "Touch 12M - 4 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3210,6 +3615,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-12m-4-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-12m-6-switch-1-fan-1-socket-6a",
         "title": "Touch 12M - 6 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3217,6 +3623,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-12m-6-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-12m-6-switch-1-fan-2-socket-6a",
         "title": "Touch 12M - 6 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3224,6 +3631,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-12m-6-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-12m-6-switch-2-fan-2-socket-6a",
         "title": "Touch 12M - 6 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3231,6 +3639,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-12m-6-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-12m-8-switch-1-fan-1-socket-6a",
         "title": "Touch 12M - 8 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3238,6 +3647,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-12m-8-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-12m-8-switch-1-fan-2-socket-6a",
         "title": "Touch 12M - 8 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3245,6 +3655,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-12m-8-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-12m-8-switch-1-socket-6a",
         "title": "Touch 12M - 8 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3252,6 +3663,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-12m-8-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-12m-8-switch-2-fan-2-socket-6a",
         "title": "Touch 12M - 8 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3259,6 +3671,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-12m-8-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-12m-8-switch-2-fan",
         "title": "Touch 12M - 8 Switch 2 Fan",
         "module": null,
         "material": "Acrylic",
@@ -3266,6 +3679,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-12m-8-switch-2-fan.png"
       },
       {
+        "slug": "acrylic-touch-12m-8-switch-2-socket-6a",
         "title": "Touch 12M - 8 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3273,6 +3687,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-12m-8-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-16m-12-switch-2-fan-2-socket-6a",
         "title": "Touch 16M - 12 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3280,6 +3695,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-16m-12-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-16m-16-switch-2-socket-6a",
         "title": "Touch 16M - 16 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3287,6 +3703,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-16m-16-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-18m-12-switch-2-fan-2-socket-6a",
         "title": "Touch 18M - 12 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3294,6 +3711,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-18m-12-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-18m-16-switch-2-socket-6a",
         "title": "Touch 18M - 16 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3301,6 +3719,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-18m-16-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-18m-8-switch-2-fan-2-socket-6a",
         "title": "Touch 18M - 8 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3308,6 +3727,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-18m-8-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-2m-2-dimmer",
         "title": "Touch 2M - 2 Dimmer",
         "module": null,
         "material": "Acrylic",
@@ -3315,6 +3735,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-2m-2-dimmer.png"
       },
       {
+        "slug": "acrylic-touch-2m-2-switch-1-16a",
         "title": "Touch 2M - 2 Switch (1-16A)",
         "module": null,
         "material": "Acrylic",
@@ -3322,6 +3743,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-2m-2-switch-1-16a.png"
       },
       {
+        "slug": "acrylic-touch-2m-2-switch",
         "title": "Touch 2M - 2 Switch",
         "module": null,
         "material": "Acrylic",
@@ -3329,6 +3751,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-2m-2-switch.png"
       },
       {
+        "slug": "acrylic-touch-2m-4-switch-all-6a",
         "title": "Touch 2M - 4 Switch (All 6A)",
         "module": null,
         "material": "Acrylic",
@@ -3336,6 +3759,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-2m-4-switch-all-6a.png"
       },
       {
+        "slug": "acrylic-touch-2m-4s-scene-control",
         "title": "Touch 2M - 4S Scene Control",
         "module": null,
         "material": "Acrylic",
@@ -3343,6 +3767,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-2m-4s-scene-control.png"
       },
       {
+        "slug": "acrylic-touch-2m-curtain",
         "title": "Touch 2M - Curtain",
         "module": null,
         "material": "Acrylic",
@@ -3350,6 +3775,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-2m-curtain.png"
       },
       {
+        "slug": "acrylic-touch-2m-door-bell",
         "title": "Touch 2M - Door Bell",
         "module": null,
         "material": "Acrylic",
@@ -3357,6 +3783,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-2m-door-bell.png"
       },
       {
+        "slug": "acrylic-touch-2m-dual-curtain",
         "title": "Touch 2M - Dual Curtain",
         "module": null,
         "material": "Acrylic",
@@ -3364,6 +3791,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-2m-dual-curtain.png"
       },
       {
+        "slug": "acrylic-touch-3m-2-switch",
         "title": "Touch 3M - 2 Switch",
         "module": null,
         "material": "Acrylic",
@@ -3371,6 +3799,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-3m-2-switch.png"
       },
       {
+        "slug": "acrylic-touch-3m-4-switch-all-6a",
         "title": "Touch 3M - 4 Switch (All 6A)",
         "module": null,
         "material": "Acrylic",
@@ -3378,6 +3807,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-3m-4-switch-all-6a.png"
       },
       {
+        "slug": "acrylic-touch-4m-2-switch-1-16a-1-socket-16a",
         "title": "Touch 4M - 2 Switch (1-16A) 1 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -3385,6 +3815,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-4m-2-switch-1-16a-1-socket-16a.png"
       },
       {
+        "slug": "acrylic-touch-4m-2-switch-1-socket-6a",
         "title": "Touch 4M - 2 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3392,6 +3823,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-4m-2-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-4m-4-switch-all-6a-1-socket-6a",
         "title": "Touch 4M - 4 Switch (All 6A) 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3399,6 +3831,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-4m-4-switch-all-6a-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-4m-4-switch-1-fan",
         "title": "Touch 4M - 4 Switch 1 Fan",
         "module": null,
         "material": "Acrylic",
@@ -3406,6 +3839,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-4m-4-switch-1-fan.png"
       },
       {
+        "slug": "acrylic-touch-4m-4-switch",
         "title": "Touch 4M - 4 Switch",
         "module": null,
         "material": "Acrylic",
@@ -3413,6 +3847,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-4m-4-switch.png"
       },
       {
+        "slug": "acrylic-touch-4m-6-switch",
         "title": "Touch 4M - 6 Switch",
         "module": null,
         "material": "Acrylic",
@@ -3420,6 +3855,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-4m-6-switch.png"
       },
       {
+        "slug": "acrylic-touch-6m-2-switch-1-16a-2-socket-1-16a",
         "title": "Touch 6M - 2 Switch (1-16A) 2 Socket (1-16A)",
         "module": null,
         "material": "Acrylic",
@@ -3427,6 +3863,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-6m-2-switch-1-16a-2-socket-1-16a.png"
       },
       {
+        "slug": "acrylic-touch-6m-2-switch-16a-2-socket-16a",
         "title": "Touch 6M - 2 Switch (16A) 2 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -3434,6 +3871,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-6m-2-switch-16a-2-socket-16a.png"
       },
       {
+        "slug": "acrylic-touch-6m-2-switch-2-socket-6a",
         "title": "Touch 6M - 2 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3441,6 +3879,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-6m-2-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-6m-4-switch-all-6a-2-socket-6a",
         "title": "Touch 6M - 4 Switch (All 6A) 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3448,6 +3887,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-6m-4-switch-all-6a-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-6m-4-switch-1-fan-1-socket-16a",
         "title": "Touch 6M - 4 Switch 1 Fan 1 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -3455,6 +3895,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-6m-4-switch-1-fan-1-socket-16a.png"
       },
       {
+        "slug": "acrylic-touch-6m-4-switch-1-fan-1-socket-6a",
         "title": "Touch 6M - 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3462,6 +3903,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-6m-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-6m-4-switch-1-socket-16a",
         "title": "Touch 6M - 4 Switch 1 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -3469,6 +3911,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-6m-4-switch-1-socket-16a.png"
       },
       {
+        "slug": "acrylic-touch-6m-4-switch-1-socket-6a",
         "title": "Touch 6M - 4 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3476,6 +3919,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-6m-4-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-6m-4-switch-2-fan",
         "title": "Touch 6M - 4 Switch 2 Fan",
         "module": null,
         "material": "Acrylic",
@@ -3483,6 +3927,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-6m-4-switch-2-fan.png"
       },
       {
+        "slug": "acrylic-touch-6m-6-switch-1-fan",
         "title": "Touch 6M - 6 Switch 1 Fan",
         "module": null,
         "material": "Acrylic",
@@ -3490,6 +3935,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-6m-6-switch-1-fan.png"
       },
       {
+        "slug": "acrylic-touch-6m-6-switch-1-socket-16a",
         "title": "Touch 6M - 6 Switch 1 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -3497,6 +3943,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-6m-6-switch-1-socket-16a.png"
       },
       {
+        "slug": "acrylic-touch-6m-6-switch-1-socket-6a",
         "title": "Touch 6M - 6 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3504,6 +3951,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-6m-6-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-6m-6-switch",
         "title": "Touch 6M - 6 Switch",
         "module": null,
         "material": "Acrylic",
@@ -3511,6 +3959,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-6m-6-switch.png"
       },
       {
+        "slug": "acrylic-touch-6m-8-switch",
         "title": "Touch 6M - 8 Switch",
         "module": null,
         "material": "Acrylic",
@@ -3518,6 +3967,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-6m-8-switch.png"
       },
       {
+        "slug": "acrylic-touch-8m-10-switch",
         "title": "Touch 8M - 10 Switch",
         "module": null,
         "material": "Acrylic",
@@ -3525,6 +3975,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8m-10-switch.png"
       },
       {
+        "slug": "acrylic-touch-8m-2-switch-1-16a-2-socket-1-16a",
         "title": "Touch 8M - 2 Switch (1-16A) 2 Socket (1-16A)",
         "module": null,
         "material": "Acrylic",
@@ -3532,6 +3983,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8m-2-switch-1-16a-2-socket-1-16a.png"
       },
       {
+        "slug": "acrylic-touch-8m-2-switch-1-16a-3-socket-6a",
         "title": "Touch 8M - 2 Switch (1-16A) 3 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3539,6 +3991,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8m-2-switch-1-16a-3-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-8m-2-switch-16a-2-socket-16a",
         "title": "Touch 8M - 2 Switch (16A) 2 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -3546,6 +3999,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8m-2-switch-16a-2-socket-16a.png"
       },
       {
+        "slug": "acrylic-touch-8m-2-switch-2-socket-6a",
         "title": "Touch 8M - 2 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3553,6 +4007,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8m-2-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-8m-4-switch-16a-2-socket-16a",
         "title": "Touch 8M - 4 Switch (16A) 2 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -3560,6 +4015,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8m-4-switch-16a-2-socket-16a.png"
       },
       {
+        "slug": "acrylic-touch-8m-4-switch-1-fan-1-socket-6a",
         "title": "Touch 8M - 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3567,6 +4023,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8m-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-8m-4-switch-1-socket-6a",
         "title": "Touch 8M - 4 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3574,6 +4031,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8m-4-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-8m-4-switch-2-fan-1-socket-16a",
         "title": "Touch 8M - 4 Switch 2 Fan 1 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -3581,6 +4039,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8m-4-switch-2-fan-1-socket-16a.png"
       },
       {
+        "slug": "acrylic-touch-8m-4-switch-2-fan-1-socket-6a",
         "title": "Touch 8M - 4 Switch 2 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3588,6 +4047,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8m-4-switch-2-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-8m-4-switch-2-socket-6a",
         "title": "Touch 8M - 4 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3595,6 +4055,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8m-4-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-8m-6-switch-1-fan-1-socket-16a",
         "title": "Touch 8M - 6 Switch 1 Fan 1 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -3602,6 +4063,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8m-6-switch-1-fan-1-socket-16a.png"
       },
       {
+        "slug": "acrylic-touch-8m-6-switch-1-fan-1-socket-6a",
         "title": "Touch 8M - 6 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3609,6 +4071,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8m-6-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-8m-6-switch-1-fan",
         "title": "Touch 8M - 6 Switch 1 Fan",
         "module": null,
         "material": "Acrylic",
@@ -3616,6 +4079,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8m-6-switch-1-fan.png"
       },
       {
+        "slug": "acrylic-touch-8m-6-switch-1-socket-6a",
         "title": "Touch 8M - 6 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3623,6 +4087,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8m-6-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-8m-6-switch-2-fan",
         "title": "Touch 8M - 6 Switch 2 Fan",
         "module": null,
         "material": "Acrylic",
@@ -3630,6 +4095,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8m-6-switch-2-fan.png"
       },
       {
+        "slug": "acrylic-touch-8m-6-switch-2-socket-6a",
         "title": "Touch 8M - 6 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3637,6 +4103,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8m-6-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-8m-8-switch-1-fan",
         "title": "Touch 8M - 8 Switch 1 Fan",
         "module": null,
         "material": "Acrylic",
@@ -3644,6 +4111,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8m-8-switch-1-fan.png"
       },
       {
+        "slug": "acrylic-touch-8m-8-switch-1-socket-16a",
         "title": "Touch 8M - 8 Switch 1 Socket (16A)",
         "module": null,
         "material": "Acrylic",
@@ -3651,6 +4119,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8m-8-switch-1-socket-16a.png"
       },
       {
+        "slug": "acrylic-touch-8m-8-switch-1-socket-6a",
         "title": "Touch 8M - 8 Switch 1 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3658,6 +4127,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8m-8-switch-1-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-8m-8-switch",
         "title": "Touch 8M - 8 Switch",
         "module": null,
         "material": "Acrylic",
@@ -3665,6 +4135,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8m-8-switch.png"
       },
       {
+        "slug": "acrylic-touch-8msq-12-switch",
         "title": "Touch 8MSQ - 12 Switch",
         "module": null,
         "material": "Acrylic",
@@ -3672,6 +4143,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8msq-12-switch.png"
       },
       {
+        "slug": "acrylic-touch-8msq-4-switch-1-fan-2-socket-6a",
         "title": "Touch 8MSQ - 4 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3679,6 +4151,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8msq-4-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-8msq-6-switch-2-socket-6a",
         "title": "Touch 8MSQ - 6 Switch 2 Socket (6A)",
         "module": null,
         "material": "Acrylic",
@@ -3686,6 +4159,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8msq-6-switch-2-socket-6a.png"
       },
       {
+        "slug": "acrylic-touch-8msq-8-switch-2-fan",
         "title": "Touch 8MSQ - 8 Switch 2 Fan",
         "module": null,
         "material": "Acrylic",
@@ -3693,6 +4167,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/acrylic/touch-8msq-8-switch-2-fan.png"
       },
       {
+        "slug": "glass-touch-12m-10-switch-1-fan-2-socket-6a",
         "title": "Touch 12M - 10 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3700,6 +4175,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-12m-10-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-touch-12m-10-switch-2-socket-6a",
         "title": "Touch 12M - 10 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3707,6 +4183,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-12m-10-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-touch-12m-12-switch-2-fan",
         "title": "Touch 12M - 12 Switch 2 Fan",
         "module": null,
         "material": "Glass",
@@ -3714,6 +4191,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-12m-12-switch-2-fan.png"
       },
       {
+        "slug": "glass-touch-12m-12-switch-2-socket6a",
         "title": "Touch 12M - 12 Switch 2 Socket(6A)",
         "module": null,
         "material": "Glass",
@@ -3721,6 +4199,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-12m-12-switch-2-socket6a.png"
       },
       {
+        "slug": "glass-touch-12m-12-switch",
         "title": "Touch 12M - 12 Switch",
         "module": null,
         "material": "Glass",
@@ -3728,6 +4207,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-12m-12-switch.png"
       },
       {
+        "slug": "glass-touch-12m-16-switch",
         "title": "Touch 12M - 16 Switch",
         "module": null,
         "material": "Glass",
@@ -3735,6 +4215,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-12m-16-switch.png"
       },
       {
+        "slug": "glass-touch-12m-4-switch-1-fan-2-socket-6a",
         "title": "Touch 12M - 4 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3742,6 +4223,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-12m-4-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-touch-12m-6-switch-1-fan-2-socket-6a",
         "title": "Touch 12M - 6 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3749,6 +4231,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-12m-6-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-touch-12m-6-switch-2-fan-2-socket-6a",
         "title": "Touch 12M - 6 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3756,6 +4239,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-12m-6-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-touch-12m-8-switch-1-fan-2-socket-6a",
         "title": "Touch 12M - 8 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3763,6 +4247,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-12m-8-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-touch-12m-8-switch-2-fan-2-socket-6a",
         "title": "Touch 12M - 8 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3770,6 +4255,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-12m-8-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-touch-12m-8-switch-2-fan",
         "title": "Touch 12M - 8 Switch 2 Fan",
         "module": null,
         "material": "Glass",
@@ -3777,6 +4263,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-12m-8-switch-2-fan.png"
       },
       {
+        "slug": "glass-touch-12m-8-switch-2-socket-6a",
         "title": "Touch 12M - 8 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3784,6 +4271,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-12m-8-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-touch-2m-2-dimmer",
         "title": "Touch 2M - 2 Dimmer",
         "module": null,
         "material": "Glass",
@@ -3791,6 +4279,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-2m-2-dimmer.png"
       },
       {
+        "slug": "glass-touch-2m-2-switch-1-16a",
         "title": "Touch 2M - 2 Switch (1-16A)",
         "module": null,
         "material": "Glass",
@@ -3798,6 +4287,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-2m-2-switch-1-16a.png"
       },
       {
+        "slug": "glass-touch-2m-2-switch-1-2way",
         "title": "Touch 2M - 2 Switch (1-2way)",
         "module": null,
         "material": "Glass",
@@ -3805,6 +4295,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-2m-2-switch-1-2way.png"
       },
       {
+        "slug": "glass-touch-2m-4-switch-all-6a",
         "title": "Touch 2M - 4 Switch (All 6A)",
         "module": null,
         "material": "Glass",
@@ -3812,6 +4303,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-2m-4-switch-all-6a.png"
       },
       {
+        "slug": "glass-touch-2m-4s-scene-control",
         "title": "Touch 2M - 4S Scene Control",
         "module": null,
         "material": "Glass",
@@ -3819,6 +4311,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-2m-4s-scene-control.png"
       },
       {
+        "slug": "glass-touch-2m-curtain",
         "title": "Touch 2M - Curtain",
         "module": null,
         "material": "Glass",
@@ -3826,6 +4319,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-2m-curtain.png"
       },
       {
+        "slug": "glass-touch-2m-door-bell",
         "title": "Touch 2M - Door Bell",
         "module": null,
         "material": "Glass",
@@ -3833,6 +4327,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-2m-door-bell.png"
       },
       {
+        "slug": "glass-touch-2m-dual-curtain",
         "title": "Touch 2M - Dual Curtain",
         "module": null,
         "material": "Glass",
@@ -3840,6 +4335,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-2m-dual-curtain.png"
       },
       {
+        "slug": "glass-touch-3m-2-switch",
         "title": "Touch 3M - 2 Switch",
         "module": null,
         "material": "Glass",
@@ -3847,6 +4343,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-3m-2-switch.png"
       },
       {
+        "slug": "glass-touch-3m-4-switch-all-6a",
         "title": "Touch 3M - 4 Switch (All 6A)",
         "module": null,
         "material": "Glass",
@@ -3854,6 +4351,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-3m-4-switch-all-6a.png"
       },
       {
+        "slug": "glass-touch-4m-2-switch-1-16a-1-socket-16a",
         "title": "Touch 4M - 2 Switch (1-16A) 1 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -3861,6 +4359,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-4m-2-switch-1-16a-1-socket-16a.png"
       },
       {
+        "slug": "glass-touch-4m-2-switch-1-socket-6a",
         "title": "Touch 4M - 2 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3868,6 +4367,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-4m-2-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-touch-4m-4-switch-all-6a-1-socket-6a",
         "title": "Touch 4M - 4 Switch (All 6A) 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3875,6 +4375,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-4m-4-switch-all-6a-1-socket-6a.png"
       },
       {
+        "slug": "glass-touch-4m-4-switch-1-fan",
         "title": "Touch 4M - 4 Switch 1 Fan",
         "module": null,
         "material": "Glass",
@@ -3882,6 +4383,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-4m-4-switch-1-fan.png"
       },
       {
+        "slug": "glass-touch-4m-4-switch",
         "title": "Touch 4M - 4 Switch",
         "module": null,
         "material": "Glass",
@@ -3889,6 +4391,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-4m-4-switch.png"
       },
       {
+        "slug": "glass-touch-4m-6-switch",
         "title": "Touch 4M - 6 Switch",
         "module": null,
         "material": "Glass",
@@ -3896,6 +4399,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-4m-6-switch.png"
       },
       {
+        "slug": "glass-touch-6m-2-switch-1-16a-2-socket-1-16a",
         "title": "Touch 6M - 2 Switch (1-16A) 2 Socket (1-16A)",
         "module": null,
         "material": "Glass",
@@ -3903,6 +4407,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-6m-2-switch-1-16a-2-socket-1-16a.png"
       },
       {
+        "slug": "glass-touch-6m-2-switch-16a-2-socket-16a",
         "title": "Touch 6M - 2 Switch (16A) 2 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -3910,6 +4415,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-6m-2-switch-16a-2-socket-16a.png"
       },
       {
+        "slug": "glass-touch-6m-2-switch-2-socket-6a",
         "title": "Touch 6M - 2 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3917,6 +4423,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-6m-2-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-touch-6m-4-switch-all-6a-2-socket-6a",
         "title": "Touch 6M - 4 Switch (All 6A) 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3924,6 +4431,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-6m-4-switch-all-6a-2-socket-6a.png"
       },
       {
+        "slug": "glass-touch-6m-4-switch-1-fan-1-socket-16a",
         "title": "Touch 6M - 4 Switch 1 Fan 1 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -3931,6 +4439,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-6m-4-switch-1-fan-1-socket-16a.png"
       },
       {
+        "slug": "glass-touch-6m-4-switch-1-fan-1-socket-6a",
         "title": "Touch 6M - 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3938,6 +4447,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-6m-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "glass-touch-6m-4-switch-1-socket-16a",
         "title": "Touch 6M - 4 Switch 1 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -3945,6 +4455,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-6m-4-switch-1-socket-16a.png"
       },
       {
+        "slug": "glass-touch-6m-4-switch-1-socket-6a",
         "title": "Touch 6M - 4 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3952,6 +4463,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-6m-4-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-touch-6m-4-switch-2-fan",
         "title": "Touch 6M - 4 Switch 2 Fan",
         "module": null,
         "material": "Glass",
@@ -3959,6 +4471,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-6m-4-switch-2-fan.png"
       },
       {
+        "slug": "glass-touch-6m-6-switch-1-fan",
         "title": "Touch 6M - 6 Switch 1 Fan",
         "module": null,
         "material": "Glass",
@@ -3966,6 +4479,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-6m-6-switch-1-fan.png"
       },
       {
+        "slug": "glass-touch-6m-6-switch-1-socket-16a",
         "title": "Touch 6M - 6 Switch 1 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -3973,6 +4487,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-6m-6-switch-1-socket-16a.png"
       },
       {
+        "slug": "glass-touch-6m-6-switch-1-socket-6a",
         "title": "Touch 6M - 6 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -3980,6 +4495,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-6m-6-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-touch-6m-6-switch",
         "title": "Touch 6M - 6 Switch",
         "module": null,
         "material": "Glass",
@@ -3987,6 +4503,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-6m-6-switch.png"
       },
       {
+        "slug": "glass-touch-6m-8-switch",
         "title": "Touch 6M - 8 Switch",
         "module": null,
         "material": "Glass",
@@ -3994,6 +4511,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-6m-8-switch.png"
       },
       {
+        "slug": "glass-touch-8m-10-switch",
         "title": "Touch 8M - 10 Switch",
         "module": null,
         "material": "Glass",
@@ -4001,6 +4519,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-8m-10-switch.png"
       },
       {
+        "slug": "glass-touch-8m-2-switch-1-16a-2-socket-1-16a",
         "title": "Touch 8M - 2 Switch (1-16A) 2 Socket (1-16A)",
         "module": null,
         "material": "Glass",
@@ -4008,6 +4527,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-8m-2-switch-1-16a-2-socket-1-16a.png"
       },
       {
+        "slug": "glass-touch-8m-2-switch-16a-2-socket-16a",
         "title": "Touch 8M - 2 Switch (16A) 2 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -4015,6 +4535,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-8m-2-switch-16a-2-socket-16a.png"
       },
       {
+        "slug": "glass-touch-8m-2-switch-2-socket-6a",
         "title": "Touch 8M - 2 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4022,6 +4543,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-8m-2-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-touch-8m-4-switch-16a-2-socket-16a",
         "title": "Touch 8M - 4 Switch (16A) 2 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -4029,6 +4551,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-8m-4-switch-16a-2-socket-16a.png"
       },
       {
+        "slug": "glass-touch-8m-4-switch-1-fan-1-socket-6a",
         "title": "Touch 8M - 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4036,6 +4559,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-8m-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "glass-touch-8m-4-switch-1-socket-6a",
         "title": "Touch 8M - 4 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4043,6 +4567,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-8m-4-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-touch-8m-4-switch-2-fan-1-socket-16a",
         "title": "Touch 8M - 4 Switch 2 Fan 1 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -4050,6 +4575,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-8m-4-switch-2-fan-1-socket-16a.png"
       },
       {
+        "slug": "glass-touch-8m-4-switch-2-fan-1-socket-6a",
         "title": "Touch 8M - 4 Switch 2 Fan 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4057,6 +4583,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-8m-4-switch-2-fan-1-socket-6a.png"
       },
       {
+        "slug": "glass-touch-8m-4-switch-2-socket-6a",
         "title": "Touch 8M - 4 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4064,6 +4591,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-8m-4-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-touch-8m-6-switch-1-fan-1-socket-16a",
         "title": "Touch 8M - 6 Switch 1 Fan 1 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -4071,6 +4599,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-8m-6-switch-1-fan-1-socket-16a.png"
       },
       {
+        "slug": "glass-touch-8m-6-switch-1-fan-1-socket-6a",
         "title": "Touch 8M - 6 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4078,6 +4607,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-8m-6-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "glass-touch-8m-6-switch-1-fan",
         "title": "Touch 8M - 6 Switch 1 Fan",
         "module": null,
         "material": "Glass",
@@ -4085,6 +4615,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-8m-6-switch-1-fan.png"
       },
       {
+        "slug": "glass-touch-8m-6-switch-1-socket-6a",
         "title": "Touch 8M - 6 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4092,6 +4623,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-8m-6-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-touch-8m-6-switch-2-fan",
         "title": "Touch 8M - 6 Switch 2 Fan",
         "module": null,
         "material": "Glass",
@@ -4099,6 +4631,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-8m-6-switch-2-fan.png"
       },
       {
+        "slug": "glass-touch-8m-6-switch-2-socket-6a",
         "title": "Touch 8M - 6 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4106,6 +4639,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-8m-6-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-touch-8m-8-switch-1-fan",
         "title": "Touch 8M - 8 Switch 1 Fan",
         "module": null,
         "material": "Glass",
@@ -4113,6 +4647,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-8m-8-switch-1-fan.png"
       },
       {
+        "slug": "glass-touch-8m-8-switch-1-socket-16a",
         "title": "Touch 8M - 8 Switch 1 Socket (16A)",
         "module": null,
         "material": "Glass",
@@ -4120,6 +4655,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-8m-8-switch-1-socket-16a.png"
       },
       {
+        "slug": "glass-touch-8m-8-switch-1-socket-6a",
         "title": "Touch 8M - 8 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4127,6 +4663,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/color/studio/glass/touch-8m-8-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-touch-8m-8-switch",
         "title": "Touch 8M - 8 Switch",
         "module": null,
         "material": "Glass",
@@ -4194,6 +4731,7 @@ export const productCollections: ProductCollection[] = [
     "heroImage": "/images/products/royal-edge/studio/glass/12m-10-switch-1-fan-2-socket-6a.png",
     "studioModules": [
       {
+        "slug": "glass-12m-10-switch-1-fan-2-socket-6a",
         "title": "12M - 10 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4201,6 +4739,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/12m-10-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-10-switch-2-socket-6a",
         "title": "12M - 10 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4208,6 +4747,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/12m-10-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-12-switch-2-fan",
         "title": "12M - 12 Switch 2 Fan",
         "module": null,
         "material": "Glass",
@@ -4215,6 +4755,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/12m-12-switch-2-fan.png"
       },
       {
+        "slug": "glass-12m-12-switch-2-socket-6a",
         "title": "12M - 12 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4222,6 +4763,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/12m-12-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-12-switch",
         "title": "12M - 12 Switch",
         "module": null,
         "material": "Glass",
@@ -4229,6 +4771,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/12m-12-switch.png"
       },
       {
+        "slug": "glass-12m-16-switch",
         "title": "12M - 16 Switch",
         "module": null,
         "material": "Glass",
@@ -4236,6 +4779,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/12m-16-switch.png"
       },
       {
+        "slug": "glass-12m-4-switch-1-fan-2-socket-6a",
         "title": "12M - 4 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4243,6 +4787,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/12m-4-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-6-switch-1-fan-2-socket-6a",
         "title": "12M - 6 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4250,6 +4795,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/12m-6-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-6-switch-2-fan-2-socket-6a",
         "title": "12M - 6 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4257,6 +4803,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/12m-6-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-8-switch-1-fan-2-socket-6a",
         "title": "12M - 8 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4264,6 +4811,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/12m-8-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-8-switch-2-fan-2-socket-6a",
         "title": "12M - 8 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4271,6 +4819,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/12m-8-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-12m-8-switch-2-fan",
         "title": "12M - 8 Switch 2 Fan",
         "module": null,
         "material": "Glass",
@@ -4278,6 +4827,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/12m-8-switch-2-fan.png"
       },
       {
+        "slug": "glass-12m-8-switch-2-socket-6a",
         "title": "12M - 8 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4285,6 +4835,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/12m-8-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-2m-2-dimmer",
         "title": "2M - 2 Dimmer",
         "module": null,
         "material": "Glass",
@@ -4292,6 +4843,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/2m-2-dimmer.png"
       },
       {
+        "slug": "glass-2m-2-switch",
         "title": "2M - 2 Switch",
         "module": null,
         "material": "Glass",
@@ -4299,6 +4851,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/2m-2-switch.png"
       },
       {
+        "slug": "glass-2m-4-switch-all-6a",
         "title": "2M - 4 Switch (All 6A)",
         "module": null,
         "material": "Glass",
@@ -4306,6 +4859,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/2m-4-switch-all-6a.png"
       },
       {
+        "slug": "glass-2m-4s-scene-control",
         "title": "2M - 4S Scene Control",
         "module": null,
         "material": "Glass",
@@ -4313,6 +4867,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/2m-4s-scene-control.png"
       },
       {
+        "slug": "glass-2m-curtain",
         "title": "2M - Curtain",
         "module": null,
         "material": "Glass",
@@ -4320,6 +4875,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/2m-curtain.png"
       },
       {
+        "slug": "glass-2m-door-bell",
         "title": "2M - Door Bell",
         "module": null,
         "material": "Glass",
@@ -4327,6 +4883,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/2m-door-bell.png"
       },
       {
+        "slug": "glass-2m-dual-curtain",
         "title": "2M - Dual Curtain",
         "module": null,
         "material": "Glass",
@@ -4334,6 +4891,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/2m-dual-curtain.png"
       },
       {
+        "slug": "glass-4m-2-switch-1-socket-6a",
         "title": "4M - 2 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4341,6 +4899,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/4m-2-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-4m-4-switch-all-6a-1-socket-6a",
         "title": "4M - 4 Switch (All 6A) 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4348,6 +4907,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/4m-4-switch-all-6a-1-socket-6a.png"
       },
       {
+        "slug": "glass-4m-4-switch-1-fan",
         "title": "4M - 4 Switch 1 Fan",
         "module": null,
         "material": "Glass",
@@ -4355,6 +4915,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/4m-4-switch-1-fan.png"
       },
       {
+        "slug": "glass-4m-4-switch",
         "title": "4M - 4 Switch",
         "module": null,
         "material": "Glass",
@@ -4362,6 +4923,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/4m-4-switch.png"
       },
       {
+        "slug": "glass-4m-6-switch",
         "title": "4M - 6 Switch",
         "module": null,
         "material": "Glass",
@@ -4369,6 +4931,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/4m-6-switch.png"
       },
       {
+        "slug": "glass-6m-2-switch-2-socket-6a",
         "title": "6M - 2 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4376,6 +4939,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/6m-2-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-6m-4-switch-all-6a-2-socket-6a",
         "title": "6M - 4 Switch (All 6A) 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4383,6 +4947,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/6m-4-switch-all-6a-2-socket-6a.png"
       },
       {
+        "slug": "glass-6m-4-switch-1-fan-1-socket-6a",
         "title": "6M - 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4390,6 +4955,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/6m-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "glass-6m-4-switch-1-socket-6a",
         "title": "6M - 4 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4397,6 +4963,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/6m-4-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-6m-4-switch-2-fan",
         "title": "6M - 4 Switch 2 Fan",
         "module": null,
         "material": "Glass",
@@ -4404,6 +4971,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/6m-4-switch-2-fan.png"
       },
       {
+        "slug": "glass-6m-6-switch-1-fan",
         "title": "6M - 6 Switch 1 Fan",
         "module": null,
         "material": "Glass",
@@ -4411,6 +4979,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/6m-6-switch-1-fan.png"
       },
       {
+        "slug": "glass-6m-6-switch-1-socket-6a",
         "title": "6M - 6 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4418,6 +4987,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/6m-6-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-6m-6-switch",
         "title": "6M - 6 Switch",
         "module": null,
         "material": "Glass",
@@ -4425,6 +4995,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/6m-6-switch.png"
       },
       {
+        "slug": "glass-6m-8-switch",
         "title": "6M - 8 Switch",
         "module": null,
         "material": "Glass",
@@ -4432,6 +5003,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/6m-8-switch.png"
       },
       {
+        "slug": "glass-8m-10-switch",
         "title": "8M - 10 Switch",
         "module": null,
         "material": "Glass",
@@ -4439,6 +5011,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/8m-10-switch.png"
       },
       {
+        "slug": "glass-8m-2-switch-2-socket-6a",
         "title": "8M - 2 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4446,6 +5019,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/8m-2-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-8m-4-switch-1-fan-1-socket-6a",
         "title": "8M - 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4453,6 +5027,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/8m-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "glass-8m-4-switch-1-socket-6a",
         "title": "8M - 4 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4460,6 +5035,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/8m-4-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-8m-4-switch-2-fan-1-socket-6a",
         "title": "8M - 4 Switch 2 Fan 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4467,6 +5043,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/8m-4-switch-2-fan-1-socket-6a.png"
       },
       {
+        "slug": "glass-8m-4-switch-2-socket-6a",
         "title": "8M - 4 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4474,6 +5051,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/8m-4-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-8m-6-switch-1-fan-1-socket-6a",
         "title": "8M - 6 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4481,6 +5059,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/8m-6-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "glass-8m-6-switch-1-fan",
         "title": "8M - 6 Switch 1 Fan",
         "module": null,
         "material": "Glass",
@@ -4488,6 +5067,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/8m-6-switch-1-fan.png"
       },
       {
+        "slug": "glass-8m-6-switch-1-socket-6a",
         "title": "8M - 6 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4495,6 +5075,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/8m-6-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-8m-6-switch-2-fan",
         "title": "8M - 6 Switch 2 Fan",
         "module": null,
         "material": "Glass",
@@ -4502,6 +5083,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/8m-6-switch-2-fan.png"
       },
       {
+        "slug": "glass-8m-6-switch-2-socket-6a",
         "title": "8M - 6 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4509,6 +5091,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/8m-6-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-8m-8-switch-1-fan",
         "title": "8M - 8 Switch 1 Fan",
         "module": null,
         "material": "Glass",
@@ -4516,6 +5099,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/8m-8-switch-1-fan.png"
       },
       {
+        "slug": "glass-8m-8-switch-1-socket-6a",
         "title": "8M - 8 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass",
@@ -4523,6 +5107,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/8m-8-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-8m-8-switch",
         "title": "8M - 8 Switch",
         "module": null,
         "material": "Glass",
@@ -4530,6 +5115,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass/8m-8-switch.png"
       },
       {
+        "slug": "glass-color-12m-10-switch-1-fan-2-socket-6a",
         "title": "12M - 10 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4537,6 +5123,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/12m-10-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-color-12m-10-switch-2-socket-6a",
         "title": "12M - 10 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4544,6 +5131,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/12m-10-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-color-12m-12-switch-2-fan",
         "title": "12M - 12 Switch 2 Fan",
         "module": null,
         "material": "Glass (Color)",
@@ -4551,6 +5139,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/12m-12-switch-2-fan.png"
       },
       {
+        "slug": "glass-color-12m-12-switch-2-socket-6a",
         "title": "12M - 12 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4558,6 +5147,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/12m-12-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-color-12m-12-switch",
         "title": "12M - 12 Switch",
         "module": null,
         "material": "Glass (Color)",
@@ -4565,6 +5155,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/12m-12-switch.png"
       },
       {
+        "slug": "glass-color-12m-16-switch",
         "title": "12M - 16 Switch",
         "module": null,
         "material": "Glass (Color)",
@@ -4572,6 +5163,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/12m-16-switch.png"
       },
       {
+        "slug": "glass-color-12m-4-switch-1-fan-2-socket-6a",
         "title": "12M - 4 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4579,6 +5171,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/12m-4-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-color-12m-6-switch-1-fan-2-socket-6a",
         "title": "12M - 6 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4586,6 +5179,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/12m-6-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-color-12m-6-switch-2-fan-2-socket-6a",
         "title": "12M - 6 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4593,6 +5187,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/12m-6-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-color-12m-8-switch-1-fan-2-socket-6a",
         "title": "12M - 8 Switch 1 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4600,6 +5195,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/12m-8-switch-1-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-color-12m-8-switch-2-fan-2-socket-6a",
         "title": "12M - 8 Switch 2 Fan 2 Socket (6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4607,6 +5203,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/12m-8-switch-2-fan-2-socket-6a.png"
       },
       {
+        "slug": "glass-color-12m-8-switch-2-fan",
         "title": "12M - 8 Switch 2 Fan",
         "module": null,
         "material": "Glass (Color)",
@@ -4614,6 +5211,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/12m-8-switch-2-fan.png"
       },
       {
+        "slug": "glass-color-12m-8-switch-2-socket-6a",
         "title": "12M - 8 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4621,6 +5219,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/12m-8-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-color-2m-2-dimmer",
         "title": "2M - 2 Dimmer",
         "module": null,
         "material": "Glass (Color)",
@@ -4628,6 +5227,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/2m-2-dimmer.png"
       },
       {
+        "slug": "glass-color-2m-2-switch-1-16a",
         "title": "2M - 2 Switch (1-16A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4635,6 +5235,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/2m-2-switch-1-16a.png"
       },
       {
+        "slug": "glass-color-2m-2-switch",
         "title": "2M - 2 Switch",
         "module": null,
         "material": "Glass (Color)",
@@ -4642,6 +5243,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/2m-2-switch.png"
       },
       {
+        "slug": "glass-color-2m-4-switch-all-6a",
         "title": "2M - 4 Switch (All 6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4649,6 +5251,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/2m-4-switch-all-6a.png"
       },
       {
+        "slug": "glass-color-2m-4s-scene-control",
         "title": "2M - 4S Scene Control",
         "module": null,
         "material": "Glass (Color)",
@@ -4656,6 +5259,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/2m-4s-scene-control.png"
       },
       {
+        "slug": "glass-color-2m-curtain",
         "title": "2M - Curtain",
         "module": null,
         "material": "Glass (Color)",
@@ -4663,6 +5267,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/2m-curtain.png"
       },
       {
+        "slug": "glass-color-2m-door-bell",
         "title": "2M - Door Bell",
         "module": null,
         "material": "Glass (Color)",
@@ -4670,6 +5275,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/2m-door-bell.png"
       },
       {
+        "slug": "glass-color-2m-dual-curtain",
         "title": "2M - Dual Curtain",
         "module": null,
         "material": "Glass (Color)",
@@ -4677,6 +5283,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/2m-dual-curtain.png"
       },
       {
+        "slug": "glass-color-4m-2-switch-1-socket-6a",
         "title": "4M - 2 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4684,6 +5291,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/4m-2-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-color-4m-4-switch-all-6a",
         "title": "4M - 4 Switch (All 6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4691,6 +5299,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/4m-4-switch-all-6a.png"
       },
       {
+        "slug": "glass-color-4m-4-switch-1-fan",
         "title": "4M - 4 Switch 1 Fan",
         "module": null,
         "material": "Glass (Color)",
@@ -4698,6 +5307,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/4m-4-switch-1-fan.png"
       },
       {
+        "slug": "glass-color-4m-4-switch",
         "title": "4M - 4 Switch",
         "module": null,
         "material": "Glass (Color)",
@@ -4705,6 +5315,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/4m-4-switch.png"
       },
       {
+        "slug": "glass-color-4m-6-switch",
         "title": "4M - 6 Switch",
         "module": null,
         "material": "Glass (Color)",
@@ -4712,6 +5323,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/4m-6-switch.png"
       },
       {
+        "slug": "glass-color-6m-2-switch-2-socket-6a",
         "title": "6M - 2 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4719,6 +5331,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/6m-2-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-color-6m-4-switch-all-6a-2-socket-6a",
         "title": "6M - 4 Switch (All 6A) 2 Socket (6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4726,6 +5339,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/6m-4-switch-all-6a-2-socket-6a.png"
       },
       {
+        "slug": "glass-color-6m-4-switch-1-fan-1-socket-6a",
         "title": "6M - 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4733,6 +5347,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/6m-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "glass-color-6m-4-switch-1-socket-6a",
         "title": "6M - 4 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4740,6 +5355,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/6m-4-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-color-6m-4-switch-2-fan",
         "title": "6M - 4 Switch 2 Fan",
         "module": null,
         "material": "Glass (Color)",
@@ -4747,6 +5363,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/6m-4-switch-2-fan.png"
       },
       {
+        "slug": "glass-color-6m-6-switch-1-fan",
         "title": "6M - 6 Switch 1 Fan",
         "module": null,
         "material": "Glass (Color)",
@@ -4754,6 +5371,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/6m-6-switch-1-fan.png"
       },
       {
+        "slug": "glass-color-6m-6-switch-1-socket-6a",
         "title": "6M - 6 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4761,6 +5379,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/6m-6-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-color-6m-6-switch",
         "title": "6M - 6 Switch",
         "module": null,
         "material": "Glass (Color)",
@@ -4768,6 +5387,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/6m-6-switch.png"
       },
       {
+        "slug": "glass-color-6m-8-switch",
         "title": "6M - 8 Switch",
         "module": null,
         "material": "Glass (Color)",
@@ -4775,6 +5395,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/6m-8-switch.png"
       },
       {
+        "slug": "glass-color-8m-10-switch",
         "title": "8M - 10 Switch",
         "module": null,
         "material": "Glass (Color)",
@@ -4782,6 +5403,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/8m-10-switch.png"
       },
       {
+        "slug": "glass-color-8m-2-switch-2-socket-6a",
         "title": "8M - 2 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4789,6 +5411,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/8m-2-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-color-8m-4-switch-1-fan-1-socket-6a",
         "title": "8M - 4 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4796,6 +5419,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/8m-4-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "glass-color-8m-4-switch-1-socket-6a",
         "title": "8M - 4 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4803,6 +5427,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/8m-4-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-color-8m-4-switch-2-fan-1-socket-6a",
         "title": "8M - 4 Switch 2 Fan 1 Socket (6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4810,6 +5435,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/8m-4-switch-2-fan-1-socket-6a.png"
       },
       {
+        "slug": "glass-color-8m-4-switch-2-socket-6a",
         "title": "8M - 4 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4817,6 +5443,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/8m-4-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-color-8m-6-switch-1-fan-1-socket-6a",
         "title": "8M - 6 Switch 1 Fan 1 Socket (6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4824,6 +5451,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/8m-6-switch-1-fan-1-socket-6a.png"
       },
       {
+        "slug": "glass-color-8m-6-switch-1-fan",
         "title": "8M - 6 Switch 1 Fan",
         "module": null,
         "material": "Glass (Color)",
@@ -4831,6 +5459,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/8m-6-switch-1-fan.png"
       },
       {
+        "slug": "glass-color-8m-6-switch-1-socket-6a",
         "title": "8M - 6 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4838,6 +5467,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/8m-6-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-color-8m-6-switch-2-fan",
         "title": "8M - 6 Switch 2 Fan",
         "module": null,
         "material": "Glass (Color)",
@@ -4845,6 +5475,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/8m-6-switch-2-fan.png"
       },
       {
+        "slug": "glass-color-8m-6-switch-2-socket-6a",
         "title": "8M - 6 Switch 2 Socket (6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4852,6 +5483,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/8m-6-switch-2-socket-6a.png"
       },
       {
+        "slug": "glass-color-8m-8-switch-1-fan",
         "title": "8M - 8 Switch 1 Fan",
         "module": null,
         "material": "Glass (Color)",
@@ -4859,6 +5491,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/8m-8-switch-1-fan.png"
       },
       {
+        "slug": "glass-color-8m-8-switch-1-socket-6a",
         "title": "8M - 8 Switch 1 Socket (6A)",
         "module": null,
         "material": "Glass (Color)",
@@ -4866,6 +5499,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/royal-edge/studio/glass-color/8m-8-switch-1-socket-6a.png"
       },
       {
+        "slug": "glass-color-8m-8-switch",
         "title": "8M - 8 Switch",
         "module": null,
         "material": "Glass (Color)",
@@ -4893,6 +5527,7 @@ export const productCollections: ProductCollection[] = [
     "heroImage": "/images/products/hotel-dnd/studio/acrylic/edge-idu-color.png",
     "studioModules": [
       {
+        "slug": "acrylic-edge-idu-color",
         "title": "EDGE IDU COLOR",
         "module": null,
         "material": "Acrylic",
@@ -4900,6 +5535,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/hotel-dnd/studio/acrylic/edge-idu-color.png"
       },
       {
+        "slug": "acrylic-edge-idu",
         "title": "EDGE IDU",
         "module": null,
         "material": "Acrylic",
@@ -4907,6 +5543,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/hotel-dnd/studio/acrylic/edge-idu.png"
       },
       {
+        "slug": "acrylic-edge-odu-color",
         "title": "EDGE ODU COLOR",
         "module": null,
         "material": "Acrylic",
@@ -4914,6 +5551,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/hotel-dnd/studio/acrylic/edge-odu-color.png"
       },
       {
+        "slug": "acrylic-edge-odu",
         "title": "EDGE ODU",
         "module": null,
         "material": "Acrylic",
@@ -4921,6 +5559,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/hotel-dnd/studio/acrylic/edge-odu.png"
       },
       {
+        "slug": "acrylic-touch-panel-idu-color",
         "title": "Touch Panel IDU COLOR",
         "module": null,
         "material": "Acrylic",
@@ -4928,6 +5567,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/hotel-dnd/studio/acrylic/touch-panel-idu-color.png"
       },
       {
+        "slug": "acrylic-touch-panel-idu",
         "title": "Touch Panel IDU",
         "module": null,
         "material": "Acrylic",
@@ -4935,6 +5575,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/hotel-dnd/studio/acrylic/touch-panel-idu.png"
       },
       {
+        "slug": "acrylic-touch-panel-odu-color",
         "title": "Touch Panel ODU COLOR",
         "module": null,
         "material": "Acrylic",
@@ -4942,6 +5583,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/hotel-dnd/studio/acrylic/touch-panel-odu-color.png"
       },
       {
+        "slug": "acrylic-touch-panel-odu",
         "title": "Touch Panel ODU",
         "module": null,
         "material": "Acrylic",
@@ -4949,6 +5591,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/hotel-dnd/studio/acrylic/touch-panel-odu.png"
       },
       {
+        "slug": "glass-edge-idu-color",
         "title": "EDGE IDU COLOR",
         "module": null,
         "material": "Glass",
@@ -4956,6 +5599,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/hotel-dnd/studio/glass/edge-idu-color.png"
       },
       {
+        "slug": "glass-edge-idu",
         "title": "EDGE IDU",
         "module": null,
         "material": "Glass",
@@ -4963,6 +5607,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/hotel-dnd/studio/glass/edge-idu.png"
       },
       {
+        "slug": "glass-edge-odu-color",
         "title": "EDGE ODU COLOR",
         "module": null,
         "material": "Glass",
@@ -4970,6 +5615,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/hotel-dnd/studio/glass/edge-odu-color.png"
       },
       {
+        "slug": "glass-edge-odu",
         "title": "EDGE ODU",
         "module": null,
         "material": "Glass",
@@ -4977,6 +5623,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/hotel-dnd/studio/glass/edge-odu.png"
       },
       {
+        "slug": "glass-touch-panel-idu-color",
         "title": "Touch Panel IDU COLOR",
         "module": null,
         "material": "Glass",
@@ -4984,6 +5631,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/hotel-dnd/studio/glass/touch-panel-idu-color.png"
       },
       {
+        "slug": "glass-touch-panel-idu",
         "title": "Touch Panel IDU",
         "module": null,
         "material": "Glass",
@@ -4991,6 +5639,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/hotel-dnd/studio/glass/touch-panel-idu.png"
       },
       {
+        "slug": "glass-touch-panel-odu-color",
         "title": "Touch Panel ODU COLOR",
         "module": null,
         "material": "Glass",
@@ -4998,6 +5647,7 @@ export const productCollections: ProductCollection[] = [
         "image": "/images/products/hotel-dnd/studio/glass/touch-panel-odu-color.png"
       },
       {
+        "slug": "glass-touch-panel-odu",
         "title": "Touch Panel ODU",
         "module": null,
         "material": "Glass",
